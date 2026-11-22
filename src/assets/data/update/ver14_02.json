@@ -1,0 +1,35 @@
+{
+ "ver": "ver14_02",
+ "label": "Ver. 14.02",
+ "title": "Update Ver. 14.02 Outline",
+ "subtitle": "（PlayStation4: Update 14.02 / Xbox One: Update 14.0.0.2）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Wednesday, August 12, 0:00 UTC</dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "bugFixes",
+   "title": "Bug Fixes",
+   "sections": [
+    {
+     "title": "Monsters",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue that caused certain monsters such Glavenus, Acidic Glavenus, Anjanath, and Fulgur Anjanath to perform unintended behavior towards Palicoes when they're brought on a quest.<br>We apologize for any inconvenience this may cause players.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

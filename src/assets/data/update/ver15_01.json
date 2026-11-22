@@ -1,0 +1,514 @@
+{
+ "ver": "ver15_01",
+ "label": "Ver. 15.01",
+ "title": "Update Ver. 15.01 Outline",
+ "subtitle": "（PlayStation4: Update 15.01 / Xbox One: Update 15.0.0.1）",
+ "banners": [
+  {
+   "title": "Fatalis  — Quest Information",
+   "route": "/topics/fatalis",
+   "image": "/assets/images/update/bnr_fatalis.jpg"
+  },
+  {
+   "title": "Arch-tempered Velkhana — Quest Information",
+   "route": "/topics/at-velkhana",
+   "image": "/assets/images/update/bnr_at-velkhana.jpg"
+  }
+ ],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd> (PDT) 5 p.m. Wednesday, September 30, 2020<br>(UTC) 0:00 Thursday, October 1, 2020</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 2.6GB (only this update)</li> <li>Xbox One: About 1.9GB (only this update)</li> </ul> </dd> </dl> <p class=\"list-bl\">Features marked with a <span class=\"ic-ib\"></span> can only be used by players who have purchased Monster Hunter World: Iceborne.</p>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "General",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fatalis has been added.<br>After the ending of Monster Hunter World: Iceborne, you must discover Alatreon in the quest \"Blazing Black Twilight\" for the Fatalis event to begin.<br>After the event has begun, in order to take on the special assignment \"The Black Dragon\", you must first slay Alatreon in the special assignment \"Dawn's Triumph\".",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Arch-tempered Velkhana has been added and will be available in a limited-time event quest. (Check www.monsterhunter.com for schedule details)",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Action",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Clutch Claw Boost skill added, allowing you to wound monsters easier",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "System",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Soul Stream III has been added to the First Wyverian Ritual at the Elder Melder.<br>(Available after fulfilling specific conditions)",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "You can now use rarity 9 decorations and higher as materials at the Elder Melder.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "The following decorations can now be melded at the Elder Melder:<br>Elementless Jewel 2, Shield Jewel 2, Sharp Jewel 2, Dragonseal Jewel 3, Mighty Bow Jewel 2, and Mind's Eye Jewel 2.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New BGM can now be played in your room in Seliana.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New designs for the Squad Card added.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New layered armor added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New Pendants added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Decor can now be obtained from the Steamworks' Overdrive bonus.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "When add-on content that hasn't been purchased is available,the following menus will let you jump to various purchase pages:<br>Gestures, Poses, Stickers, Change Appearance, Pendant Settings, Change the Handler's Outfit, Room Customization, Music Player, and Figures.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Some parts of previous title updates that had limited voice dialogue now feature fully voiced dialogue.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Extended the time that wounds are visible on monsters.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Increased the chances that high rarity decorations will appear from Carved and Sealed Feystones.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Increased the chances that Sealed Feystones will appear as part of the rewards for threat level 3 tempered master rank investigations.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "The following charms have been added:<br>Shaver Charm, Earplugs Charm V, Master's Charm V, Critical Charm III, Exploiter Charm III, and Handicraft Charm V.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "The following decorations have been added:<br>Diversion Jewel 3, Acrobat Jewel 3, and Shaver Jewel 3",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "userInterface",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Base/Facility",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where the main target display in quest info would not correctly appear in the event quest \"When the Swift Meets the Roar\".",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under specific conditions, a quest would begin without correctly retrieving quest info, and without correctly resetting the time limit or number of faints.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed the description text for the Gajalaka figure.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a display issue with the cloth attached to the Handler's Festive Samba costume.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed typos in some of the NPC dialogue.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Removed the end date for the event quests \"The Evening Star\" and \"Dawn of the Death Star.\" Both quests can now be enjoyed indefinitely.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with appraisal weapons where the status after upgrading them would not display correctly when equipped or upgraded beyond level 2.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Added master rank info to the Useful Information section of Kulve Taroth's hunter notes.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the set bonus skill icon color would not display in the correct color when looking at skill info via the sort screen at the Smithy.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mitigated an issue where the Steamworks' indicator would not move very far right after the gauge levels up.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue, where under specific conditions, the light bowgun tutorial would continue to pop up.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Decreased the lighting in the Seliana Gathering Hub during the Sizzling Spice Fest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue, where under specific conditions, joining a Guiding Lands expedition via SOS flare would cause the game to not correctly end loading.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Monsters",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where, under specific conditions, the clutch claw's flinch shot or directional change would not work correctly on Nightshade Paolumu and Legiana.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under specific conditions, the ground splintering during Furious Rajang's attacks would not display correctly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under specific conditions, Furious Rajang's pin attack would hit a player and the attack would continue, but the player would not be pinned.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed some of Lunastra's behavior when a player leaves an area.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under specific conditions, the player would still be considered in battle, despite using a Farcaster to return to camp while playing in the Seliana Supply Cache.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred in the Seliana Supply Cache where certain monsters would land in mid-air.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Tweaked the Dragonrazer in the Seliana Supply Cache so it could not obstruct monster movement.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Reduced the blinking effect that occurred during Alatreon's Escaton Judgment.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Alatreon's Escaton Judgment damage would not occur correctly when a quest member disconnects under specific timing.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under specific conditions, the puddles created by Alatreon's attacks would not display correctly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Alatreon's measurement size would not display correctly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a player would not dismount after knocking down Alatreon with a flinch shot.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Added a unique effect that occurs when Velkhana's power is sealed via Elderseal.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Tweaked Velkhana's behavior after its ice breath under certain conditions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Velkhana's ice pillars would have a hard time appearing on certain terrain.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if a player departed on a Safi'jiiva quest under specific timing, they could not receive rewards correctly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Barioth's tail attacks would afflict players with iceblight even if they blocked the attack.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Tweaked Frostfang Barioth's wings while it's knocked down so it does not affect player movement.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Frostfang Barioth's behavior would become erratic under specific conditions.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Player",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where the elemental values of a weapon would not be consistent depending on the menu when certain equipment or skills are active.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under specific conditions, the display to indicate the slinger ammo loaded would disappear.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the controller would rumble for a player near a roaming ballista when another player would be firing from it.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if a monster was caught in a one-shot binder, the binder wire would not appear on a player's screen when they're joining the quest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the direction of the Dragonrazer would not be consistent between players when its direction is changed under specific timing.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if a player disconnects under specific timing, it will be possible to load the Dragonrazer with fuel even though it shouldn't be possible.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the roaming ballista's position would be different between players when someone dismounts from it under specific timing.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, a monster's attack could hit a player in the camp area of the Seliana Supply Cache.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a player's stamina would not decrease with specific moves when mounted on Alatreon.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where there would be parts of the Tentacle Cowl γ armor that would not change color when changing the armor pigment.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Claire α+ full armor set's armor pigment settings wouldn't be reflected.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Gunlance's Wyrmstake Blast would pierce a monster in an unnatural position relative to the player's position when the player is up against a monster or surrounded by monsters.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with the Demonlord Cannon to revert its LV3 normal ammo firing capabilities to a previous version.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the effects of the Guard skill would not be properly reflected in remaining stamina.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurs during multiplayer where an interactable object would be targeted even if another player had already interacted with that object.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the player would not be able to move after opening the map in certain situations.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under specific conditions, the item window order would change when changing equipment after using up an item.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Increased the Insect Glaive's ability to wound a monster with a weapon attack while grappling onto it with the clutch claw.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Critical Draw skill would not properly activate in the Secluded Valley.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that caused some Gunlances to perform their Wyrmstake Cannon and Wyrmstake Blast in the opposite direction.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "The item Pilot Hare Ticket was renamed to Shepherd Hare Ticket, and its description text was updated.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred in the quest \"The Eternal Gold Rush\" where the battle music would continue to play even after the quest was complete.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the right analog stick would control the camera while in the Color Blind Settings menu.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain steps would give you items you could normally not carry.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Changed the guild card title you obtained after slaying Alatreon from \"Dragon\" to \"Element,\" as it was a duplicate title.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Lucky Voucher effect would in rare cases not be reflected properly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the player couldn't return to the game screen when using the Surveyor Set.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other miscellaneous bug fixes have also been made.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

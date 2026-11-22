@@ -1,0 +1,66 @@
+// Ported from the original $MEDIA / $CAROUSEL rules
+$sp: "only screen and (max-width: 1000px)"
+$pc: "only screen and (min-width: 1001px)"
+
+.content
+    padding: 10vw 0
+    @media #{$sp}
+        padding: 24vw 0 13.33333vw
+
+.content__body
+    display: flex
+    flex-wrap: wrap
+    text-align: left
+    width: 82.66668vw
+    margin: 5vw auto auto
+    @media #{$sp}
+        width: 94.66667vw
+        margin: 0 auto
+
+.content__body.media__body + .content__body.media__body
+    border-top: 1px solid #0b263d
+    margin: 6.66666vw auto auto
+    padding: 6.66666vw 0 0
+    @media #{$sp}
+        padding-top: 0
+        margin-top: 6.66666vw
+
+.carousel
+    width: 100%
+    height: auto
+    margin: 0 auto
+    padding: 0
+    font-size: 0
+    @media #{$sp}
+        margin: auto
+        text-align: center
+
+.carousel__item
+    display: inline-block
+    vertical-align: top
+    width: 26.22222vw
+    margin: 0 0.66667vw
+    padding: 0
+    @media #{$pc}
+        &:nth-of-type(n+4)
+            margin-top: 3vw
+    @media #{$sp}
+        width: 43.99999vw
+        margin: 6vw 1.66667vw auto
+
+.thumbnailMedia .thumbnailMedia__text p
+    align-items: center
+    height: inherit
+    @media #{$pc}
+        font-size: 1vw
+    @media #{$sp}
+        font-size: 2.8vw
+
+.thumbnailMedia .thumbnailMedia__text
+    @media #{$sp}
+        padding: 0 1vw 2.66667vw
+
+.thumbnailMedia .thumbnailMedia__figure:after
+    @media #{$sp}
+        width: 11.73333vw
+        height: 4.26666vw

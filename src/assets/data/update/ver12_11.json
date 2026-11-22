@@ -1,0 +1,114 @@
+{
+ "ver": "ver12_11",
+ "label": "Ver. 12.11",
+ "title": "Update Ver. 12.11 Outline",
+ "subtitle": "（PlayStation4: Update 12.11 / Xbox One: Update 12.1.0.1）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Thursday, February 20 0:00 (UTC)</dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Patch Details",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "A patch is scheduled to be released on the date listed above to address an issue that affects Observation Log photos for certain players.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "This issue will not have any effect on your story progress, nor on the status of your observations.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "overview",
+   "title": "Recommended Steps before the Patch",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "The issue occurs when deleting or submitting photos, so we highly recommend avoiding these actions while playing.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "In the event that you encounter this issue, it is possible to restore your photo data. (see details below)",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "If you have already encountered this issue, it's recommended to not delete or add more photo data, and to keep your current data.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "We apologize for any inconvenience this may cause players.",
+       "ib": false,
+       "nest": [
+        {
+         "type": "item",
+         "category": "<span style=\"font-size:120%;font-weight:bold;\">Details</span><br>Conditions to trigger this issue",
+         "text": "Complete any of the Lynian Researcher's observation requests between #21 and #24 with all three conditions met.<br>(Acquire at least one of the rewards to increase your observation log size)",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "How this issue occurs",
+         "text": "",
+         "detail": [
+          "1. With the above conditions met, saving the game when you have 21 or more photos in your observation log.",
+          "2. Saving your data after deleting OR submitting a photo from the first or second page of your observation log.",
+          "3. Returning to the title screen or restarting the game."
+         ]
+        },
+        {
+         "type": "item",
+         "category": "How to avoid this issue",
+         "text": "",
+         "detail": [
+          "- Do not submit any photos to the Lynian Researcher.",
+          "- If you performed step 2 listed above, do not perform step 3, instead, take more photos until you reach the maximum limit, and then save your game.",
+          "- Do not delete your photo data. (On the PlayStation®4, pressing △ while looking at your observation requests)",
+          "- Save your data to the cloud. (Note: Game data and photo data are saved as a set)"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "If you are already experiencing this issue",
+         "text": "",
+         "detail": [
+          "We expect that most or all photo data that could not be read will be recovered after the patch is released, but if you have taken any new photos, you won't be able to restore your old data (Lynian Observatory completion progress will be saved).",
+          "We recommend waiting until the ver.12.11 patch is released and do not perform the above steps."
+         ]
+        }
+       ]
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

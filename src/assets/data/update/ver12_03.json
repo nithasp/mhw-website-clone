@@ -1,0 +1,35 @@
+{
+ "ver": "ver12_03",
+ "label": "Ver. 12.03",
+ "title": "Update Ver. 12.03 Outline",
+ "subtitle": "（PlayStation4: Update 12.03 / Xbox One: Update 12.0.0.3）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>PlayStation®4: Friday, December 20 0:00 (UTC)</dd> <dd>Xbox One: Thursday, January 9 0:00 (UTC)</dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "bugFixes",
+   "title": "Bug Fixes",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "The issue occurs when the Switch Axe's Element Discharge is used on certain monsters and Zero Sum Discharge is performed on the monster's head.<br>In certain positions, the player will unintentionally mount the monster's wings or stomach instead of the head.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "<p>This update is to fix an issue related to the Switch Axe found in Ver. 11.50, which was released on November 7.</p>",
+     "afterHtml": "<p>We apologize for any inconvenience this may have caused our players.</p>"
+    }
+   ]
+  }
+ ]
+}

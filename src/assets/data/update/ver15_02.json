@@ -1,0 +1,35 @@
+{
+ "ver": "ver15_02",
+ "label": "Ver. 15.02",
+ "title": "Update Ver. 15.02 Outline",
+ "subtitle": "（PlayStation4: Update 15.02 / Xbox One: Update 15.0.0.2）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Monday, October 12, 0:00 UTC (Sunday, October 11, 5 p.m. PDT)</dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "bugFixes",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue in Ver. 15.01 (Xbox One Ver. 15.0.0.1) where you wouldn't be taken to the store correctly when selecting certain unpurchased add-on content from the gesture list, etc.<br>We apologize for any inconvenience this may cause players.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

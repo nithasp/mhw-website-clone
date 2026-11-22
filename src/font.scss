@@ -6,3 +6,25 @@
   font-family: Cardo-Bold;
   src: url("./font/Cardo/Cardo-Bold.ttf");
 }
+
+// "Cardo" family with real weights, used by the cloned sub pages (same name as the original site)
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./font/Cardo/Cardo-Regular.ttf");
+}
+@font-face {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./font/Cardo/Cardo-Bold.ttf");
+}
+
+// Icon font of the original site (loupe, back arrow, carousel dots, SNS)
+@font-face {
+  font-family: "iconf";
+  src: url("./font/iconf/iconf.woff") format("woff"), url("./font/iconf/iconf.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

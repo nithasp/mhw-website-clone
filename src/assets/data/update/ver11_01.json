@@ -1,0 +1,126 @@
+{
+ "ver": "ver11_01",
+ "label": "Ver. 11.01",
+ "title": "Update Ver. 11.01 Outline",
+ "subtitle": "（PlayStation4: Update 11.01 / Xbox One: Update 11.0.0.1）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Thursday, October 10</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 1.3GB (only this update)</li> <li>Xbox One: About 1.3GB (only this update)</li> </ul> </dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where if graphic settings were set to Prioritize Resolution, the effective range for taking pictures with the Surveyor Set would become smaller.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Glavenus would not get caught in traps set by the player.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred in certain languages at the update notice screen.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where data would not finish loading properly and players would lose control of the game when viewing rankings of certain quests.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjustments have been made to make the Guiding Lands easier to play. <a href=\"#anc\" class=\"anc\">For more details click here.</a>",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if the scoutfly level is at level 3 and a monster is near death, the icon would not display correctly on the map.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Palicoes would move to incorrect places.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other minute balance tweaks and minor bugs have been fixed.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Ver. 11.01 features the following adjustments to the Guiding Lands",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Adjustments have been made to make the Guiding Lands easier to play.<br>Future updates will feature more adjustments to make it easier to play.",
+       "ib": false,
+       "nest": [
+        {
+         "type": "item",
+         "category": "Adjustment 1: Region Level change fluctuation adjusted",
+         "text": "In the Guiding Lands, you can obtain different materials at each level, so adjustments have been made to how levels increase/decrease to make it easier to explore.",
+         "detail": [
+          "Region Level 1 - 2: No changes",
+          "Region Level 3 - 6: Fluctuates at the same rate as region level 2 did before the update",
+          "Region Level 7: Fluctuates at the same rate as region level 3 did before the update"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Adjustment 2: Adjusted the drop rate of special tracks obtained from monsters in the Guiding Lands",
+         "text": "Unanalyzed special tracks are now easier to obtain, making it easier to lure out specific monsters and control your region levels.<br>They are also now guaranteed upon capturing a monster, or carving from the monster's body or broken part.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Adjustment 3: Region levels can now be fixed",
+         "text": "<p>Settings have been added so that region levels will not fluctuate, and you can explore the Guiding Lands freely with fixed levels.</p><p>Fixed region levels are applied per player even during multiplayer.</p><p>If you set region levels to fixed, your own region levels will not fluctuate whether you're the quest leader or just joining another player's quest.</p>",
+         "detail": [
+          "<p>You can fix region levels at the quest board when you select the Guiding Lands.</p><p><img src=\"/assets/images/update/us/ver11_01_img01.jpg\"></p>"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Adjustment 4: Expedition Objective added to fixed region play",
+         "text": "Added a \"Fixed Region\" parameter that can be set when departing to the Guiding Lands, or used as search criteria.<br>Use this setting when you want to let players know you're exploring with fixed levels, or if you want to search for expeditions using fixed levels.",
+         "detail": [
+          "This parameter will not fix region levels.",
+          "<p>For instructions how to fix region levels, please see Adjustment 3.</p><p><img src=\"/assets/images/update/us/ver11_01_img02.jpg\"></p><p><img src=\"/assets/images/update/us/ver11_01_img03.jpg\"></p>"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Adjustment 5: Locating monsters in the Guiding Lands will no longer affect region level",
+         "text": "The design of the Guiding Lands has been changed, as region level changing upon discovering a monster in the locale had an unintended effect.",
+         "detail": []
+        }
+       ]
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,380 @@
+/* Scoped copy of the original topic stylesheet (contest) */
+.topic-contest .contsBox {
+	margin-top: 5%;
+	margin-bottom: 15%;
+}
+.topic-contest .contsBox:last-child {
+	margin-bottom: 0;
+}
+.topic-contest dl.date {
+	margin: 5% auto;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.topic-contest dl.date dt {
+	background: #091d2d;
+	font-size: 1.6rem;
+	line-height: 1;
+	padding: 0.5em 2em;
+	color: #FFF;
+}
+.topic-contest dl.date dd {
+	vertical-align: middle;
+	font-size: 3.2rem;
+	padding: 0;
+	color: #0e9ee3;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+	margin-top: 0.5em;
+}
+.topic-contest dl.date dd big {
+	font-size: 150%;
+}
+.topic-contest .quest .date dd {
+	font-size: 2.4rem;
+	color:#0b263d;
+	font-weight: normal;
+}
+.topic-contest .mv {
+    margin: 5% auto;
+    width: 65%;
+}
+.topic-contest .quest {
+	border: 1px solid #0b263d;
+	margin: 5% 4%;
+	padding: 4%;
+}
+.topic-contest h4 {
+	font-size:2rem;
+	text-align: center;
+}
+.topic-contest dl.detail {
+	display: table;
+	margin: 4% 0 0;
+}
+.topic-contest dl.detail dt {
+	display: table-cell;
+	width: 55%;
+	vertical-align: top;
+}
+.topic-contest dl.detail dd {
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 0 0 1em;
+}
+.topic-contest dl.detail dd  h5 {
+	font-weight: 700;
+}
+.topic-contest dl.detail dd > * + p {
+	margin: 0.75em auto;
+}
+.topic-contest dl.detail dd > p + h5 {
+	margin: 1.5em auto auto;
+}
+.topic-contest .over_line {
+	border-top:1px solid #0b263d;
+	padding-top: 10%;
+	margin-bottom: 0;
+}
+.topic-contest .over_line .linkbtn {
+	margin:0 auto;
+	width: 60%;
+}
+@media only screen and (min-width: 751px) and (max-width: 960px) {
+.topic-contest dl.date {
+		justify-content: flex-start;
+}
+.topic-contest dl.date dt {
+		font-size: 2vw;
+}
+.topic-contest dl.date dd {
+		width: 100%;
+		font-size: 3.6vw;
+}
+.topic-contest html:not(.kr):not(.hk):not(.cn) dl.date dd {
+		font-size: 3vw;
+}
+.topic-contest .quest .date dt {
+		width: auto;
+		font-size: 2vw;
+}
+.topic-contest .quest .date dd {
+		font-size:2.6vw;
+		width: 100%;
+		margin-top: 0.5em;
+}
+.topic-contest html:not(.kr):not(.hk):not(.cn) .quest .date dd {
+		font-size:2.2vw;
+}
+}
+@media only screen and (max-width: 750px) {
+.topic-contest .bg-h3 h3 {
+		font-size:5vw;
+		letter-spacing: -0.075em;
+}
+.topic-contest html:not(.kr):not(.hk):not(.cn) .bg-h3 h3 {
+		font-size:4.6vw;
+}
+.topic-contest .contsBox {
+		margin-top: 10%;
+}
+.topic-contest dl.date {
+		margin: 10% auto;
+		flex-wrap: wrap;
+		flex-direction: unset;
+		justify-content: flex-start;
+}
+.topic-contest dl.date dt {
+		padding: 0.5em;
+		text-align: center;
+		font-size: 3vw;
+		width: auto;
+		min-width: 20vw;
+		line-height: 1.2;
+}
+.topic-contest dl.date dd {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 6vw;
+		line-height: 1.2;
+		margin-top: 0.5em;
+}
+.topic-contest .quest h4 {
+		font-size: 5vw;
+}
+.topic-contest .quest .date {
+		margin: 5vw auto;
+		flex-wrap: wrap;
+		flex-direction: unset;
+		justify-content: flex-start;
+}
+.topic-contest .quest .date dd {
+		font-size: 3.8vw;
+		line-height: 1.6;
+}
+.topic-contest .mv {
+		width: 90%;
+}
+.topic-contest .quest {
+		margin: 5% 0;
+}
+.topic-contest dl.detail {
+		display: block;
+		margin: 1em auto auto;
+}
+.topic-contest dl.detail dt {
+		display: block;
+		width: 100%;
+}
+.topic-contest dl.detail dd {
+		display: block;
+		width: 100%;
+		padding: 1em 0 0;
+}
+.topic-contest dl.detail dd > * + p {
+		margin: 0.75em auto;
+}
+.topic-contest dl.detail dd > p + h5 {
+		margin: 1.5em auto auto;
+}
+.topic-contest .over_line .linkbtn {
+		width: 100%;
+}
+}
+.topic-contest .read_text {
+	text-align: center;
+}
+@media screen and (max-width: 750px) {
+.topic-contest .read_text {
+		text-align: left;
+}
+}
+.topic-contest .contsBox.weapon .inner {
+	position: relative;
+	margin-top: -20px;
+}
+.topic-contest .contsBox.weapon .mainImg {
+	position: relative;
+	width: 122%;
+	top: -3%;
+	left: -16%;
+}
+.topic-contest .contsBox.weapon .author {
+	position: absolute;
+	right: 4%;
+	top: 8%;
+	width: 35%;
+	text-align: center;
+}
+@media screen and (max-width: 750px) {
+.topic-contest .contsBox.weapon .inner {
+		position: relative;
+		margin-top: -10%;
+}
+.topic-contest .contsBox.weapon .mainImg {
+		position: relative;
+		width: 125%;
+		left: -16%;
+}
+.topic-contest .contsBox.weapon .author {
+		position: relative;
+		right: inherit;
+		top: inherit;
+		width: 80%;
+		margin: 5% auto 10%;
+		text-align: center;
+}
+}
+.topic-contest .contsBox.otomo .inner {
+	position: relative;
+	letter-spacing: -.40em;
+}
+.topic-contest .contsBox.otomo figure {
+	display: inline-block;
+	letter-spacing: normal;
+	vertical-align: middle;
+}
+.topic-contest .contsBox.otomo .mainImg {
+	width: 60%;
+}
+.topic-contest .contsBox.otomo .author {
+	text-align: center;
+	margin-left: 5%;
+	width: 35%;
+}
+@media screen and (max-width: 750px) {
+.topic-contest .contsBox.otomo .inner {
+		position: relative;
+		margin-top: -10%;
+}
+.topic-contest .contsBox.otomo .mainImg {
+		display: block;
+		position: relative;
+		width: 111%;
+		top: 0;
+		left:-5.5%;
+}
+.topic-contest .contsBox.otomo .author {
+		display: block;
+		position: relative;
+		right: inherit;
+		top: inherit;
+		width: 80%;
+		margin: 5% auto 10%;
+		text-align: center;
+}
+}
+.topic-contest .contsBox.general {
+	text-align: center;
+	font-size: 2.4rem;
+}
+@media screen and (max-width: 750px) {
+.topic-contest .contsBox.general {
+		text-align: left;
+		font-size: 5.5vw;
+}
+}
+.topic-contest .listItem {
+	margin-top: 10%;
+}
+.topic-contest .listItem h4 {
+	font-size: 130%;
+	font-weight: bold;
+	color: #004172;
+	text-align: center;
+	padding: 0.1em;
+	border-bottom: 2px solid #004172;
+	margin-bottom: 1.5em;
+}
+.topic-contest .listItem ul {
+	text-align: center;
+	letter-spacing: -.40em;
+}
+.topic-contest .listItem ul li {
+	display: inline-block;
+	text-align: center;
+	margin: auto 1%;
+	width: 28%;
+	letter-spacing: auto;
+}
+@media screen and (min-width: 751px) {
+.topic-contest .listItem ul li:nth-of-type(n+5) {
+		margin-top: 5%;
+}
+.topic-contest #hunter.listItem ul li:nth-of-type(2) {
+		width: 15%;
+}
+.topic-contest #hunter.listItem ul li:nth-of-type(4) {
+		width: 21%;
+}
+.topic-contest #hunter.listItem ul li:nth-of-type(5) {
+		width: 24%;
+}
+.topic-contest #hunter.listItem ul li:nth-of-type(6) {
+		width: 29%;
+}
+.topic-contest #hunter.listItem ul li:nth-of-type(7) {
+		width: 21%;
+}
+.topic-contest #otomo.listItem ul li {
+		width: 17.5%;
+}
+.topic-contest #otomo.listItem ul li:nth-of-type(1) {
+		width: 33%;
+}
+.topic-contest #otomo.listItem ul li:nth-of-type(2) {
+		width: 24%;
+}
+}
+@media screen and (max-width: 750px) {
+.topic-contest .listItem ul li {
+		margin: auto 1%;
+		width: 48%;
+}
+.topic-contest .listItem ul li:nth-of-type(n+3) {
+		margin-top: 3em;
+}
+.topic-contest #hunter.listItem ul li:nth-of-type(2) img {
+		width: 60% !important;
+}
+}
+.topic-contest .comment {
+	margin: 5% 4%;
+	box-sizing: border-box;
+	padding: 0 4% 0;
+	border:1px solid #0b263d;
+}
+.topic-contest .comment h4 {
+	text-align: center;
+	cursor: pointer;
+	padding: 4% 0;
+	background: url("/assets/images/common/icon_arrow_l_on.png") left 4% center / 2em auto no-repeat;
+	transition:all 0.2s ease-out;
+	overflow: hidden;
+}
+.topic-contest .comment h4.active {
+	background: url("/assets/images/common/icon_arrow_l_on.png") left -8% center / 2em auto no-repeat;
+}
+.topic-contest .comment > div {
+	display: none;
+	margin-bottom: 4%;
+}
+@media screen and (max-width: 750px) {
+.topic-contest .comment {
+		margin: 5% 0;
+}
+.topic-contest .comment h4 {
+		text-indent: 1em;
+		background-size: 1.5em auto;
+		background-position: left 0 center;
+}
+.topic-contest .comment h4.active {
+		background-position: left -15vw center;
+		background-size: 1.5em auto;
+}
+}

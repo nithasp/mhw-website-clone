@@ -1,0 +1,240 @@
+/* Scoped copy of the original topic stylesheet (s-zinogre) */
+.topic-s-zinogre .img_w90 {
+	width: 90% !important;
+}
+.topic-s-zinogre .img_w80 {
+	width: 80% !important;
+}
+.topic-s-zinogre .img_w70 {
+	width: 70% !important;
+}
+.topic-s-zinogre .imgTxt {
+	height: 0;
+	white-space: nowrap;
+	text-indent: -9999px;
+	background-size: 100% auto !important ;
+}
+.topic-s-zinogre .ds {
+	line-height: 2em;
+    text-shadow: 0px 0px 3px #000,0px 0px 0.1em #000,0px 0px 0.15em #000,0px 0px 0.15em #000,0px 0px 0.75em #000,0px 0px 0.75em #000,0px 0px 1em #000;
+}
+.topic-s-zinogre .content_box {
+	position: relative;
+	margin:  10% auto;
+}
+.topic-s-zinogre dl.date {
+	margin: 5% auto 0;
+	width: auto;
+	display: table;
+}
+.topic-s-zinogre dl.date dt {
+	display: table-cell;
+	vertical-align: middle;
+	background: #091d2d;
+	font-size: 1.6rem;
+	padding: 1em 2em;
+	color: #FFF;
+}
+.topic-s-zinogre dl.date dd {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 4rem;
+	padding: 0 0 0 1em;
+	color: #0e9ee3;
+}
+.topic-s-zinogre .monsterName {
+    text-align: center;
+    font-size: 150px;
+    font-size: 8rem;
+    line-height: 1.6;
+    line-height: 1;
+    color: #f48888;
+    text-shadow: 4px 4px 0 #000, 4px 4px 20px #000, 4px 4px 10px #000, 4px 4px 5px #000;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.topic-s-zinogre .content_box .mainVisual {
+	position: absolute;
+	width: 127%;
+	top: -8%;
+	right: 0;
+}
+.topic-s-zinogre .content_box .textArea {
+	position: relative;
+	padding-top: 0;
+	width:  100%;
+	margin: auto;
+}
+.topic-s-zinogre .content_box .textArea .imgTxt {
+	background: url("/assets/images/topics/s-zinogre/img_text01.png");
+	width:  64%;
+	padding-bottom: calc(26.36579% * 0.64);
+	margin: auto;
+}
+.topic-s-zinogre .content_box .textArea .text {
+	width:  64%;
+	padding-left: 1%;
+	margin: 2% auto 70%;
+}
+.topic-s-zinogre .content_box .textArea .movie {
+	display: block;
+	margin: auto;
+	width: 56.5217%;
+}
+.topic-s-zinogre .btn_tgs {
+	margin:10% auto auto;
+	width: 90%;
+}
+.topic-s-zinogre .btn_tgs a {
+	font-size: 2.4rem;
+}
+.topic-s-zinogre .figure_block {
+	margin: 5% auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+.topic-s-zinogre .figure_block figcaption,
+.topic-s-zinogre .figure_block img {
+	display: block;
+	width: 48% !important;
+	margin: 0 1%;
+}
+.topic-s-zinogre .clm_2 {
+	margin: 5% auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+.topic-s-zinogre .clm_2 figure {
+	text-align: center;
+	width: 48%;
+	margin: 0 1%;
+}
+.topic-s-zinogre .clm_2 figure:nth-of-type(n+2) {
+	margin-top: 5%;
+}
+.topic-s-zinogre .clm_2 figure img {
+	padding: 0.25em 0;
+}
+.topic-s-zinogre .clm_2 figure img +figcaption {
+	box-sizing: border-box;
+	padding: 0 0.75em;
+	text-align: left;
+}
+.topic-s-zinogre .over_line {
+	border-top:1px solid #0b263d;
+	padding-top: 10%;
+	margin-bottom: 0;
+}
+.topic-s-zinogre .over_line .linkbtn {
+	margin:5% auto auto;
+	width: 50%;
+}
+@media only screen and (max-width: 750px) {
+.topic-s-zinogre .img_w90 {
+		width: 100% !important;
+}
+.topic-s-zinogre .img_w80 {
+		width: 100% !important;
+}
+.topic-s-zinogre .img_w70 {
+		width: 100% !important;
+}
+.topic-s-zinogre dl.date {
+		margin: 10% auto;
+		width: auto;
+		max-width: 100%;
+		display: block;
+}
+.topic-s-zinogre dl.date dt {
+		display: inline-block;
+		font-size: 3vw;
+		padding: 1em 1.5em;
+}
+.topic-s-zinogre dl.date dd {
+		display: block;
+		width: 100%;
+		text-align: center;
+		font-size: 7.6vw;
+		padding: 0;
+}
+.topic-s-zinogre .monsterName {
+		font-size: 10vw;
+		text-shadow: 0 0 1vw #000, 0 0 4vw #000 , 0 0 0.5vw #000;
+		font-weight: 900;
+		margin-bottom: 90vw;
+}
+.topic-s-zinogre .content_box .mainVisual {
+		position: relative;
+		width: 140%;
+		left: -36%;
+		top: -10vw;
+}
+.topic-s-zinogre .content_box .textArea {
+		position: relative;
+		width: 100%;
+		padding-top: 0;
+		margin-top: -100vw;
+}
+.topic-s-zinogre .content_box .textArea .imgTxt {
+		background: url("/assets/images/topics/s-zinogre/img_text01.png");
+		width:  100%;
+		padding-bottom: 26.36579%;
+		margin-bottom: 80vw;
+}
+.topic-s-zinogre .content_box .textArea .text {
+		width: 100%;
+		margin-bottom: 5%;
+}
+.topic-s-zinogre .content_box .textArea .movie {
+		display: block;
+		width: 100%;
+}
+.topic-s-zinogre .btn_tgs {
+		margin:10% auto auto;
+		width: 90%;
+}
+.topic-s-zinogre .btn_tgs a {
+		font-size: 4vw;
+}
+.topic-s-zinogre .figure_block {
+		margin: 5% auto;
+		width: 100%;
+		display: block;
+}
+.topic-s-zinogre .figure_block figcaption,
+.topic-s-zinogre .figure_block img {
+		display: block;
+		width: 100% !important;
+		margin: 0.5em 0;
+}
+.topic-s-zinogre .clm_2 {
+		margin: 5% auto;
+		display: block;
+}
+.topic-s-zinogre .clm_2 figure {
+		width: 100%;
+		margin: 0.5em 0;
+}
+.topic-s-zinogre .clm_2 figure:nth-of-type(n) {
+		margin-top: 5%;
+}
+.topic-s-zinogre .clm_2 figure img {
+		padding: 0.25em 0;
+}
+.topic-s-zinogre .clm_2 figure img +figcaption {
+		box-sizing: border-box;
+		padding: 0 0.75em;
+		text-align: left;
+}
+.topic-s-zinogre .over_line .follow-up {
+		text-align: left;
+}
+.topic-s-zinogre .over_line .linkbtn {
+		margin:10% auto auto;
+		width: 100%;
+}
+}

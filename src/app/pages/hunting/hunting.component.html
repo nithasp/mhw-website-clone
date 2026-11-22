@@ -1,0 +1,117 @@
+<div class="lower lower--hunting">
+  <app-page-hero
+    title="Hunting"
+    [role]="null"
+    name="Evolved Hunting Actions"
+    description="Your arsenal of available actions has greatly expanded with new moves and slinger combos, for a more polished hunting experience!"
+    bg="/assets/images/hunting/main_bg.jpg"
+    bgSp="/assets/images/hunting/main_bg_sp.jpg"
+    movie="/assets/video/hunting_mhw.mp4"
+  ></app-page-hero>
+
+  <section class="content">
+    <!-- New tool: the clutch claw -->
+    <header class="content__header" appAnimate>
+      <h1 class="content__header__title">New Tool: The Clutch Claw</h1>
+    </header>
+    <div class="content__body">
+      <article class="article article_01">
+        <p class="article__text" appAnimate>
+          The clutch claw is an extension of the slinger, allowing you to grapple onto monsters using a sharp,
+          claw-shaped hook. When clinging onto a monster, new maneuvers become available, such as controlling the
+          monster's movement.
+        </p>
+        <figure class="article__figure">
+          <img src="/assets/images/hunting/img_clutchclaw_01.jpg" alt="" appAnimate />
+          <figcaption class="article__figure__text textbox" appAnimate>
+            <p class="article__figure__text__body" appTypeText>
+              Grapple onto a monster with the claw, and while clinging you can use special attacks with your weapon,
+              or even perform a new "flinch shot" that sends monsters reeling forward!
+            </p>
+            <div id="action" class="thumbnailHunting article__figure__text__btn">
+              <a href="javascript:void(0)" (click)="open('clutchclaw')">
+                <figure class="thumbnailHunting__figure">
+                  <img [src]="clutchClawThumb" alt="" />
+                </figure>
+                <div class="thumbnailHunting__body">
+                  <p>Watch Video: The Clutch Claw</p>
+                </div>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
+      </article>
+    </div>
+
+    <!-- weapons -->
+    <header id="weapon" class="content__header" appAnimate>
+      <h1 class="content__header__title">New Combos and Mechanics for Every Weapon Type</h1>
+    </header>
+    <article class="article article_weapon">
+      <p class="article__text" appAnimate>
+        You can now use the slinger while your weapon is unsheathed, regardless of the weapon type!<br
+          class="br_pc"
+        />This allows for a broader range of moves for every weapon.
+      </p>
+      <ul class="article__list">
+        <li class="article__list__item" *ngFor="let weapon of weapons" appAnimate>
+          <div class="thumbnailHunting thumbnailHunting_s">
+            <a href="javascript:void(0)" (click)="open(weapon.id)">
+              <figure class="thumbnailHunting__figure">
+                <img [src]="weapon.image" alt="" />
+              </figure>
+              <div class="thumbnailHunting__body">
+                <figure class="thumbnailHunting__body__figure">
+                  <img [src]="weapon.icon" alt="" />
+                </figure>
+                <p [innerHTML]="weapon.name"></p>
+              </div>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </article>
+
+    <!-- raider ride -->
+    <header id="monster-ride" class="content__header" appAnimate>
+      <h1 class="content__header__title">A New Mode of Transport: Raider Ride!</h1>
+    </header>
+    <article class="article_03">
+      <p class="article__text" appAnimate>
+        Raider Ride lets you use small monster tailraiders as a mode of transportation.<br />Whistle to call a
+        tailraider, and then get ready to ride!
+      </p>
+      <figure class="article__figure">
+        <img src="/assets/images/hunting/img_01.jpg" alt="" appAnimate />
+        <figcaption class="article__figure__text textbox" appAnimate>
+          <p appTypeText>
+            Pin your destination on the wildlife map and you'll be taken there automatically. If you don't pin a
+            destination, your raider ride will try to find tracks, so you can track a target while prepping for a hunt.
+          </p>
+        </figcaption>
+      </figure>
+      <section class="article__column2">
+        <figure class="article__column2__figure">
+          <img src="/assets/images/hunting/img_02.jpg" alt="" appAnimate />
+        </figure>
+        <figure class="article__column2__figure">
+          <img src="/assets/images/hunting/img_03.jpg" alt="" appAnimate />
+        </figure>
+        <div class="article__column2__body textbox" appAnimate>
+          <p appTypeText>
+            While on a raider ride, you can gather, use items and your slinger, open your wildlife map, as well as
+            other specific actions. <br />You cannot control the monster directly.
+          </p>
+        </div>
+      </section>
+    </article>
+
+    <app-btn-already
+      small
+      title="Go here for information on basic actions."
+      href="http://monsterhunterworld.com/us/hunting/01.php"
+    ></app-btn-already>
+  </section>
+
+  <app-hunting-detail-modal [detail]="detail" (closed)="detail = null"></app-hunting-detail-modal>
+</div>

@@ -1,0 +1,129 @@
+/* Scoped copy of the original topic stylesheet (itempack) */
+.topic-itempack .contsBox {
+	margin-top: 5%;
+}
+.topic-itempack dl.date {
+	margin: 5% auto 0;
+	width: auto;
+	display: table;
+}
+.topic-itempack dl.date dt {
+	width:10em;
+	display: block;
+	margin: 1em auto 1em 0.5em;
+	vertical-align: middle;
+	text-align: center;
+	background: #091d2d;
+	font-size: 1.8rem;
+	padding: 0.5em 1em;
+	color: #FFF;
+}
+.topic-itempack dl.date dd {
+	width:100%;
+	display: block;
+	vertical-align: middle;
+	font-size: 2.5rem;
+	padding: 0 0 0 0.5em;
+	color: #0e9ee3;
+}
+.topic-itempack dl.date dd {
+	font-size: 2rem;
+}
+@media only screen and (min-width: 751px) and (max-width: 960px) {
+.topic-itempack dl.date dt {
+		font-size: 3vw;
+}
+.topic-itempack dl.date dd {
+		font-size: 4.5vw;
+}
+}
+@media only screen and (max-width: 750px) {
+.topic-itempack .contsBox {
+		margin-top: 10%;
+}
+.topic-itempack dl.date {
+		margin: 10% auto;
+		width: auto;
+		max-width: 100%;
+		display: block;
+}
+.topic-itempack dl.date dt {
+		width:40%;
+		font-size: 4vw;
+		text-align: center;
+		padding: 0.5em 0;
+		margin: 1em auto 1em 0;
+}
+.topic-itempack dl.date dd {
+		width: 100%;
+		font-size: 5vw;
+		padding: 0;
+}
+}
+.topic-itempack .contsBox.item .detail {
+	border: 1px solid #aeaaaa;
+	box-sizing: border-box;
+	margin: 0 4% 5%;
+	padding: 5%;
+}
+.topic-itempack h4.ttl {
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: #0e9ee3;
+	line-height: 1.3;
+}
+.topic-itempack .contsBox.item .detail .itemlist_box {
+	margin: 5% 0 auto;
+	display: flex;
+}
+.topic-itempack .contsBox.item .detail .itemlist_box figure {
+	box-sizing: border-box;
+	width: 20%;
+	text-align: center;
+}
+.topic-itempack .contsBox.item .detail .itemlist_box figure:nth-of-type(n+2) {
+	margin-left: 2%;
+}
+.topic-itempack .contsBox.item .detail .itemlist_box figure img {
+	border: 10px solid #2079a5;
+	background: #2079a5;
+}
+.topic-itempack .contsBox.item .detail .itemlist_box figure figcaption {
+	text-align: center;
+	font-size: 80%;
+	margin-top: 0.5em;
+}
+.topic-itempack .contsBox.item .attention {
+	margin: 5% 4% 0;
+}
+@media only screen and (max-width: 750px) {
+.topic-itempack .contsBox.item .detail {
+		margin: 5% 0 5%;
+}
+.topic-itempack h4.ttl {
+		font-size: 5vw;
+}
+.topic-itempack .borderBox h4 {
+		font-size: 4.6vw;
+}
+.topic-itempack .contsBox.item .detail .itemlist_box {
+		margin-top: 5%;
+		display: flex;
+		flex-wrap: wrap;
+}
+.topic-itempack .contsBox.item .detail .itemlist_box figure {
+		box-sizing: border-box;
+		width: 32%;
+		margin-left: 2%
+}
+.topic-itempack .contsBox.item .detail .itemlist_box figure:nth-of-type(3n+1) {
+		margin-left: 0;
+}
+.topic-itempack .contsBox.item .detail .itemlist_box figure:nth-of-type(n+4) {
+		margin-top: 5%;
+}
+.topic-itempack .contsBox.item .detail .itemlist_box figure figcaption {
+		text-align: center;
+		font-size: 80%;
+}
+}

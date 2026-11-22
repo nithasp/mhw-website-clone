@@ -1,0 +1,94 @@
+// Ported from the original $BASE rules (the rest lives in styles/_lower.sass)
+$sp: "only screen and (max-width: 1000px)"
+$pc: "only screen and (min-width: 1001px)"
+$shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4)
+
+.hide-sp
+    @media #{$sp}
+        display: none !important
+
+.hide-pc
+    @media #{$pc}
+        display: none !important
+
+.article__figure
+    margin-left: 4.66667vw
+    width: 50vw
+    @media #{$sp}
+        width: 94.66667vw
+        margin-left: auto
+        margin-top: 8vw
+
+.article__figure__text
+    bottom: 3.33333vw
+    @media #{$sp}
+        bottom: 0
+
+.questCounter img
+    box-shadow: none
+
+.questCounter .article__figure__text
+    bottom: -1.33333vw
+    @media #{$sp}
+        bottom: 0
+
+.article__slider
+    width: 88vw
+    margin: 3.33333vw auto 0
+    font-size: 0
+    box-shadow: $shadow
+    img
+        display: inline-block
+        width: 50%
+    @media #{$sp}
+        width: 94.66667vw
+        margin: 8vw auto 0
+        box-shadow: none
+
+app-simple-slider.article__slider
+    width: 100vw
+    margin: 8vw auto 0
+
+.equipmentTitle
+    width: 88vw
+    margin: 2vw auto 0
+    padding: 2vw 0
+    position: relative
+    font-size: 2.33333vw
+    font-weight: bold
+    font-family: "Noto Serif JP", serif
+    line-height: 1.4
+    text-align: center
+    vertical-align: middle
+    border-bottom: 1px solid #0b263d
+    @media #{$sp}
+        width: 94.66667vw
+        font-size: 5.83333vw
+        margin: 6vw auto 0
+
+.equipmentImg
+    width: 88vw
+    margin: 2vw auto 0
+    display: flex
+    flex-wrap: nowrap
+    justify-content: space-between
+    @media #{$sp}
+        flex-wrap: wrap
+        width: 94.66667vw
+        margin: 4vw auto 0
+    figure
+        width: 32%
+        @media #{$sp}
+            width: 100%
+            margin-bottom: 4vw
+        img
+            box-shadow: $shadow
+    figcaption
+        width: 100%
+        padding: 0.8vw
+        font-size: 1.33333vw
+        line-height: 1.6
+        position: relative
+        @media #{$sp}
+            font-size: 3.46667vw
+            margin-bottom: 4vw

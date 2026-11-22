@@ -1,0 +1,35 @@
+{
+ "ver": "ver15_23",
+ "label": "Ver. 15.23",
+ "title": "Update Ver. 15.23 Outline",
+ "subtitle": "（PlayStation4: Update 15.23 / Xbox One: Update 15.2.3.0）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Monday, October 7, 2024 0:00 (UTC)</dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "bugFixes",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "System",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Some system data will be updated.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

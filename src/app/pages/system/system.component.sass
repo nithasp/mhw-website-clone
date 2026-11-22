@@ -1,0 +1,45 @@
+// Ported from the original $SYSTEM rules (the rest lives in styles/_lower.sass)
+$sp: "only screen and (max-width: 1000px)"
+
+.lower--system
+    padding-bottom: 6vw
+
+.viewMode .article__flow
+    margin-top: 3.33333vw
+
+.textbox .title
+    font-size: 1.63333vw
+    font-weight: bold
+    margin: 1.33333vw 0
+    @media #{$sp}
+        font-size: 4vw
+
+.article__figure_large.circle
+    position: relative
+    margin-bottom: 15vw
+    @media #{$sp}
+        margin-bottom: 0
+    figcaption
+        left: 28vw
+        bottom: -12vw
+        width: 62.66667vw
+        @media #{$sp}
+            width: 100%
+            left: 0
+            bottom: 0
+            position: relative
+
+.btn_more
+    display: block
+    margin: 2vw auto 0
+    width: 50.6vw
+    p
+        font-size: 1.33333vw
+        line-height: 1
+        font-family: "Noto Serif JP", serif
+    @media #{$sp}
+        margin: 8vw auto 0
+        width: 90.46667vw
+        p
+            width: 90%
+            font-size: 4.33333vw

@@ -1,0 +1,513 @@
+{
+ "ver": "ver13_00",
+ "label": "Ver. 13.00",
+ "title": "Update Ver. 13.00 Outline",
+ "subtitle": "（PlayStation4: Update 13.00 / Xbox One: Update 13.0.0.0）",
+ "banners": [
+  {
+   "title": "Raging Brachydios — Quest Information",
+   "route": "/topics/r-brachydios",
+   "image": "/assets/images/update/bnr_r-brachydios.jpg"
+  },
+  {
+   "title": "Furious Rajang — Quest Information",
+   "route": "/topics/f-rajang",
+   "image": "/assets/images/update/bnr_f-rajang.jpg"
+  }
+ ],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Monday, March 23 0:00 (UTC)</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 1.4GB (only this update)</li> <li>Xbox One: About 2.1GB (only this update)</li> </ul> </dd> </dl> <dl> <p class=\"list-bl\">Features marked with a <span class=\"ic-ib\"></span> can only be used by players who have purchased Monster Hunter World: Iceborne.</p> </dl>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "General",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Raging Brachydios has been added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Furious Rajang has been added.<br> (Both monsters will appear in new special assignments after finishing the main story of Iceborne and unlocking the tundra region in the Guiding Lands.)",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "System",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Added an item that forces a monster to leave the Guiding Lands.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Raised the maximum level cap for master rank armor upgrades.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Added an augmentation feature that lets you customize the look of your weapon.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Added an option to the Steamworks that lets you change the Steamworks' output.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Applied a change to the Steamworks that lets you activate the auto mode after sending the Steamworks into Overdrive.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New decor can now be placed in your room in Seliana.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New BGM can now be played in your room in Seliana.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Added new designs for the Squad Card.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New Pendants added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Applied a change that lets you receive Hunter Helper Rewards from master rank quests.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Added the following charms: Fury Charm V, Power Charm V, Mighty Charm III, Challenger Charm V.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "You can now collect item rewards on the round just before a Steamworks overdrive.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "userInterface",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Base/Facility",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where the options \"Take All\" and \"Sell All\" were reversed when the items prepared via oven roast totaled 9999 in your item box.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, abilities wouldn't rotate when storing potential for awakened weapons.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the great sword 'Empress Galea \"Styx\"' would be ordered incorrectly when sorting.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where numerical values would not correctly display in the Steamworks results screen.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, an error would occur when joining a squad Online Session using the Online Session ID.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, after taking certain steps, a posted quest could not be found in a search.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed the description text of some music player songs.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Beetle Ticket could not be used as a material to meld items.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Ruiner Nergigante would be displayed in the Guiding Lands monster list, even though the conditions for it to appear haven't been fulfilled.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, an armor's abilities would not be correctly reflected in the hunter's status while augmenting the armor.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the color of Dober β Layered Legs would not display properly after changing the color.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, an error would occur when entering your own room.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where guest players would become unable to move if they were removed from the Gathering Hub at certain times.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Updated the tutorial for additional features of the squad to explain that subleaders can invite other players to the squad.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where even before you reach Seliana, the recruitment message \"Let's hang out in my room!\" would be available as an option.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where some Palico weapons would appear in an unnatural spot when sorting by rank.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where when joining another player's quest, if the quest host cancels the quest at a specific time, the name of the previously completed quest and not the quest that you joined would be displayed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a weapon from The Witcher weapon tree would not appear when placed on the equipment display.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where there would be a disparity between the Safi'jiiva siege result screen and the information displayed at the quest counter.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the chat recipient could not be changed after entering a loading screen with the chat window open.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the items created from the oven roast would not roll correctly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where you could not leave the mini-canteen at camp if the mini-canteen menu and the quest complete notice appeared on the same exact frame.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Updated the description text for the Chrome Halberd III gunlance.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Updated the description text for loading Wyrmstake Blast, found in the weapon control section of the hunter notes.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Monsters",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where Raider Ride monsters would get stuck on a wall when jumping from a certain position.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Safi'jiiva's behavior would become unnatural on slanted terrain.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a player would be afflicted with an abnormal status or blight when using the lance's counter-thrust or counter claw against Gold Rathian's somersault, Kirin's lighting strike, or Fulgur Anjanath's mucus attack.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where rewards for breaking parts would not be rewarded when breaking Black Diablos' back.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Safi'jiiva would not transition areas normally.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, the appearance and fleshiness of Nergigante's tail would not be consistent after it had been severed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where in multi-monster challenge quests, the second monster would not appear and the quest would be complete.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, Ruiner Nergigante would appear outside an area of the Guiding Lands.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, a monster would not become enraged.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, Velkhana's ice wall would not break down after it was slayed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where an enraged Yian Garuga could avoid pitfall traps even if the conditions for trapping it are met.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where monsters would sometimes behave unintentionally when near Boaboa.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed multiple issues related to sound effects and visual effects that displayed within the player's tent when Safi'jiiva is in the lowest level of the Secluded Valley.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, Rajang would still perform its pinning attack, even if it had not successfully landed it.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a game-stopping bug that occurred in the Guiding Lands when performing a flinch shot on a Rathalos that is transitioning areas.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Tweaked to make monster staggers longer when a player uses the clutch claw on a staggered monster in an area where the player cannot enter.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a Kelbi would sometimes act erratically after it had its horns broken off.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Player",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Mitigated conditions that made it harder to land the long sword's spirit helm breaker under certain conditions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Handicraft skill would not trigger at the start of a quest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the FINAL FANTASY XIV Jump gesture would be unintentionally deleted from the shortcut of an item loadout.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where during multiplayer, the other players' mantle effect time would not be synchronized correctly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Oolong male head armor would not display in certain cutscenes viewed from the gallery when the full Oolong armor set is equipped.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the extract bonuses to the Flinch Free skill would be carried over when switching from the Insect Glaive to another weapon.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Increased the element level of the Elscarad and Arginesse kinsects.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if the player attached the Melynx Teddy pendant to the Adept Stormslinger and started walking, the pendant would become shaky and trembly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where some light would become hidden when applying layered armor from your loadout.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Critical Draw would be applied to the long sword's Spirit Blade I when going from Iai Slash to Spirit Blade I.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the skill Free Element/Ammo Up would not trigger normally when bowgun capacity is increased via awakening ability.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that caused unnatural behavior when loading the slinger after performing a forward dodge with the sword & shield drawn.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Kaiser Crown β+'s hair color would change when switching from Oolong Hair α+ to Kaiser Crown β+ using specific steps.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where ammo would behave unnaturally when the bowgun's pierce ammo would hit using certain shooting methods.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mitigated an issue where if a Zero Sum Discharge connects on certain monsters, the player's grapple point would be unnatural.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where when the player is wearing Brigade Layered Arms, the armband would overlap with the equipped layered armor on the torso.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if the player equips Kaiser Crown α/γ with hairstyle 8-2 and performs actions such as running, the front bangs will float or become detached from the armor and would not correct itself.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where, under certain conditions, squad info would be unintentionally deleted.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, entering the tent would cause the Palico to face in the opposite direction.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain tracks would not display in the Guiding Lands.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain timing would cause a communication error, which would result in monsters not appearing in the Guiding Lands or in cutscenes based in the Guiding Lands.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where signs of desync would occur in the Guiding Lands when joining a session without a host.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where players could designate a snowball as a destination for a raider ride in an area that they can't access.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Handler would go back to her default costume after resetting the game, even if the player changes the settings to Locked.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other miscellaneous bug fixes have also been made.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

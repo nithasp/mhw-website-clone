@@ -1,0 +1,226 @@
+/* Scoped copy of the original topic stylesheet (ff-barioth) */
+.topic-ff-barioth .img_w90 {
+	width: 90% !important;
+}
+.topic-ff-barioth .img_w80 {
+	width: 80% !important;
+}
+.topic-ff-barioth .img_w70 {
+	width: 70% !important;
+}
+.topic-ff-barioth .imgTxt {
+	text-align: left;
+	font-size: 48px;
+	font-size: 5rem;
+	line-height: 1.2;
+	font-family: "Noto Serif JP", serif;
+	text-shadow: 4px 4px 0 #000, 4px 4px 20px #000, 4px 4px 10px #000, 4px 4px 5px #000;
+	font-weight: bold;
+}
+.topic-ff-barioth .imgTxt big {
+	font-size: 150%;
+}
+.topic-ff-barioth .ds {
+	line-height: 2em;
+    text-shadow: 0px 0px 3px #000,0px 0px 0.1em #000,0px 0px 0.15em #000,0px 0px 0.15em #000,0px 0px 0.75em #000,0px 0px 0.75em #000,0px 0px 1em #000;
+}
+.topic-ff-barioth .content_box {
+	position: relative;
+	margin:  10% auto;
+}
+.topic-ff-barioth .top.content_box {
+	margin: 0 auto;
+}
+.topic-ff-barioth dl.date {
+	margin: 5% auto 0;
+	width: auto;
+}
+.topic-ff-barioth dl.date dt {
+	vertical-align: middle;
+	background: #091d2d;
+	font-size: 1.6rem;
+	padding: 1em 0;
+	color: #FFF;
+	text-align: center;
+	width: 15em;
+}
+.topic-ff-barioth dl.date dd {
+	font-size: 3.5rem;
+	padding: 0.5em 0 0 0;
+	color: #0e9ee3;
+	line-height: 1.2;
+}
+.topic-ff-barioth .content_box .mainVisual {
+	position: absolute;
+	top: 7%;
+	width: 100%;
+}
+.topic-ff-barioth .content_box .monsterText {
+	padding-top: 83%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+.topic-ff-barioth .movie {
+	width:70%;
+	margin: 50px auto 0;
+}
+.topic-ff-barioth .figure_block {
+	margin: 5% auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.topic-ff-barioth .figure_block figcaption,
+.topic-ff-barioth .figure_block img {
+	display: block;
+	width: 48% !important;
+}
+.topic-ff-barioth .clm_2 {
+	margin: 5% auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+.topic-ff-barioth .clm_2 figure {
+	text-align: center;
+	width: 48%;
+	margin: 0 1%;
+}
+.topic-ff-barioth .clm_2 figure:nth-child(n+2) {
+	margin-top: 5%;
+}
+.topic-ff-barioth .clm_2 figure img {
+	padding: 0.25em 0;
+}
+.topic-ff-barioth .clm_2 figure img +figcaption {
+	box-sizing: border-box;
+	text-align: center;
+}
+.topic-ff-barioth .over_line {
+	border-top:1px solid #0b263d;
+	padding-top: 10%;
+	margin-bottom: 0;
+}
+.topic-ff-barioth .over_line .linkbtn {
+	margin:5% auto auto;
+	width: 50%;
+}
+.topic-ff-barioth .imgTxt {
+	color: #ddddde;
+	position: absolute;
+	left: 9%;
+	top: 0;
+	z-index: 1;
+}
+@media only screen and (min-width: 751px) and (max-width: 960px) {
+.topic-ff-barioth .read {
+		font-size: 2.6vw;
+}
+.topic-ff-barioth .imgTxt {
+		font-size: 5.3vw;
+}
+.topic-ff-barioth .clm_2 figure {
+		font-size: 1.8vw;
+}
+}
+@media only screen and (max-width: 750px) {
+.topic-ff-barioth .img_w90 {
+		width: 100% !important;
+}
+.topic-ff-barioth .img_w80 {
+		width: 100% !important;
+}
+.topic-ff-barioth .img_w70 {
+		width: 100% !important;
+}
+.topic-ff-barioth .bg-h2 h2 span {
+		letter-spacing: -0.07em;
+}
+.topic-ff-barioth .bg-h2 h2 span span {
+		margin-left: -0.4em;
+}
+.topic-ff-barioth .bg-h2 h2 span span + span {
+		margin-left:0;
+		margin-right: -0.4em
+}
+.topic-ff-barioth dl.date {
+		margin: 10% auto;
+		width: auto;
+		max-width: 100%;
+		display: block;
+}
+.topic-ff-barioth dl.date dt {
+		display: inline-block;
+		font-size: 3.5vw;
+		padding: 0.7em 0;
+}
+.topic-ff-barioth dl.date dd {
+		display: block;
+		width: 100%;
+		font-size: 6vw;
+}
+.topic-ff-barioth .content_box .mainVisual {
+		width: 110%;
+		margin-left: -5%;
+		top: 8%;
+}
+.topic-ff-barioth .content_box .monsterText {
+		width: 100%;
+		margin: 0 0 5% 0;
+		font-size: 4vw;
+		padding-top: 0;
+		text-align: left;
+}
+.topic-ff-barioth .movie {
+		width:100%;
+		margin-top: 8%;
+}
+.topic-ff-barioth .figure_block {
+		display: block;
+}
+.topic-ff-barioth .figure_block figcaption,
+.topic-ff-barioth .figure_block img {
+		width: 100% !important;
+		margin: 0.5em 0;
+}
+.topic-ff-barioth .clm_2 {
+		display: block;
+}
+.topic-ff-barioth .clm_2 figure {
+		width: 100%;
+		margin: 0.5em 0;
+}
+.topic-ff-barioth .clm_2 figure:nth-child(n+2) {
+		margin-top: 0;
+}
+.topic-ff-barioth .clm_2 figure img {
+		padding: 0.25em 0;
+}
+.topic-ff-barioth .clm_2 figure img +figcaption {
+		padding: 0 0.75em;
+		text-align: left;
+}
+.topic-ff-barioth .over_line .follow-up {
+		text-align: left;
+}
+.topic-ff-barioth .over_line .linkbtn {
+		margin:10% auto auto;
+		width: 100%;
+}
+.topic-ff-barioth .imgTxt {
+		position: relative !important;
+		right: inherit !important;
+		left: inherit !important;
+		margin: auto auto;
+		font-size: 6vw;
+		text-shadow: none;
+		text-shadow: 0px 0px 1px #000, 0px 0px 2px #000, 0px 0px 10px #000, 0px 0px 5px #000, 0px 0px 5px #000;
+		width: 100%;
+		margin-bottom: 66vw;
+		margin-left: 5%;
+}
+}

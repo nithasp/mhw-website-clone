@@ -1,0 +1,48 @@
+// ===========================================================================
+// Topic pages (news articles + DLC)
+// The original topic pages use `html { font-size: 62.5% }` so their rem values
+// are based on 10px. TopicsLayoutComponent toggles `html.topics-mode` while a
+// topic page is displayed, and every rule below is scoped to `.topics-page`.
+// ===========================================================================
+html.topics-mode {
+  font-size: 62.5%;
+}
+
+@import "topics-shared";
+
+.topics-page {
+  position: relative;
+  font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", "Hiragino Kaku Gothic ProN", "游ゴシック", "メイリオ", meiryo, sans-serif;
+
+  // neutralise the global helpers of the home page so topic markup renders like the original
+  .inner {
+    width: auto;
+    margin: 0;
+  }
+
+  img {
+    object-fit: fill;
+  }
+
+  // the global MENU / Buy Now buttons (absent on the original topic pages)
+  // would cover the centered logos on phones: start the header below them
+  @media only screen and (max-width: 750px) {
+    #wrap > header {
+      padding-top: 24vw;
+    }
+  }
+
+  #footBtn {
+    min-height: 1px;
+  }
+
+  // accordions / toggles used by some topics (boost, contest)
+  .js-slide {
+    overflow: hidden;
+    transition: height 0.4s ease;
+  }
+
+  a[href=""] {
+    pointer-events: none;
+  }
+}

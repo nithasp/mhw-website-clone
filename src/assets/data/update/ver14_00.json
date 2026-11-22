@@ -1,0 +1,418 @@
+{
+ "ver": "ver14_00",
+ "label": "Ver. 14.00",
+ "title": "Update Ver. 14.00 Outline",
+ "subtitle": "（PlayStation4: Update 14.00 / Xbox One: Update 14.0.0.0）",
+ "banners": [
+  {
+   "title": "Alatreon — Quest Information",
+   "route": "/topics/alatreon",
+   "image": "/assets/images/update/bnr_alatreon.jpg"
+  },
+  {
+   "title": "Frostfang Barioth — Quest Information",
+   "route": "/topics/ff-barioth",
+   "image": "/assets/images/update/bnr_ff-barioth.jpg"
+  }
+ ],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Thursday, July 9, 0:00 (UTC)</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 1.3GB (only this update)</li> <li>Xbox One: About 1.4GB (only this update)</li> </ul> </dd> </dl> <dl> <p class=\"list-bl\">Features marked with a <span class=\"ic-ib\"></span> can only be used by players who have purchased Monster Hunter World: Iceborne.</p> </dl>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "General",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Alatreon has been added. (Alatreon will be available after finishing the story of Iceborne and completing the Safi'jiiva recon assignment)",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Frostfang Barioth has been added. (Frostfang Barioth will be available in a limited-time event quest, and appears as a tempered monster)",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "<p>Due to the impact of the global coronavirus (COVID-19) outbreak, some content in this update features limited voiced dialogue. We apologize for the inconvenience and appreciate your understanding. </p>",
+     "afterHtml": ""
+    },
+    {
+     "title": "System",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Added new melding options for creating analyzed special tracks.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New decor can now be placed in your room in Seliana.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New BGM can now be played in your room in Seliana.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New designs for the Squad Card added.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New Pendants added.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Increased the number of Screamer Pods you obtain when combining Screamer Sacs.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted the Steamworks reward items received when ending the mini-game with one match.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "The Raider Ride Call icon now displays on the item bar sorting screen even while you are in base.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Added the following charms: Draw Charm III, Phoenix Charm III, Fitness Charm V",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "userInterface",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Base/Facility",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where the level effect after unlocking the level cap for some skills would not display in the skill info screen.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where in certain situations, the Safi'jiiva recon assignment would not appear for the character in the 2nd saved data slot.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred in the Guiding Lands rewards screen, where if the item box was at max capacity, items would be discarded instead of being sold.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with some items being sorted in an unnatural order.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the game would not recognize that the player has met the criteria for the research request \"Velkhana's Icy Breath!\"",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Changed the quest ranking of the event quest \"The Assassin\" from master rank 3 to 5. This does not affect the quest itself or conditions to join.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred in the Guiding Lands section of the hunter notes, where the material rarity drop for certain levels of monsters were not displaying correct information.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if the player downloaded uploaded photo data, the icon that indicates when a research request could be submitted would disappear.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain steps would result in the \"!\" icon indicating an important dialogue would not display over an NPC's head.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred while editing a Squad Card, where performing certain controls while selecting a card design would result in not being able to select anything properly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "[PS4] Fixed an issue where the OPTIONS button controls would be enabled while editing a Squad Card. <br>[XBOX] Fixed an issue where the Menu button controls would be enabled while editing a Squad Card.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with the Elder Melder, where under certain conditions, an unobtainable item would appear in the list.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Monsters",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where a monster mount would not be canceled when certain monsters were paralyzed or put to sleep while in mid-air.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a Wyrmstake Blast lodged into Safi'jiiva would disappear if you returned to camp.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the rocks in Origin Isle could not be destroyed while the host player was in the tent.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where small size Moonlight Gekko wouldn't appear in the Elder's Recess.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where master rank Kulu-Ya-Ku and Tzitzi-Ya-Ku would not drop slinger ammo when their health decreased.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if Kulve Taroth's attacks were canceled under certain timing, only the damage hitbox would come out.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where rewards for breaking Rajang's tail would not appear in the results screen.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Made adjustments to mitigate the occurrence of the clutch claw hit and grapple position being greatly different on certain monsters.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Swapped out the rewards for capturing a tempered Gold Rathian in the Guiding Lands from Elder Spiritvein Bone to Spiritvein Solidbone.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Changed the reward item for the quest \"Put That Red Cup Away\" from Large Wyvern Gem to Fey Wyvern Gem.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if Raging Brachydios' tail was wounded, the tip of its tail would not become softened.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the player would still be afflicted with abnormal status despite successfully countering certain attacks from certain monsters.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, Raging Brachydios could be captured.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Temporal Mantle would not be effective against certain attacks from Namielle.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where master rank Kulve Taroth's gold mantle would not soften during a mount.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Player",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where certain weapons would appear unnatural when sheathed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with the Orion/Orion α armor and layered armor sets, where the arm part would display unnaturally when equipped.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with the Kjárr Pipe \"Water\" hunting horn, where melody effects would stop even if performances continued.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "[PS4] Fixed an issue with the sword & shield, where after rising from being blown back, pressing the Circle button with certain timing would cause you to perform a backstep.<br>[XBOX] Fixed an issue with the sword & shield, where after rising from being blown back, pressing B with certain timing would cause you to perform a backstep.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Made adjustments so that when using items with the custom radial menu, if the item doesn't exist and the materials for the high priority crafting recipe aren't available, the game will try to craft items for the low priority recipe if materials are available.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the values on the status screen when Non-Elemental Boost was active would not display correctly with certain weapons.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where slinger ammo would fire in a different direction than the reticle when fighting Kulve Taroth.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred when carving from Safi'jiiva, where the default carving animation would be performed even though it's a rare material.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the player character would appear unnatural when using specific hairstyles and armor together.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the item order in the item selection window would change when the Mushroomancer skill was in effect.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that if a player is equipped with a bow and then checks the details of a player using a bowgun from the player list, the status screen would display unnaturally.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if the player adjusted the Item Display On/Off setting for Fixed Items while in base, the item would be displayed at the end of the list regardless of the player's settings.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the player would not land correctly when they hit a wall at a specific position.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred when the option Obtained Item Placement was set to End of the item bar, during a quest, the Raider Ride Call position would not be correctly kept.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain parts of the player character would not be displayed at the result screen, if they failed a quest or reset a quest while their heads were in a snowman state.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred during Safi'jiiva's Sapphire of the Emperor or Behemoth's Ecliptic Meteor, where the visuals effects of Demon Ammo and Armor Ammo would be displayed even if they didn't receive the effects themselves.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Corrected various typos, etc., for some equipment descriptions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where after watching the \"Nature's Might\" cutscene in the gallery, starting the game and completing the quest \"Faraway Lorelei\" would cause the game to go mute.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted the Scarred Yian Garuga quest so that accidental starts could not occur during the quest, as players could be put into an extremely disadvantageous situation at the start of the quest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with the in-field Palicoes, where text displayed would not match the current situation.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where sound would not play when using stickers via the custom radial menu.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that caused an application error when hosts were swapped under certain conditions during the Eternal Gold Rush quest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other miscellaneous bug fixes have also been made.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

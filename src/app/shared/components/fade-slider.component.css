@@ -1,0 +1,26 @@
+.fade-slider {
+  position: relative;
+  overflow: hidden;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+img:not(:first-child) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img.is-prev {
+  opacity: 1;
+  z-index: 1;
+  transition: none;
+}
+img.is-active {
+  opacity: 1;
+  z-index: 2;
+}

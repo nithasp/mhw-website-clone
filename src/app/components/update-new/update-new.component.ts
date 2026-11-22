@@ -1,22 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-update-new',
   templateUrl: './update-new.component.html',
   styleUrls: ['./update-new.component.sass'],
 })
-export class UpdateNewComponent implements OnInit {
-  constructor() {}
+export class UpdateNewComponent implements OnInit, OnDestroy {
+  /** The featured banner rises in after the main visual has appeared */
+  isShown = false;
+  private timer?: ReturnType<typeof setTimeout>;
 
   ngOnInit(): void {
-    this.showFirstAnimation();
+    this.timer = setTimeout(() => (this.isShown = true), 1500);
   }
 
-  showFirstAnimation() {
-    const updateNew: any = document.querySelector('.update-new .wrapper');
-    setTimeout(() => {
-      updateNew.style.animation = `showUpdateNewItem 0.8s`;
-      updateNew.style.animationFillMode = 'forwards';
-    }, 1500);
+  ngOnDestroy(): void {
+    clearTimeout(this.timer);
   }
 }

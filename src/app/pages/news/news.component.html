@@ -1,0 +1,44 @@
+<div class="lower lower--news">
+  <app-logo-iceborne></app-logo-iceborne>
+
+  <section class="content">
+    <header class="content__header" appAnimate>
+      <h1 class="content__header__title">Latest Information</h1>
+    </header>
+
+    <ul class="content__body">
+      <li
+        *ngFor="let item of visibleItems"
+        class="thumbnail thumbnailNews"
+        [class.up]="item.isNew"
+        appAnimate
+      >
+        <ng-container *ngIf="item.route; else externalLink">
+          <a [routerLink]="item.route">
+            <ng-container *ngTemplateOutlet="body; context: { $implicit: item }"></ng-container>
+          </a>
+        </ng-container>
+        <ng-template #externalLink>
+          <a [href]="item.href" target="_blank" rel="noopener">
+            <ng-container *ngTemplateOutlet="body; context: { $implicit: item }"></ng-container>
+          </a>
+        </ng-template>
+      </li>
+    </ul>
+
+    <footer class="content__footer">
+      <button *ngIf="hasMore" type="button" class="btn_readmore" (click)="expanded = true">
+        <p>READ MORE</p>
+      </button>
+    </footer>
+  </section>
+</div>
+
+<ng-template #body let-item>
+  <figure class="thumbnailNews__figure">
+    <img [src]="item.img" alt="" />
+  </figure>
+  <div class="thumbnailNews__body">
+    <p [innerHTML]="item.text"></p>
+  </div>
+</ng-template>

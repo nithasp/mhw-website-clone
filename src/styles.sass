@@ -4,6 +4,13 @@
 @import 'swiper/scss/pagination'
 @import "swiper/scss/effect-fade"
 
+// shared styles of the cloned pages
+@import "styles/animations"
+@import "styles/lower"
+@import "styles/modal"
+@import "styles/topics"
+@import "styles/update"
+
 *
     margin: 0
     padding: 0
@@ -17,12 +24,15 @@ body
     background-size: cover
     background-attachment: fixed
     width: 100%
-    min-height: 200vh
+    min-height: 100vh
     font-family: Cardo-Regular
     overflow-x: hidden
 
+// scroll lock used by the menu and the modals (see ScrollLockService)
 body.fixed
     position: fixed
+    left: 0
+    right: 0
 
 .inner
     width: 95%
@@ -152,7 +162,6 @@ a,a:active,a:focus,a:visited
     .mhw-button2
         text-align: center
         margin-bottom: 1.5%
-        opacity: 0
 
     .wrap-content.typewriter
         color: #FFF
@@ -191,35 +200,7 @@ a,a:active,a:focus,a:visited
         background: white
         border: 3px solid black
 
-// Animation
-.fadeInLeftTitle
-    animation: fadeInLeftTitle 1s ease-out
-@keyframes fadeIn
-    0%
-        opacity: 0
-
-    100%
-        opacity: 1
-
-@keyframes fadeInReverse
-    0%
-        position: relative
-        left: 300px
-        opacity: 0
-
-    100%
-        position: relative
-        left: 0px
-        opacity: 1
-
-@keyframes fadeInLeftTitle
-    0%
-        opacity: 0
-        transform: translate3d(-10%,0,0)
-
-    100%
-        opacity: 1
-        transform: translateZ(0)
+// Animations: see styles/_animations.sass and src/app/shared/animations
 
 @media (max-width:992px)
     .mhw-title

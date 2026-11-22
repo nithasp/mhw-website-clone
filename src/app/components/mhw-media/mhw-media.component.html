@@ -1,14 +1,14 @@
 <section id="mhw-media">
-  <div class="mhw-title flex-center">
+  <div class="mhw-title flex-center" appAnimate>
     <h1>Media</h1>
   </div>
-  <div class="wrapper wrapper-slider">
+  <div class="wrapper wrapper-slider" appAnimate>
     <swiper [config]="mhwMediaConfig">
       <ng-template swiperSlide *ngFor="let item of mediaList">
         <h1>{{ item.text }}</h1>
-        <div class="wrapper-image mhw-card">
-            <img src={{item.thumbnail}} />
-        </div>
+        <a [href]="item.url" target="_blank" rel="noopener" class="wrapper-image mhw-card">
+          <img [src]="item.thumbnail" alt="" />
+        </a>
       </ng-template>
     </swiper>
     <div class="wrapper-swiper-navigation">
@@ -17,8 +17,8 @@
     </div>
     <div class="wrapper-pagination-mhw-media"></div>
   </div>
-  <div class="mhw-button flex-center wrapper-mhw-button">
-    <a href="javascript:void(0)" class="mhw-card mhw-media-button">
+  <div class="mhw-button flex-center wrapper-mhw-button" appAnimate="fade">
+    <a routerLink="/media" class="mhw-card mhw-media-button">
       <span>List</span>
     </a>
   </div>

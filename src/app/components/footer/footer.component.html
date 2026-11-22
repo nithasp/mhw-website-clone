@@ -1,21 +1,47 @@
-<footer>
-  <div class="footer-section1 flex-center">
+<footer [class.has-gap]="mode === 'home'">
+  <div class="footer-section1 flex-center" *ngIf="mode !== 'update'">
     <div class="wrapper">
       <h1>OFFICIAL ACCOUNT</h1>
       <div class="icons">
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        <a *ngFor="let sns of socials" [href]="sns.href" target="_blank" rel="noopener" [attr.aria-label]="sns.label">
+          <i class="fa" [ngClass]="sns.icon" aria-hidden="true"></i>
+        </a>
       </div>
     </div>
   </div>
-  <div class="footer-section2 flex-center">
-    <div class="wrapper">
+
+  <!-- home -->
+  <div class="footer-section2 flex-center" *ngIf="mode === 'home'">
+    <a class="wrapper" href="https://www.monsterhunter.com/world/us/" target="_blank" rel="noopener">
       <div class="text">To the Monster Hunter: World Official Website</div>
       <div class="logo">
-        <img src="/assets/images/logo_mhw.png" />
+        <img src="/assets/images/logo_mhw.png" alt="MONSTER HUNTER: WORLD" />
       </div>
-    </div>
+    </a>
+  </div>
+
+  <!-- lower pages -->
+  <section class="footer__back" *ngIf="mode === 'lower'">
+    <p class="footer__back__text">
+      <a routerLink="/"><i class="iconf iconf-back"></i>Top Page</a>
+    </p>
+  </section>
+
+  <!-- news articles -->
+  <div class="footer__world footer__world_iceborne" *ngIf="mode === 'topics'">
+    <p class="footer__world__text">
+      <a routerLink="/">To the MONSTER HUNTER WORLD: ICEBORNE Official Website</a>
+    </p>
+    <figure class="footer__world__figure">
+      <a routerLink="/"><img src="/assets/images/common/logo_iceborne_l.png" alt="MONSTER HUNTER WORLD: ICEBORNE" /></a>
+    </figure>
+  </div>
+
+  <!-- update information -->
+  <div class="footer-iceborne" *ngIf="mode === 'update'">
+    <p class="text"><a routerLink="/">To the MONSTER HUNTER WORLD: ICEBORNE Official Website</a></p>
+    <p class="figure">
+      <a routerLink="/"><img src="/assets/images/update/common/mhwib_logo.png" alt="MONSTER HUNTER WORLD: ICEBORNE" /></a>
+    </p>
   </div>
 </footer>

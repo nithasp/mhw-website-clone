@@ -1,0 +1,333 @@
+{
+ "ver": "ver11_50",
+ "label": "Ver. 11.50",
+ "title": "Update Ver. 11.50 Outline",
+ "subtitle": "（PlayStation4: Update 11.50 / Xbox One: Update 11.5.0.0）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Thursday, November 7, UTC 0:00</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 400MB (only this update)</li> <li>Xbox One: About 400MB (only this update)</li> </ul> </dd> </dl> <dl> <p class=\"list-bl\">Features marked with a <span class=\"ic-ib\"></span> can only be used by players who have purchased Monster Hunter World: Iceborne.</p> </dl>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Point allocation for the Free Meal skill on the Rex Roar Helm β+ has been changed from 2 to 1.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Decoration list order has been updated in accordance with their skills. This change affects the following locations:",
+       "ib": false,
+       "nest": [
+        {
+         "type": "text",
+         "html": "Item Box > Sell Items > Decorations tab",
+         "ib": false
+        },
+        {
+         "type": "text",
+         "html": "Item Box > Set Decorations > Current Equipment/Equipment Box",
+         "ib": false
+        }
+       ]
+      },
+      {
+       "html": "Fixed an issue where supply items would not be returned when calling a loadout that contained empty spaces.<br>(Supply items that exceed the space limit will be discarded.)",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "For some pages in the monster field guide, rare carved materials are now listed according to priority.<br>(The materials and chances of obtaining them have not changed.)",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "userInterface",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Base/Facility",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where info for the volcanic region of the Guiding Lands would not display when the world map was opened inside the base.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Affinity Sliding skill would activate while inside the hot spring found in Seliana's Gathering Hub.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Felynes helping in the Steamworks would jump with improper timing.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where you couldn't enter your room in Seliana.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Monsters",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where special tracks would not drop from Scarred Yian Garuga in the Guiding Lands.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if the quest poster paralyzes or stuns a monster, and then abandons the quest, and other hunters built up mount attack damage, if the quest info screen is opened the moment the monster exits its binded status, the monster would enter a mounted status and would be incapacitated.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with Barioth's landing point when the monster would jump off from a wall.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the quest would not be complete if the Dragonrazer hits Velkhana while it's in the air.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Velkhana would not move its gaze/body to the player's direction.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Fulgurbugs could be obtained from Zinogre in Arena quests.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted invasion rates for Savage Deviljho in quests that it has a chance of appearing in.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where players in base camps would be hit by Lunastra's hellflare attack.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Azure Rathalos would get stuck on the outer edges of pathways when in the Ancient Forest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under specific conditions, Kushala Daora's head could not be broken.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Player",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where, when the Gunlance doesn't have Wyrmstake Shot loaded, a Jumping Reload Smash wouldn't be performed when using a Lunging Upthrust to scale a wall.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where weapons would display unnaturally when attempting to attack after a Temporal Mantle evade, after performing the Charge Blade's Amped Element Discharge.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The clutch claw can now perform claw attacks after grappling onto a monster while mounted.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the hitbox for the clutch claw's Wyvernheart would disappear if the player sank into the ground while grappled onto a monster. It has been fixed so now it has an attack hitbox.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Grapple point priority have been adjusted, so it's easier to grapple onto the locations that the clutch claw hits.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where players sliding due to Velkhana's frost would only happen on the host's side. It will now occur on the guest side as well.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the hunting horn couldn't perform melodies directly stocked from echo attacks.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where while using the hammer, a hunter would perform a flinch shot immediately after grappling onto a monster, regardless if the player could control the hunter.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that caused irregular behavior when the heavy bowgun's special scope was used while the Mind's Eye/Ballistics skill was equipped.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where decoration info would remain when overwriting an equipment loadout with a decoration-equipped mantle with a loadout with no mantle.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where decorations would be removed from a mantle when calling up a registered loadout, even though the mantle has decorations equipped.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the hunter would perform an animation inappropriate to the item obtained when mining from mining outcroppings.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Tailraider Signal's position wouldn't be saved when calling up an item loadout.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where a Palico's weapon would activate with positive affinity, despite the weapon itself having negative affinity.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where \"Returning to Base\" would be displayed when traveling to the Hoarfrost Reach via the World Map, while on an expedition.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where players could not talk to the Lynian Researcher under specific conditions, thus not being able to obtain the Surveyor Set.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where only the regular size of certain fish could be caught.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain endemic life would not have their size fluctuation behave properly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the appearance rate of Molys would greatly increase when the Felyne Zoomaster skill was activated.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where switching active squads to a squad with a player who deleted their account would fail.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted the quest complete time limits for the event quest \"Farewell to the Frozen\".",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where quest members would disconnect from quests located in the Elder's Recess.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurred in the Guiding Lands where, while fighting a monster that has been lured out, if another monster that was originally in the locale appears, the focus camera or target camera would suddenly change targets.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other minute game balance tweaks and minor bugs fixes have been made.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Corrections",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "For the following event quests, adjustments were made but no notice was given to players.",
+       "ib": false,
+       "nest": [
+        {
+         "type": "text",
+         "html": "1.  A New Troublemaker in Town<br>Rewards were adjusted downwards as of Ver. 11.01. (PS4) / Ver. 11.0.0.1 (Xbox One)",
+         "ib": false
+        },
+        {
+         "type": "text",
+         "html": "2. Challenge Quest 2: MR Intermediate<br>Monster difficulty was decreased, and completion times were adjusted.Loadout 5 (Heavy Bowgun) contained two Destroyer Jewel 2, and had to be updated.",
+         "ib": false
+        }
+       ]
+      },
+      {
+       "html": "The quests are performing as expected so there are no issues, but we apologize for not letting players know about the updates beforehand.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

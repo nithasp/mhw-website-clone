@@ -1,0 +1,328 @@
+{
+ "ver": "ver13_50",
+ "label": "Ver. 13.50",
+ "title": "Update Ver. 13.50 Outline",
+ "subtitle": "（PlayStation4: Update 13.50 / Xbox One: Update 13.5.0.0）",
+ "banners": [
+  {
+   "title": "Master Rank Kulve Taroth — Quest Information",
+   "route": "/topics/mr-kulvetaroth",
+   "image": "/assets/images/update/bnr_m-taroth.jpg"
+  },
+  {
+   "title": "Arch-tempered Namielle — Quest Information",
+   "route": "/topics/at-namielle",
+   "image": "/assets/images/update/bnr_a-namielle.jpg"
+  }
+ ],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Thursday, April 23, 0:00 (UTC)</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 0.5GB (only this update)</li> <li>Xbox One: About 0.4GB (only this update)</li> </ul> </dd> </dl> <dl> <p class=\"list-bl\">Features marked with a <span class=\"ic-ib\"></span> can only be used by players who have purchased Monster Hunter World: Iceborne.</p> </dl>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "General",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Kulve Taroth has been added to master rank.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Arch-tempered Namielle quest has been added.<br>-Both are available as event quests for a limited time.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "System",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Increased the number of weapons that can use the layered weapon feature.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Increased the number of bases/parts for layered weapons.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Appraisal weapons can now be upgraded at the Smithy.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Appraisal weapons can now be created at the Elder Melder.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New Pendants added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Obtained Item Placement option added to the Options menu.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Appraisal weapons are now easier to obtain from the Kulve Taroth siege.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Incandescent Weapons now produce higher rarity weapons more easily.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The following charms have been added: Attack Charm V and Evasion Charm V.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "userInterface",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Base/Facility",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where the order of the research requests would change when submitting photos in a certain order.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a player would receive a penalty and not be able to enter another player's room under certain conditions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a low drop rate item was displayed in the wings rewards chart of master rank Rathalos.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where you could set layered armor while having full armor equipped if done in a certain order.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a player's appearance would display unintentionally when using specific gestures in the Gathering Hub.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the number displayed on some hairstyles when changing your appearance would differ depending on the character type.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, players couldn't accept the next Recon Assignment from the Gathering Hub's Pub Lass after completing the quest \"Across the Lost Path.\"",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, when certain conditions were fulfilled, a completed icon would be displayed on research requests that had no photo.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Monsters",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where, under specific conditions, certain monsters would behave unintentionally when beginning a turf war.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, under certain conditions, parts severed from Raging Brachydios would go into an area that players cannot enter normally, thus not allowing them to carve for rewards.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the explosion effect from blast element would not sync correctly with certain monsters during online play.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where under certain conditions, Furious Rajang's behavior would become erratic if the final part of its pin attack is performed on breakable ground.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue during the Safi'jiiva siege where, if certain steps were taken, objectives would appear completed even if they had not been.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Player",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where, under certain conditions, the Third Fleet Master hairstyle would display unintentionally.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where equipping the Tracker's hairstyle along with the Pearlspring α+ head armor would cause the player character's appearance to display unintentionally.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where equipping the male Direwolf layered head armor along with specific hairstyles would cause the player character's appearance to display unintentionally",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where performing certain gestures with the Felyne Ishvalda Raiment α+ equipped would cause unnatural behavior.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the player would be sent flying in an unintentional direction if they are hit with Furious Rajang's pin attack while wearing the Rocksteady Mantle.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Tweaked the position of the Demonlord Mace sword & shield while sheathed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where canceling a grapple off of a monster near certain walls/boundaries in the tundra region of the Guiding Lands would result in the player getting stuck behind the wall or out of bounds.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that caused certain weapon poses to appear unnatural when a Glavenus or Acidic Glavenus insect glaive was equipped.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a player who was grappled onto a monster would be forcibly dropped when a dual blades user would hit a monster with the clutch claw's unique attack during online play.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mitigated an issue that caused the player to take damage despite successfully performing Foresight Slash.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where pendants couldn't be seen when the Banuk Coil α+ and an Aloy bow were equipped at the same time.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, when poisoned, the drinking animation for using certain items would be canceled.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, when certain conditions were met, the player would perform a guard animation with a weapon drawn.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Added an explanation to the Squad tutorial to state that sub-leaders can also invite players to the squad.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with the Available Quests screen for the Guiding Lands, where under certain conditions, players from one quest would appear in a quest session that has no players in it.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where planned research requests would be unlocked by an as of yet unavailable event.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where data remained on the custom radial menu when obtaining an incorrect item.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where an error would occur when checking add-on content while online.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other miscellaneous bug fixes have also been made.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

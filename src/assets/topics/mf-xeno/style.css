@@ -1,0 +1,258 @@
+/* Scoped copy of the original topic stylesheet (mf-xeno) */
+.topic-mf-xeno .letter01 span {
+	letter-spacing: 0.05em;
+}
+.topic-mf-xeno .img_w90 {
+	width: 90% !important;
+}
+.topic-mf-xeno .img_w80 {
+	width: 80% !important;
+}
+.topic-mf-xeno .img_w70 {
+	width: 70% !important;
+}
+.topic-mf-xeno .imgTxt {
+	text-align: center;
+	font-size: 8rem;
+	font-weight: 900;
+	color: #d7a289;
+	text-shadow: 4px 4px 0 #000, 4px 4px 20px #000, 4px 4px 10px #000, 4px 4px 5px #000;
+	line-height: 1.1;
+	margin-bottom: 0.5em;
+	letter-spacing: 0.1em;
+}
+.topic-mf-xeno .ds {
+	line-height: 2em;
+    text-shadow: 0px 0px 3px #000,0px 0px 0.1em #000,0px 0px 0.15em #000,0px 0px 0.15em #000,0px 0px 0.75em #000,0px 0px 0.75em #000,0px 0px 1em #000;
+}
+.topic-mf-xeno .content_box {
+	position: relative;
+	margin: auto;
+}
+.topic-mf-xeno .content_box + .content_box {
+	margin: 10% auto auto;
+}
+.topic-mf-xeno dl.date {
+	margin: 5% 4% auto;
+	width: auto;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.topic-mf-xeno dl.date dt {
+	background: #091d2d;
+	font-size: 1.6rem;
+	line-height: 1.2;
+	padding: 0.5em 2em;
+	color: #FFF;
+	text-align: center;
+}
+.topic-mf-xeno dl.date dd {
+	vertical-align: middle;
+	line-height: 1.2;
+	font-size: 3rem;
+	padding: 0.5em 0 0 0.5em;
+	color: #0e9ee3;
+	font-weight: 700;
+}
+.topic-mf-xeno dl.date dd big {
+	font-size: 150%;
+}
+.topic-mf-xeno .content_box .mainVisual {
+	margin: 5% -12%;
+}
+.topic-mf-xeno .content_box .textArea {
+	width:  100%;
+	margin: 5% auto;
+	letter-spacing: -.40em;
+}
+.topic-mf-xeno .content_box .textArea * {
+	letter-spacing: normal;
+}
+.topic-mf-xeno .content_box .textArea .movie {
+	display: inline-block;
+	margin: 2% 1% 5%;
+	width: 48%;
+}
+.topic-mf-xeno dl.detail {
+	display: table;
+	margin: 4% 0 0;
+}
+.topic-mf-xeno dl.detail dt {
+	display: table-cell;
+	width: 55%;
+	vertical-align: top;
+}
+.topic-mf-xeno dl.detail dd {
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 0 0 1em;
+}
+.topic-mf-xeno dl.detail dd h5 {
+	font-weight: 700;
+}
+.topic-mf-xeno dl.detail dd > * + p {
+	margin: 0.75em auto;
+}
+.topic-mf-xeno dl.detail dd > p + h5 {
+	margin: 1.5em auto auto;
+}
+.topic-mf-xeno .linkbtn.manual {
+	display: inline-block;
+	margin: 1.5em 2% auto;
+	width: 30%;
+}
+.topic-mf-xeno .linkbtn.manual a {
+	padding: 2em 2em;
+}
+.topic-mf-xeno .linkbtn.manual.ps4:before {
+	content: '';
+	width:  100%;
+	height: 1.6em;
+	display: table-cell;
+	background: url("/assets/images/common/ps4_b.png") center center / auto 100% no-repeat;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.topic-mf-xeno .linkbtn.manual.xone:before {
+	content: '';
+	width:  100%;
+	height: 2em;
+	display: table-cell;
+	background: url("https://www.monsterhunter.com/world-iceborne/topics/images/logo_xone.png") center center / auto 100% no-repeat;
+	position: absolute;
+	left: -0.5em;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.topic-mf-xeno .over_line {
+	border-top:1px solid #0b263d;
+	padding-top: 10%;
+	margin-bottom: 0;
+}
+.topic-mf-xeno .over_line .linkbtn {
+	margin:5% auto auto;
+	width: 50%;
+}
+@media only screen and (min-width: 751px) and (max-width: 960px) {
+.topic-mf-xeno .read {
+		font-size: 2.6vw;
+}
+.topic-mf-xeno .pc_tab_center {
+		text-align:center;
+}
+.topic-mf-xeno .pc_center {
+		text-align:inherit;
+}
+.topic-mf-xeno dl.date dd {
+		line-height: 1.2;
+		font-size: 3vw;
+}
+.topic-mf-xeno .linkbtn.manual {
+		width: 40%;
+}
+.topic-mf-xeno .linkbtn.manual span {
+		font-size: 2.4vw;
+		padding: 0.5em 1.5em 0.5em 4.5em;
+}
+}
+@media only screen and (max-width: 750px) {
+.topic-mf-xeno .bg-h3 h3 {
+		line-height: 1.2;
+}
+.topic-mf-xeno .img_w90 {
+		width: 100% !important;
+}
+.topic-mf-xeno .img_w80 {
+		width: 100% !important;
+}
+.topic-mf-xeno .img_w70 {
+		width: 100% !important;
+}
+.topic-mf-xeno dl.date {
+		margin: 5vw auto auto;
+		flex-wrap: wrap;
+		flex-direction:unset;
+}
+.topic-mf-xeno dl.date dt {
+		padding: 0.5em;
+		text-align: center;
+		font-size: 3vw;
+		line-height: 1.2;
+}
+.topic-mf-xeno dl.date dt .spacer {
+		display: inline-block;
+		padding-left: 1em;
+}
+.topic-mf-xeno dl.date dd {
+		display: block;
+		padding: 0;
+		width: 100%;
+		line-height: 1.2;
+		padding-top: 0.25em;
+		font-size: 5vw;
+		text-align: left;
+}
+.topic-mf-xeno .content_box .mainVisual {
+		margin-top: 10%;
+		margin-bottom: 10%;
+}
+.topic-mf-xeno .content_box .imgTxt {
+		font-size: 12vw;
+		text-shadow: 0 0 1vw #000, 0 0 4vw #000 , 0 0 0.5vw #000;
+}
+.topic-mf-xeno .content_box .textArea .text {
+		width: 100%;
+		margin-bottom: 5%;
+}
+.topic-mf-xeno .content_box .textArea .movie {
+		width: 100%;
+}
+.topic-mf-xeno dl.detail {
+		display: block;
+		margin: 5vw auto 10vw;
+}
+.topic-mf-xeno dl.detail dt {
+		display: block;
+		width: 100%;
+}
+.topic-mf-xeno dl.detail dd {
+		display: block;
+		width: 100%;
+		padding: 1em 0 0;
+}
+.topic-mf-xeno dl.detail dd > * + p {
+		margin: 0.75em auto;
+}
+.topic-mf-xeno dl.detail dd > p + h5 {
+		margin: 1.5em auto auto;
+}
+.topic-mf-xeno .linkbtn.manual {
+		width: 45%;
+}
+.topic-mf-xeno .linkbtn.manual a {
+		padding: 1em 0;
+}
+.topic-mf-xeno .linkbtn.manual.ps4:before {
+		height: 1em;
+		left: -0.5em;
+}
+.topic-mf-xeno .linkbtn.manual.xone:before {
+		height: 1.4em;
+		left: -0.8em;
+}
+.topic-mf-xeno .linkbtn.manual span {
+		font-size: 3.4vw;
+		padding: 0.5em 1.5em 0.5em 4.5em;
+}
+.topic-mf-xeno .over_line .follow-up {
+		text-align: left;
+}
+.topic-mf-xeno .over_line .linkbtn {
+		margin:10% auto auto;
+		width: 100%;
+}
+}

@@ -1,0 +1,224 @@
+/* Scoped copy of the original topic stylesheet (alatreon) */
+.topic-alatreon .link {
+	border: 3px solid #f00;
+	margin-bottom: 7%;
+}
+.topic-alatreon .link a {
+	display: block;
+	text-align: center;
+	padding: 1em 0;
+	font-size: 20px;
+	text-decoration: underline;
+	color: #f00;
+}
+.topic-alatreon .link a:hover {
+	text-decoration: none;
+}
+.topic-alatreon .img_w90 {
+	width: 90% !important;
+}
+.topic-alatreon .img_w80 {
+	width: 80% !important;
+}
+.topic-alatreon .img_w70 {
+	width: 70% !important;
+}
+.topic-alatreon .imgTxt {
+	height: 0;
+	white-space: nowrap;
+	text-indent: -9999px;
+	background-size: 100% auto !important ;
+}
+.topic-alatreon .ds {
+	line-height: 2em;
+    text-shadow: 0px 0px 3px #000,0px 0px 0.1em #000,0px 0px 0.15em #000,0px 0px 0.15em #000,0px 0px 0.75em #000,0px 0px 0.75em #000,0px 0px 1em #000;
+}
+.topic-alatreon .content_box {
+	position: relative;
+	margin:  10% auto;
+}
+.topic-alatreon .top.content_box {
+	margin: 0 auto;
+}
+.topic-alatreon dl.date {
+	margin: 5% auto 0;
+	width: auto;
+	display: table;
+}
+.topic-alatreon dl.date dt {
+	display: table-cell;
+	vertical-align: middle;
+	background: #091d2d;
+	font-size: 1.6rem;
+	padding: 1em 2em;
+	color: #FFF;
+}
+.topic-alatreon dl.date dd {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 4rem;
+	padding: 0 0 0 1em;
+	color: #0e9ee3;
+}
+.topic-alatreon .monsterName {
+    text-align: center;
+    font-size: 150px;
+    font-size: 8rem;
+    line-height: 1.6;
+    line-height: 1;
+    color: #dccae4;
+    text-shadow: 4px 4px 0 #000, 4px 4px 20px #000, 4px 4px 10px #000, 4px 4px 5px #000;
+    font-weight: bold;
+}
+.topic-alatreon .content_box .mainVisual {
+	position: absolute;
+	top: 0;
+	width: 140%;
+	margin-left: -20%;
+}
+.topic-alatreon .content_box .monsterText {
+	margin: 3% 0 101% 0;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+.topic-alatreon .movie {
+	width: 70%;
+}
+.topic-alatreon .figure_block {
+	margin: 5% auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.topic-alatreon .figure_block figcaption,
+.topic-alatreon .figure_block img {
+	display: block;
+	width: 48% !important;
+}
+.topic-alatreon .clm_2 {
+	margin: 1% auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.topic-alatreon .equip.clm_2 {
+	margin: 5% auto;
+	justify-content: center;
+	align-items: flex-end;
+}
+.topic-alatreon .clm_2 figure {
+	text-align: center;
+	width: 48%;
+}
+.topic-alatreon .equip.clm_2 figure {
+	margin: 0 1%;
+}
+.topic-alatreon .equip.clm_2 figure:nth-of-type(n+2) {
+	margin-top: 5%;
+}
+.topic-alatreon .clm_2 figure img {
+	padding: 0.25em 0;
+}
+.topic-alatreon .clm_2 figure img +figcaption {
+	box-sizing: border-box;
+	padding: 0 0.75em;
+	text-align: left;
+}
+.topic-alatreon .over_line {
+	border-top:1px solid #0b263d;
+	padding-top: 10%;
+	margin-bottom: 0;
+}
+.topic-alatreon .over_line .linkbtn {
+	margin:5% auto auto;
+	width: 50%;
+}
+@media only screen and (max-width: 750px) {
+.topic-alatreon .link a {
+		padding: 1em;
+		font-size: 4vw;
+}
+.topic-alatreon .img_w90 {
+		width: 100% !important;
+}
+.topic-alatreon .img_w80 {
+		width: 100% !important;
+}
+.topic-alatreon .img_w70 {
+		width: 100% !important;
+}
+.topic-alatreon dl.date {
+		margin: 10% auto;
+		width: auto;
+		max-width: 100%;
+		display: block;
+}
+.topic-alatreon dl.date dt {
+		display: inline-block;
+		font-size: 3vw;
+		padding: 1em 1.5em;
+}
+.topic-alatreon dl.date dd {
+		display: block;
+		width: 100%;
+		text-align: center;
+		font-size: 7.6vw;
+		padding: 0;
+}
+.topic-alatreon .monsterName {
+		font-size: 10vw;
+		text-shadow: 0 0 1vw #000, 0 0 4vw #000 , 0 0 0.5vw #000;
+		font-weight: 900;
+		margin-bottom: 94vw;
+}
+.topic-alatreon .content_box .monsterText {
+		width: 100%;
+		margin: 0 0 5% 0;
+		font-size: 4vw;
+		text-align: left;
+}
+.topic-alatreon .movie {
+		width:100%;
+}
+.topic-alatreon .figure_block {
+		margin: 5% auto;
+		width: 100%;
+		display: block;
+}
+.topic-alatreon .figure_block figcaption,
+.topic-alatreon .figure_block img {
+		display: block;
+		width: 100% !important;
+		margin: 0.5em 0;
+}
+.topic-alatreon .clm_2 {
+		margin: 5% auto;
+		display: block;
+}
+.topic-alatreon .clm_2 figure {
+		width: 100%;
+		margin: 0.5em 0;
+}
+.topic-alatreon .clm_2 figure:nth-of-type(n) {
+		margin-top: 5%;
+}
+.topic-alatreon .clm_2 figure img {
+		padding: 0.25em 0;
+}
+.topic-alatreon .clm_2 figure img +figcaption {
+		box-sizing: border-box;
+		padding: 0 0.75em;
+		text-align: left;
+}
+.topic-alatreon .over_line .follow-up {
+		text-align: left;
+}
+.topic-alatreon .over_line .linkbtn {
+		margin:10% auto auto;
+		width: 100%;
+}
+}

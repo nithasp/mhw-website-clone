@@ -1,0 +1,28 @@
+<div class="lower lower--media">
+  <app-logo-iceborne></app-logo-iceborne>
+
+  <section class="content">
+    <header class="content__header">
+      <h1 class="content__header__title">Media</h1>
+    </header>
+
+    <div class="content__body media__body" *ngFor="let group of groups">
+      <ul class="carousel carousel-media" [ngClass]="group">
+        <li
+          *ngFor="let item of byGroup[group]"
+          class="carousel__item thumbnailMedia"
+          [class.up]="item.up"
+        >
+          <div class="thumbnailMedia__text">
+            <p [innerHTML]="item.title"></p>
+          </div>
+          <a [href]="item.url" target="_blank" rel="noopener">
+            <figure class="thumbnailMedia__figure">
+              <img [src]="item.thumb" alt="" />
+            </figure>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>

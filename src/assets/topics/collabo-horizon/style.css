@@ -1,0 +1,258 @@
+/* Scoped copy of the original topic stylesheet (collabo-horizon) */
+.topic-collabo-horizon .titleImg {
+	margin-bottom: 5%;
+}
+.topic-collabo-horizon .titleImg + .content_box {
+	margin: 0;
+}
+.topic-collabo-horizon .content_box {
+	position: relative;
+	margin:  10% auto;
+}
+.topic-collabo-horizon .content_box .mainVisual {
+	position: relative;
+	width: 53.58695%;
+}
+.topic-collabo-horizon .content_box .movie {
+	position: absolute;
+	top:16%;
+	right: 5%;
+	width: 36.875%;
+	font-size: 1.3rem;
+}
+.topic-collabo-horizon .content_box .text01 {
+	position: absolute;
+	bottom:0;
+	right: 0;
+	width: 46.875%;
+	font-size: 2rem;
+}
+.topic-collabo-horizon .content_box .dateArea {
+	position: absolute;
+	width: 55%;
+	right: 0;
+	top: -5%;
+}
+.topic-collabo-horizon dl.date {
+	margin: 5% auto;
+	width: auto;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.topic-collabo-horizon dl.date dt {
+	background: #091d2d;
+	font-size: 1.6rem;
+	line-height: 1.2;
+	padding: 0.5em 2em;
+	color: #FFF;
+	text-align: center;
+}
+.topic-collabo-horizon dl.date dd {
+	width: 100%;
+	vertical-align: middle;
+	font-size: 2.4rem;
+	padding: 0.5em 0 0 0.5em;
+	color: #0e9ee3;
+	font-weight: 700;
+}
+.topic-collabo-horizon dl.date dd big {
+	font-size: 150%;
+}
+.topic-collabo-horizon .dateArea .date {
+	flex-wrap: wrap;
+	flex-direction: unset;
+	align-items: flex-start;
+}
+.topic-collabo-horizon .dateArea .date dd {
+	line-height: 1.2;
+	font-size: 2.4rem;
+}
+.topic-collabo-horizon .dateArea .date dd span {
+	color: #091d2d;
+	font-size: 80%;
+	display: block;
+}
+.topic-collabo-horizon .dateArea .date dd span:nth-of-type(n+2) {
+	margin-top: 0.5em;
+}
+.topic-collabo-horizon section.quest {
+	padding:10% 0 0;
+}
+.topic-collabo-horizon section.quest .date {
+	padding: 1em;
+}
+.topic-collabo-horizon section.quest .date dd {
+	font-weight: normal;
+}
+.topic-collabo-horizon dl.detail {
+	display: table;
+	margin: 4% 0 0;
+}
+.topic-collabo-horizon dl.detail dt {
+	display: table-cell;
+	width: 55%;
+	vertical-align: top;
+}
+.topic-collabo-horizon dl.detail dd {
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 0 0 1em;
+}
+.topic-collabo-horizon dl.detail dd h5 {
+	font-weight: 700;
+}
+.topic-collabo-horizon dl.detail dd > * + p {
+	margin: 0.75em auto;
+}
+.topic-collabo-horizon dl.detail dd > p + h5 {
+	margin: 1.5em auto auto;
+}
+.topic-collabo-horizon .read + dl.detail {
+	margin-top: 2.5%;
+}
+.topic-collabo-horizon .over_line {
+	border-top:1px solid #0b263d;
+	padding-top: 10%;
+	margin-bottom: 0;
+}
+.topic-collabo-horizon .over_line .linkbtn {
+	margin:0 auto;
+	width: 60%;
+}
+@media only screen and (min-width: 751px) and (max-width: 960px) {
+.topic-collabo-horizon .content_box .movie {
+		font-size:1.4vw;
+}
+.topic-collabo-horizon .content_box .text01 {
+		font-size: 2vw;
+}
+.topic-collabo-horizon dl.date {
+		justify-content: flex-start;
+}
+.topic-collabo-horizon .dateArea .date dd {
+		line-height: 1.2;
+		font-size: 2.4vw;
+}
+.topic-collabo-horizon .dateArea .date dd span {
+		font-size: 80%;
+		display: block;
+}
+.topic-collabo-horizon dl.date dt {
+		font-size: 1.6vw;
+}
+.topic-collabo-horizon dl.date dd {
+		font-size: 2.4vw;
+}
+.topic-collabo-horizon .detail {
+		font-size: 1.8vw;
+}
+}
+@media only screen and (max-width: 750px) {
+.topic-collabo-horizon .bg-h2 h2 {
+		font-size:4vw !important;
+}
+.topic-collabo-horizon .attention {
+		text-align: left;
+}
+.topic-collabo-horizon .content_box .mainVisual {
+		width: 100%;
+}
+.topic-collabo-horizon .content_box .movie {
+		position: relative;
+		top: inherit;
+		right: inherit;
+		width: 100%;
+		margin:8vw auto auto;
+}
+.topic-collabo-horizon .content_box .text01 {
+		position: relative;
+		top: inherit;
+		right: inherit;
+		width: 100%;
+		margin: 8vw auto auto;
+		font-size: 110%;
+}
+.topic-collabo-horizon .content_box .dateArea {
+		position: relative;
+		top: inherit;
+		right: inherit;
+		width: 100%;
+}
+.topic-collabo-horizon dl.date {
+		margin: 5vw auto;
+		flex-wrap: wrap;
+		flex-direction:unset;
+}
+.topic-collabo-horizon dl.date dt {
+		padding: 0.5em;
+		text-align: center;
+		font-size: 3vw;
+		line-height: 1.2;
+}
+.topic-collabo-horizon dl.date dt .spacer {
+		display: inline-block;
+		padding-left: 1em;
+}
+.topic-collabo-horizon dl.date dd {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		line-height: 1.2;
+}
+.topic-collabo-horizon .dateArea .date dd {
+		padding-top: 0.25em;
+		font-size: 4.4vw;
+		text-align: left;
+}
+.topic-collabo-horizon .dateArea .date dd span {
+		font-size: 80%;
+		display: block;
+}
+.topic-collabo-horizon section.quest .date {
+		padding: 0.5em;
+}
+.topic-collabo-horizon section.quest .date dd {
+		font-size: 4vw !important;
+		line-height: 1.6;
+		text-align: left;
+}
+.topic-collabo-horizon section.quest .date.short {
+		flex-wrap: nowrap;
+		justify-content: center;
+}
+.topic-collabo-horizon section.quest .date.short dd {
+		width: auto;
+		padding-left: 0.5em;
+}
+.topic-collabo-horizon dl.detail {
+		display: block;
+		margin: 3vw auto 10vw;
+}
+.topic-collabo-horizon dl.detail:nth-last-child(1) {
+		margin: 10vw auto 0;
+}
+.topic-collabo-horizon dl.detail dt {
+		display: block;
+		width: 100%;
+}
+.topic-collabo-horizon dl.detail dd {
+		display: block;
+		width: 100%;
+		padding: 1em 0 0;
+}
+.topic-collabo-horizon dl.detail dd > * + p {
+		margin: 0.75em auto;
+}
+.topic-collabo-horizon dl.detail dd > p + h5 {
+		margin: 1.5em auto auto;
+}
+.topic-collabo-horizon .read + dl.detail {
+		margin-top: 3vw;
+}
+.topic-collabo-horizon .over_line .linkbtn {
+		width: 100%;
+}
+}

@@ -1,0 +1,197 @@
+{
+ "ver": "ver15_10",
+ "label": "Ver. 15.10",
+ "title": "Update Ver. 15.10 Outline",
+ "subtitle": "（PlayStation4: Update 15.10 / Xbox One: Update 15.1.0.0）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd> Friday, December 4, 2020 0:00 (UTC)</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 770 MB (only this update)</li> <li>Xbox One: About 450 MB (only this update)</li> </ul> </dd> </dl> <p class=\"list-bl\">Features marked with a <span class=\"ic-ib\"></span> can only be used by players who have purchased Monster Hunter World: Iceborne.</p>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "General",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Artemis \"Monster Hunter\" Movie Quest has been added, and is available as event quests for a limited time.<br>* To participate in the Artemis \"Monster Hunter\" Movie Quest, you must be Master Rank 1 or higher.<br>* For details on the availability of the event quests, please check event schedule available on the official site, etc.<br>* The Monster Hunter movie may be available at different times depending on your region. Please check the official website for more details.<br><br>MOVIE &copy;2020 CONSTANTIN FILM PRODUKTION GmbH<br>&copy;2020 Columbia TriStar Marketing Group, Inc. All Rights Reserved.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "System",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "New BGM can now be played in your room in Seliana.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "The Red Dragon siege event will now feature 1 and 2 player scaling difficulty.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "You will no longer be able to send or approve squad join requests.<br>(If you are in the same Gathering Hub as a player, you can still join squads and send invitations.)",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The following items can now be melded at the Elder Melder:<br>- Spring Blossom Tickets, Summer Twilight Tickets, Autumn Harvest Tickets, Winter Star Tickets, and Appreciation Tickets.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The following items can now be melded at the Elder Melder:<br>- Full Bloom Tickets, Sizzling Spice Tickets, Fun Fright Tickets, Joyful Tickets, Gratitude Tickets.<br>- VIP Full Bloom Tickets, VIP Sizzling Spice Tickets, VIP Fun Fright Tickets, VIP Joyful Tickets, and VIP Gratitude Tickets.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "userInterface",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Base/Facility",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed a rare issue during the quests \"The Black Dragon\" and \"Fade to Black\" where guest players couldn't return to camp.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where after completing the special assignment \"The Black Dragon\", if you don't speak to the General while on an expedition afterwards, an exclamation mark would appear indefinitely on the mini-map when descending to Castle Schrade when joining the special assignment as a guest player.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that caused a space to appear on the base of the Fatalis monster figure's right wing.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that occurs when playing offline in your Seliana room where an exclamation mark would appear next to the name of a decor category even if none of the individual decor items in that category have an exclamation mark.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Monsters",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue that caused Scarred Yian Garuga to become trapped or unable to land on certain terrain in the Ancient Forest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if Fatalis is on top of a trap, the monster would not be affected by the clutch claw's claw attack, parts could not be broken, it would not flinch from parts being damaged, it could not be knocked down by heavy weaponry, nor could it be afflicted with paralysis or sleep.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Player",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Updated the model of the Deathbow Vaal Velos bow and Blackveil Vaal Hazak layered weapon parts, as they were using the normal Vaal Hazak model and not Blackveil Vaal Hazak.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that caused the Safi α+ Layered Torso to stretch when it was equipped along with the Passionate Body α+ or Passionate Layered Chest armor on female characters.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue on male characters where the black pupil in the Dragonhide β+'s eye would disappear when the armor was equipped at the same time as other specific head armor.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "In line with the event quests being available indefinitely, mentions of availability for the quests \"The Evening Star\", \"Dawn of the Death Star\" and \"Fade to Black\" have been removed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if you set comments for certain gestures from \"Off\" to \"On\", the setting would change back to \"Off\" unintentionally if you go back to the title screen and load the data again.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where item order would change unintentionally when equipping a loadout.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other miscellaneous bug fixes have also been made.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

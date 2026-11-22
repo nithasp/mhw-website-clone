@@ -1,0 +1,76 @@
+<div class="lower lower--monster">
+  <app-page-hero
+    title="Monsters"
+    [name]="main.name"
+    [description]="main.description"
+    bg="/assets/images/monster/main_bg.jpg"
+    bgSp="/assets/images/monster/main_bg_sp.jpg"
+    movie="/assets/video/monster_mhw.mp4"
+  >
+    <a
+      class="btn_loupe"
+      [href]="main.large"
+      target="_blank"
+      rel="noopener"
+      aria-label="Enlarge artwork"
+      (click)="openLarge($event, main.large, main.name)"
+      appAnimate="fade"
+    ><i class="iconf iconf-loupe"></i></a>
+    <a class="btn_movie" [href]="main.video" target="_blank" rel="noopener" appAnimate="fade">
+      <p>Watch Video</p>
+    </a>
+  </app-page-hero>
+
+  <section class="content">
+    <div class="content__body">
+      <article
+        *ngFor="let monster of monsters"
+        class="article"
+        [ngClass]="['article-' + monster.side, monster.key]"
+      >
+        <dl class="article__spec">
+          <dd class="article__spec__role" *ngIf="monster.role" appTypeText="title">{{ monster.role }}</dd>
+          <dt class="article__spec__name" appTypeText="title" [innerHTML]="monster.name"></dt>
+          <dd class="article__spec__description" appTypeText [innerHTML]="monster.description"></dd>
+          <a
+            class="btn_loupe"
+            [href]="monster.large"
+            target="_blank"
+            rel="noopener"
+            aria-label="Enlarge artwork"
+            (click)="openLarge($event, monster.large, monster.name)"
+            appAnimate="fade"
+          ><i class="iconf iconf-loupe"></i></a>
+          <a
+            class="btn_movie"
+            [class.disabled]="!monster.video"
+            [attr.href]="monster.video"
+            target="_blank"
+            rel="noopener"
+            appAnimate="fade"
+          >
+            <p>Watch Video</p>
+          </a>
+        </dl>
+        <figure class="article__figure" [appAnimate]="monster.side === 'r' ? 'left' : 'right'" animateSpStatic>
+          <picture>
+            <source media="(max-width: 1000px)" [srcset]="monster.imageSp" />
+            <img [src]="monster.image" [alt]="monster.name" />
+          </picture>
+        </figure>
+      </article>
+    </div>
+
+    <app-btn-already
+      small
+      title="Go here for more information on previous monsters."
+      href="http://monsterhunterworld.com/us/ecosystem/01_01.php"
+    ></app-btn-already>
+  </section>
+
+  <app-image-lightbox
+    [src]="lightbox?.src ?? null"
+    [alt]="lightbox?.alt ?? ''"
+    (closed)="lightbox = null"
+  ></app-image-lightbox>
+</div>

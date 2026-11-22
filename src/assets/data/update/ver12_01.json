@@ -1,0 +1,630 @@
+{
+ "ver": "ver12_01",
+ "label": "Ver. 12.01",
+ "title": "Update Ver. 12.01 Outline",
+ "subtitle": "（PlayStation4: Update 12.01 / Xbox One: Update 12.0.0.1）",
+ "banners": [
+  {
+   "title": "Stygian Zinogre — Quest Information",
+   "route": "/topics/s-zinogre",
+   "image": "/assets/images/update/bnr_stygian-zinogre.jpg"
+  },
+  {
+   "title": "Safi'jiiva — Quest Information",
+   "route": "/topics/mf-xeno",
+   "image": "/assets/images/update/bnr_mf-xeno.jpg"
+  }
+ ],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Thursday, December 5 0:00 (UTC)</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 2.1GB (only this update)</li> <li>Xbox One: About 2.8GB (only this update)</li> </ul> </dd> </dl> <dl> <p class=\"list-bl\">Features marked with a <span class=\"ic-ib\"></span> can only be used by players who have purchased Monster Hunter World: Iceborne.</p> </dl>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "General",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Added cutscene that unlocks the Tundra Region in the Guiding Lands.<figure><img src=\"/assets/images/update/ver12_01_img01.jpg\"></figure>",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Added new weapon trees, armor, and skills.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Added Stygian Zinogre. (Stygian Zinogre will appear in a cutscene in the Guiding Lands, after finishing the story of Iceborne.)",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Added a new unknown monster.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "A tempered version of Ruiner Nergigante will now appear in the game.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Action",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Removed the damage reaction from the startup of the sword & shield's Claw Uppercut.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "The sword & shield's Claw Uppercut can now soften a monster's hide.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Adjusted damage on the sword & shield's Perfect Rush.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Adjusted design on how other players are knocked back from explosions caused by the gunlance's Wyrmstake Blast.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted various dual blade actions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Instead of dropping slinger ammo, the dual blades' Spinning Rising Slash will now wound parts easier.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where cluster bomb reload speed was normal or reload wouldn't perform while aiming when using the heavy bowgun.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted design on the hunting horn's Extended Health Recovery so health could be regained even when taking damage over time.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted how much ammo is used by the flinch shot when the Slinger Capacity skill is active.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Adjusted the Frostcraft skill so that the insect glaive will no longer consume its gauge when performing a moving mounted attack.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "System",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "New decor can now be placed in your room in Seliana.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New BGM can now be played in your room in Seliana.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New designs for the Squad Card added.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New Pendants added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Starter-friendly Defender weapon line added (forgeable at the Smithy).",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Starter-friendly Defender α armor set added (purchasable from the Armory).",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New feature added to upgrade armor to its maximum level automatically with the available armor spheres.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When obtaining analyzed special tracks in the Guiding Lands or when analysis is finished, other players in your expedition will now obtain the same special tracks.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "The leader of the Guiding Lands expedition can now decrease specific region levels manually by speaking to the Handler.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New layered armor added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New Weapon Pose added. Your hunter will perform different poses depending on the equipped weapon.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Added some Guiding Lands materials to the lineup of possible items that you can meld at the Elder Melder.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Region Level Fix option available while in the Guiding Lands.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Changed design so all ammo types are reloaded when exiting your tent with a bowgun equipped.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Red, white, and, orange Kinsect extract can now be harvested from the training area's wagon.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Shining Wyvern Blade was renamed to Platinum Dawn. (This name was changed to match its appearance)",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Lowered the frequency of the Palico's voice playback while in standby mode.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The following decorations are now easier to obtain:",
+       "ib": true,
+       "nest": [
+        {
+         "type": "text",
+         "html": "Blaze Jewel+ 4, Stream Jewel+ 4, Frost Jewel+ 4, Bolt Jewel+ 4, Dragon Jewel+ 4, Venom Jewel+ 4, Paralyzer Jewel+ 4, Sleep Jewel+ 4, Blast Jewel+ 4",
+         "ib": false
+        }
+       ]
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "userInterface",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Base/Facility",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue with the priority level of certain meals added to the canteen in Monster Hunter World: Iceborne.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue that wouldn't allow you to create Rajang items obtained from the Guiding Lands at the Elder Melder.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the music player in your room in Seliana wouldn't appear.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the game would freeze when displaying certain dual blades in the Equipment Display in Your Room in Seliana.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where when placing pets via the Housekeeper, specific steps would cause an error.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted the conditions to unlock the BGM \"The Invading Tyrant - Bazelgeuse\" for the music player.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where after eating a meal at the Canteen, the time before your stamina is reduced isn't reset.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Monsters",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where Brachydios would get stuck on top of ledges in the special arena.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where during multiplayer, the explosions caused by Tempered Brachydios' slime would not be synchronized between players.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain monsters would always be displayed during low rank quests in the Ancient Forest even if they don't appear in the quest itself.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Tweaked the rewards upon breaking Zinogre's head, along with adding rewards.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Legiana would continue to walk instead of fly after an avalanche is triggered in area 4 of the Hoarfrost Reach.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Nightshade Paolumu wouldn't drop a shiny after a turf war with certain monsters.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Velkhana wouldn't sustain damage in its turf war with Ruiner Nergigante.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where stamina wouldn't decrease while mounted on top of Gold Rathian.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where master rank Lunastra wouldn't use its flare attack.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Gold Rathian would take more time than usual to land after attacking with its hellfire breath.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, in the Coral Highlands, Namielle would sometimes fall into an area it isn't designated to go.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain attacks from monsters would hit twice.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the clutch claw would work during certain monster actions even when it shouldn't.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the color of Seething Bazelgeuse's scales wouldn't correspond to its powered-up state.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Namielle's water pools wouldn't react to the monster's electric attacks.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Gold Rathian would roar non-stop if led to a specific area of the Elder's Recess.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue in Ver. 11.50 where analyzed special tracks could be obtained while mining from Uragaan or Radobaan's back in the Guiding Lands. We apologize for not notifying players of this earlier.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted how long an elder dragon and certain monsters stay in the same area of the Guiding Lands.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Player",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where the Long Sword's Foresight Slash, Iai Slash or the Evasion Mantle would successfully trigger an evade against Velkhana's frost, large monsters being knocked down, and other behavior that normally does not have any attack properties.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Lunastra's info in the Guiding Lands menu wouldn't appear under certain conditions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where if you don't have the Surveyor Kit, and under certain conditions talked to the Lynian Researcher, the first tutorial for the Surveyor Set wouldn't appear and you wouldn't be able to obtain the item.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where in the Coral Highlands, monsters would get caught in environmental traps instead of being knocked down as a result of colliding with a wall from a clutch claw flinch shot.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Health Boost skill increases wouldn't display properly to other players during multiplayer.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where only the effect sound plays in certain situations after the heavy bowgun autoloads its ammo.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where icon colors would not display correctly when upgrading a weapon.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the upgrade state of equipment wouldn't be reflected when updating an equipment loadout.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where in specific situations, slinger ammo would get embedded into walls, etc., when performing a clutch claw weapon attack on a monster.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Master Gatherer skill effect wouldn't activate when mining with the pickaxe.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where auto shoutouts would display unintentionally after using the clutch claw to slam a monster into a wall.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the attack and control guide would not match after a backwards evade with the sword & shield.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where skills related to draw attacks would be consumed if the draw attack came into contact with Velkhana's frost.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a flinch shot would occur when grappled onto a monster, even though no button had been pressed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a critical hit effect would appear when wounding a monster's hide after hitting it with the sword & shield's Claw Uppercut.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Made adjustments to the dual blades' Spinning Rising Slash along with increasing some elemental scaling.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where players would still be inflicted with an elemental blight even when guarding certain monster attacks.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the position of certain weapons while sheathed was inaccurate.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where, while searching under specific criteria, the 2nd page of SOS flares couldn't be viewed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the effect for the charge blade's Power Axe Mode would continue to display.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where player character behavior would become erratic if the player becomes zombified in mid-air while close to a ledge.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where some skin color on the player character would not display properly when the zombification status is removed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the default color for the Gastodon layered armor was unnatural.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where correct defense numbers were not being shown when defense-related skills are activated when forging or changing equipment.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "[PS4] Fixed an issue where, when holding down the Triangle button to continue to reload while aiming the Heavy Bowgun, the reload would not continue after reloading Cluster Bombs.<br><br>[XBOX] Fixed an issue where, when holding down the Y button to continue to reload while aiming the Heavy Bowgun, the reload would not continue after reloading Cluster Bombs.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Palico commands would change places in the item window after switching Palico gadgets.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the hunter would not perform an action when a button is pressed after the player uses the left stick and a buffer input is recognized.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": false,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where the directional button camera controls wouldn't respond at times when using Item Control Settings Type 3 or Type 4.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Select Ammo/Coating entry in the long-range weapon control guide would not display when using Item Control Setting Type 2.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "[PS4] Fixed an issue where multiple actions would be performed at the same time when the player uses the Surveyor Kit, and the functionality of the L1/R1 buttons is switched in the Control Settings.<br><br>[XBOX] Fixed an issue where multiple actions would be performed at the same time when the player uses the Surveyor Kit, and the functionality of the LB/RB buttons is switched in the Control Settings.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where characters could fall off the map in the Coral Highlands.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the analysis gauge would disappear when the player obtained analysis in progress special tracks or analyzed special tracks.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Molys would continue to dig into the ground.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where activation conditions for skills that raise elemental power wouldn't display properly when inspecting other player's equipment.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the monster's information wouldn't sync properly between players when the monster is near death.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed erroneous information in the \"A Man and his Shield - 5\" and \"The Boaboa Challenge - 6\" treasure tip.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where multiple monster BGM would frequently switch and play during a quest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the order of the item pouch would unintentionally change upon closing the application.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where ranking information couldn't be retrieved if a deleted player was registered in the rankings.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Updated an error message that is displayed when saved data is damaged.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where portions of save data would be erased under certain conditions for users who have cleared the \"Paean of Guidance\" and \"To the Guided, A Paean\" quest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other minute game balance tweaks and minor bugs fixes have been made.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

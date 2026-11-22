@@ -1,0 +1,51 @@
+<div class="lower lower--story">
+  <app-page-hero
+    sub="New Element"
+    title="Story"
+    name="A grand new assignment in uncharted lands."
+    description="Strange monster phenomena. <br>And a new mystery at the heart of it all..."
+    bg="/assets/images/story/main_bg.jpg"
+    bgSp="/assets/images/story/main_bg_sp.jpg"
+  ></app-page-hero>
+
+  <section class="content">
+    <header class="content__header" appAnimate>
+      <h1 class="content__header__title">Summary</h1>
+    </header>
+    <div class="content__body">
+      <article class="article">
+        <figure class="article__figure">
+          <app-fade-slider class="article__figure__slider" [images]="slides1" appAnimate></app-fade-slider>
+          <figcaption class="article__figure__text textbox" appAnimate>
+            <p appTypeText>
+              A flock of Legiana were spotted fleeing from the Ancient Forest. Sensing they were on the cusp of
+              something unusual, the Research Commission decided to board the Third Fleet's airship and crossed the
+              sea in pursuit. What they found past the rough seas was a new landmass, locked beneath snow and ice.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="article">
+        <figure class="article__figure article__figure_full">
+          <app-fade-slider class="article__figure__slider" [images]="slides2" appAnimate></app-fade-slider>
+          <figcaption class="article__figure__text textbox" appAnimate>
+            <p appTypeText>
+              The Research Commission ventures out into a new ice-cold region known as the "Hoarfrost Reach."This
+              new region is completely unexplored, so discovering new monsters and endemic life will be one of the
+              Commission's most important goals.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+    </div>
+
+    <header class="content__header" appAnimate>
+      <h1 class="content__header__title">Major Characters</h1>
+    </header>
+    <div class="content__body">
+      <app-chara-list [characters]="characters" (open)="openIndex = $event"></app-chara-list>
+    </div>
+  </section>
+
+  <app-chara-detail-modal prefix="story" [characters]="characters" [(index)]="openIndex"></app-chara-detail-modal>
+</div>

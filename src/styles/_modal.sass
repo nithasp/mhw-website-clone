@@ -1,0 +1,506 @@
+// ===========================================================================
+// Modals (ModalComponent shell + the detail layouts shown inside it)
+// Ported from the original site's magnific-popup customisations.
+// ===========================================================================
+$sp: "only screen and (max-width: 1000px)"
+$ease-ui: cubic-bezier(0.25, 0.25, 0.75, 0.75)
+$serif: "Noto Serif JP", serif
+
+.mh-modal
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: 99998
+    animation: mhModalIn 0.3s ease forwards
+    &.is-closing
+        animation: mhModalOut 0.2s ease forwards
+    font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", "Hiragino Kaku Gothic ProN", "游ゴシック", "メイリオ", meiryo, sans-serif
+    color: #0b263d
+    img
+        width: 100%
+        height: auto
+        object-fit: fill
+
+.mh-modal__bg
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    background-color: #FFF
+    opacity: .8
+
+.mh-modal__wrap
+    position: fixed
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    overflow-x: hidden
+    overflow-y: auto
+    -webkit-overflow-scrolling: touch
+    outline: none
+
+.mh-modal__content
+    position: relative
+    z-index: 1
+    width: 100%
+    min-height: 100%
+
+// close button (btn_close.png)
+.mh-modal__close
+    position: fixed
+    z-index: 3
+    top: 3.33333vw
+    right: 3.33333vw
+    width: 3.33333vw
+    height: 3.33333vw
+    padding: 0
+    border: none
+    cursor: pointer
+    background: url("/assets/images/common/btn_close.png") center / cover no-repeat
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4)
+    text-indent: -9999px
+    overflow: hidden
+    @media #{$sp}
+        top: 2.66667vw
+        right: 2.66667vw
+        width: 10.66667vw
+        height: 10.66667vw
+
+// gallery arrows (btn_carousel_prev / next)
+.mh-modal__arrow
+    position: fixed
+    z-index: 3
+    top: 50%
+    width: 3.4vw
+    height: 3.4vw
+    margin-top: -1.7vw
+    padding: 0
+    cursor: pointer
+    border: 2px solid #0b263d
+    background-size: cover
+    background-color: transparent
+    transition: border 0.2s $ease-ui, background-image 0.2s $ease-ui
+    &:hover
+        border-color: #0e9ee3
+    &--prev
+        left: 3.33333vw
+        background-image: url("/assets/images/common/btn_carousel_prev.png")
+        &:hover
+            background-image: url("/assets/images/common/btn_carousel_prev_on.png")
+    &--next
+        right: 3.33333vw
+        background-image: url("/assets/images/common/btn_carousel_next.png")
+        &:hover
+            background-image: url("/assets/images/common/btn_carousel_next_on.png")
+    @media #{$sp}
+        width: 13.33333vw
+        height: 13.33333vw
+        margin-top: -6.66667vw
+        &:hover
+            border-color: #0b263d
+        &--prev
+            left: 2.66667vw
+            transform: scale(.75)
+            transform-origin: 0
+            &:hover
+                background-image: url("/assets/images/common/btn_carousel_prev.png")
+        &--next
+            right: 2.66667vw
+            transform: scale(.75)
+            transform-origin: 100%
+            &:hover
+                background-image: url("/assets/images/common/btn_carousel_next.png")
+
+@keyframes mhModalIn
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@keyframes mhModalOut
+    from
+        opacity: 1
+    to
+        opacity: 0
+
+// ---------------------------------------------------------------------------
+// story / base character detail
+// ---------------------------------------------------------------------------
+.modal_detail
+    font-size: 16px
+    .modal_detail__article
+        position: relative
+        margin: 4vw 0
+        min-height: 41.66667vw
+        background-color: #f0f9fc
+        @media #{$sp}
+            margin: 13.33333vw 0
+            padding: 2.66667vw 0 10.66667vw
+    .modal_detail__article__figure
+        position: absolute
+        z-index: 10
+        top: -4.66667vw
+        left: 11.33333vw
+        height: 50vw
+        img
+            width: auto
+            height: 100%
+        @media #{$sp}
+            position: relative
+            top: 0
+            left: 0
+            margin: 0 auto
+            width: 77.33333vw
+            height: auto
+            img
+                width: 100%
+                height: auto
+    .modal_detail__article__dl
+        position: relative
+        z-index: 0
+        padding: 8.66667vw 9.33333vw 0 50vw
+        @media #{$sp}
+            padding: 2.66667vw 13.33333vw 0
+    .modal_detail__article__dl__dt
+        font-size: 3.33333vw
+        line-height: 1.6
+        font-family: $serif
+        font-weight: bold
+        @media #{$sp}
+            font-size: 6.66667vw
+    .modal_detail__article__dl__dt__dd
+        font-size: 1.2vw
+        line-height: 1.6
+        margin-top: 2.66667vw
+        p
+            margin-top: 2vw
+            &:first-child
+                margin-top: 0
+        @media #{$sp}
+            font-size: 3.46667vw
+            margin-top: 5.33333vw
+            p
+                margin-top: 4vw
+
+// per character artwork offsets (same as the original)
+=chara-figure($left, $sp-left: null, $sp-width: null, $width: null)
+    .modal_detail__article__figure
+        left: $left
+        @if $width
+            width: $width
+        @media #{$sp}
+            @if $sp-left
+                left: $sp-left
+            @if $sp-width
+                width: $sp-width
+
+.base_detail_01
+    +chara-figure(13.33333vw, auto, 66.66667vw)
+.base_detail_02
+    +chara-figure(16.33333vw, auto, 66.66667vw)
+.base_detail_03
+    +chara-figure(12.66667vw, auto, 77.33333vw)
+    @media #{$sp}
+        .modal_detail__article__figure
+            margin-left: 17.33333vw
+.base_detail_04
+    +chara-figure(12.66667vw, auto, 77.33333vw)
+    .modal_detail__article__figure
+        height: 41.66667vw
+        top: 0vw
+        @media #{$sp}
+            height: auto
+            top: auto
+            margin-left: 17.33333vw
+.story_detail_01
+    +chara-figure(15.33333vw, 0)
+.story_detail_02
+    +chara-figure(15.66667vw, 5vw, 66.66667vw)
+.story_detail_03
+    +chara-figure(18.33333vw, 8vw, 58.66667vw)
+.story_detail_04
+    +chara-figure(9.33333vw, 0, 77.33333vw)
+.story_detail_05
+    +chara-figure(18.33333vw, 3vw, 53.33333vw)
+.story_detail_06
+    +chara-figure(11.33333vw, 0, 133.33333vw, 72.8vw)
+    @media #{$sp}
+        .modal_detail__article__figure
+            margin-top: -13.33333vw
+            margin-left: 13.33333vw
+.story_detail_07
+    +chara-figure(13.3333vw, 3vw, 67.333vw)
+.story_detail_08
+    +chara-figure(1vw, 0, 116vw, 75.9vw)
+    @media #{$sp}
+        .modal_detail__article__figure
+            margin-left: -19.33333vw
+.story_detail_09
+    +chara-figure(16vw, 3vw, 58.66666vw)
+.story_detail_10
+    +chara-figure(14vw, 1vw, 62.22222vw)
+.story_detail_11
+    +chara-figure(19vw, 3vw, 47.2222vw)
+
+// ---------------------------------------------------------------------------
+// hunting detail (weapon / clutch claw)
+// ---------------------------------------------------------------------------
+.modal_hunting
+    margin: 3.33333vw auto
+    max-width: 90%
+    font-size: 16px
+    @media #{$sp}
+        margin: 5.33333vw 1.33333vw 13.33333vw
+        max-width: 100%
+    .margin__bottom
+        margin: 0 0 1.33333vw
+        @media #{$sp}
+            margin: 0 0 2.66667vw
+    .content__header
+        width: 100%
+        margin: 0 0 3.33333vw
+        &:before
+            width: 100%
+    .modal_hunting__box
+        margin: auto
+        max-width: 75%
+    .modal_hunting__box__iframe
+        position: relative
+        width: 100%
+        a
+            display: block
+            &:hover
+                filter: brightness(110%)
+            &:after
+                content: ""
+                position: absolute
+                top: 50%
+                left: 50%
+                width: 9vw
+                height: 6vw
+                transform: translate(-50%, -50%)
+                background: url("/assets/images/common/yt_icon_r.svg") no-repeat
+                background-size: contain
+                @media only screen and (min-width: 769px)
+                    width: min(5.2vw, 100px)
+                    height: min(4vw, 80px)
+    .article__column2__body
+        position: relative
+        margin: 4vw 0 0
+        padding: 3.33333vw 3.33333vw 1.33333vw
+        width: 100%
+        text-align: left
+        &.textbox
+            background: url("/assets/images/common/textbox_waku_top_l.png") center top no-repeat, url("/assets/images/common/textbox_waku_bottom_l.png") center bottom no-repeat
+            background-size: 100%
+            background-color: rgba(255, 255, 255, 0.8)
+            &:before
+                background-image: url("/assets/images/common/textbox_waku_center_l.png")
+            @media #{$sp}
+                padding: 2.93333vw 2.66667vw
+                &:before
+                    top: 2.93333vw
+                    height: calc(100% - 5.73333vw)
+                    width: 100%
+    .modal_action__block
+        position: relative
+        z-index: 1
+        margin: 0 0 2.66667vw
+        overflow: hidden
+        @media #{$sp}
+            margin: 0 0 8vw
+    .modal_action__title
+        position: relative
+        z-index: 1
+        font-family: $serif
+        font-weight: bold
+        font-size: 2.33333vw
+        line-height: 1.6
+        border-bottom: 1px solid #c2c1c1
+        margin: 0 0 2.26667vw
+        padding: 0 0 1.33333vw
+        text-align: center
+        @media #{$sp}
+            font-size: 4vw
+    .modal_ss
+        float: left
+        margin: 0 2% 0 0
+        width: 40%
+        @media #{$sp}
+            float: none
+            margin: 0 0 2.66667vw
+            width: 100%
+    .modal_right__box
+        float: left
+        width: 58%
+        font-size: 1.33333vw
+        line-height: 1.6
+        h4
+            background: #104e6d
+            color: #fff
+            display: inline-block
+            font-family: $serif
+            font-weight: bold
+            font-size: 1.66667vw
+            line-height: 1.6
+            margin: 0 0 1.33333vw
+            padding: 0.26667vw 1.16667vw
+        @media #{$sp}
+            float: none
+            width: 100%
+            h4
+                font-size: 3.2vw
+            > p
+                font-size: 2.93333vw
+    .modal_graybox
+        background: #ddd
+        margin: 1.33333vw 0 0
+        padding: 1vw
+        h5
+            color: #104e6d
+            font-size: 1.33333vw
+            line-height: 1.6
+            margin: 0 0 0.33333vw
+        > p
+            font-size: 1.13333vw
+            line-height: 1.6
+        dl
+            background: #fff
+            margin: 1vw 0 0
+            padding: 1vw
+        dd
+            font-size: 1vw
+            line-height: 1.4
+        em
+            background: #ddd
+            display: inline-block
+            font-style: normal
+            font-size: 1vw
+            line-height: 1.6
+            padding: 0.16667vw 0.66667vw
+        span
+            color: #104e6d
+            display: block
+            font-size: 1.13333vw
+            line-height: 1.6
+            padding: 0.33333vw 0
+        @media #{$sp}
+            margin: 2.66667vw 0 0
+            padding: 2.66667vw
+            h5
+                font-size: 3.46667vw
+                margin: 0 0 1.33333vw
+            > p, dd, span
+                font-size: 2.93333vw
+            dl
+                margin: 2.66667vw 0 0
+                padding: 2.66667vw
+            em
+                font-size: 2.66667vw
+                padding: 0.66667vw 2.66667vw
+            span
+                padding: 1.33333vw 0
+
+// ---------------------------------------------------------------------------
+// image lightbox (monster loupe)
+// ---------------------------------------------------------------------------
+.mh-lightbox
+    position: relative
+    display: flex
+    align-items: center
+    min-height: 100%
+    figure
+        position: relative
+        width: 100%
+        line-height: 0
+        &:after
+            content: ""
+            position: absolute
+            left: 0
+            top: 40px
+            bottom: 40px
+            right: 0
+            z-index: -1
+            box-shadow: 0 0 8px rgba(0, 0, 0, .6)
+            background: #444
+    img
+        display: block
+        width: 100%
+        height: auto
+        padding: 40px 0
+    .mh-modal__close
+        position: absolute
+        top: 60px
+        right: 1vw
+
+// ---------------------------------------------------------------------------
+// youtube player (topics)
+// ---------------------------------------------------------------------------
+.mh-video
+    display: flex
+    align-items: center
+    justify-content: center
+    min-height: 100%
+    padding: 40px 0
+    .mh-video__inner
+        position: relative
+        width: 75%
+        line-height: 0
+        @media #{$sp}
+            width: 90%
+    .mh-video__scaler
+        position: relative
+        width: 100%
+        padding-top: 56.25%
+        iframe
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            border: 0
+            box-shadow: 0 0 8px rgba(0, 0, 0, .6)
+            background: #000
+    .mh-modal__close
+        position: absolute
+        top: -4vw
+        right: 0
+        @media #{$sp}
+            top: -16vw
+
+// inline content (topics "boost" weapon modals) – close button drawn as an X
+.mh-inline
+    padding: 4vw 0
+    .mh-modal__close--x
+        position: fixed
+        top: 2.5vw
+        right: 2.5vw
+        width: 4vw
+        height: 4vw
+        max-width: 71px
+        background: transparent
+        box-shadow: none
+        opacity: .8
+        &:before, &:after
+            content: ""
+            position: absolute
+            top: 50%
+            left: 0
+            right: 0
+            margin: auto
+            width: 50%
+            height: 2px
+            background: #104e6d
+        &:before
+            transform: translateY(-50%) rotate(-45deg)
+        &:after
+            transform: translateY(-50%) rotate(45deg)
+        @media #{$sp}
+            top: 9vw
+            right: 5vw
+            width: 8vw
+            height: 8vw

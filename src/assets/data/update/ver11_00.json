@@ -1,0 +1,188 @@
+{
+ "ver": "ver11_00",
+ "label": "Ver. 11.00",
+ "title": "Update Ver. 11.00 Outline",
+ "subtitle": "（PlayStation4: Update 11.00 / Xbox One: Update 11.0.0.0）",
+ "banners": [
+  {
+   "title": "Quest Info for New Monster: Rajang",
+   "route": "/topics/rajang",
+   "image": "/assets/images/update/bnr_rajang.jpg"
+  }
+ ],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Thursday, October 10</dd> <dd class=\"tc_red\">This update will be aggregated and downloaded as ver.11.01</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul> <li>Please refer to Ver. 11.01</li> </ul> </dd> </dl> <p class=\"list-bl\">Features marked <span class=\"ic-ib\"></span> can only be used by players who have purchased Monster Hunter World: Iceborne.</p>"
+ },
+ "categories": [
+  {
+   "id": "",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "New monster added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Cutscene that unlocks the Volcanic Region in the Guiding Lands added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Weapon augmentation and custom upgrades expanded.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New weapon trees, armor, and skills added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "You can now make your room public to other players.<br>You can change these settings from the start menu and selecting Communication, then Your Room, or by speaking to the Housekeeper in your room and selecting Room.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Room-exclusive chat tab added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Music player for changing the music in your room added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New interactable decor added to your room in Seliana.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New rewards added for the Tailraider Safari when they explore the Guiding Lands.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Customization options added for squad cards.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Forgeable layered armor lineup added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Monster spawn rates in the Guiding Lands adjusted.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Monsters that are lured out in the Guiding Lands will automatically be tracked by the scoutflies.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Target monster in the Guiding Lands will now appear in the log.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "When a monster is lured out in the Guiding Lands, monsters already present will not leave as easily.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Kinsects can now be added to the wishlist.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Setting for your Seliana room's privacy added to the Gathering Hub's welcome message.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where daily skills would change when a voucher or gourmet voucher is used.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with the \"The Leaf Boat\" observation request's \"Riding on a leaf\" condition, where the request would not be considered complete in certain situations.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Heavy Bowgun's Wyvernsnipe and the Light Bowgun's Wyvernblast Counter would be obstructed by Velkhana's ice wall when on top of it.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Squad join requests would be automatically approved in certain situations even when the settings are set to manual.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where unnecessary effects would appear in certain areas of the Guiding Lands.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Overall movement routes for Raider Ride have been tweaked as they would be trapped in certain areas of locales.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Frostcraft's gauge would be consumed but the effect would not trigger on the additional hits from the Long Sword's Spirit Helm Breaker and Hunting Horn's Performance attacks.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue with Long Sword's Uragaan Mod, where Tempered Blastscale was listed as an upgrade material instead of Tempered Scute.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted the brightness of the screen when flash pods and Flashflies are used.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other minute balance tweaks and minor bugs have been fixed.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

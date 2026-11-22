@@ -1,0 +1,31 @@
+/* Scoped copy of the original topic stylesheet (edit-voucher) */
+.topic-edit-voucher .ds {
+	line-height: 2em;
+    text-shadow: 0px 0px 3px #000,0px 0px 0.1em #000,0px 0px 0.15em #000,0px 0px 0.15em #000,0px 0px 0.75em #000,0px 0px 0.75em #000,0px 0px 1em #000;
+}
+.topic-edit-voucher .content_box {
+	position: relative;
+	margin: 8%;
+}
+.topic-edit-voucher .content_box figure {
+	position: relative;
+	margin: 4% auto;
+	text-align: center;
+}
+.topic-edit-voucher .content_box figure.arrow img {
+	width: 4vw !important;
+}
+@media only screen and (min-width: 961px) {
+.topic-edit-voucher .content_box .attention {
+		font-size: 1.6rem;
+}
+}
+@media only screen and (max-width: 750px) {
+.topic-edit-voucher .content_box {
+		position: relative;
+		margin: 8% 4%;
+}
+.topic-edit-voucher .content_box figure.arrow img {
+		width: 10vw !important;
+}
+}

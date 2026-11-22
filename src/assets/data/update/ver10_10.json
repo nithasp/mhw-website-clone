@@ -1,0 +1,2531 @@
+{
+ "ver": "ver10_10",
+ "label": "Ver. 10.11",
+ "title": "Update Ver. 10.11 Outline",
+ "subtitle": "（PlayStation4: Update 10.11 / Xbox One: Update 10.1.0.1）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>September 5, 2019 UTC 00:00</dd> </dl> <dl> <dt class=\"list-ttl\">Installing the update</dt> <dd> <p>In order to play on the same servers, owners of either Monster Hunter: World or Monster Hunter World: Iceborne must download a large update.</p> <p class=\"list-sttl\">Required Space for Iceborne</p> <ul class=\"dot-list\"> <li>When updating from PlayStation 4 Update 6.02 or Xbox One Update 6.0.0.2<br>PlayStation 4: About 33GB required (only this update)<br>Xbox One: About 31GB required (only this update)<br><br><small>Note: After purchasing the physical version of Monster Hunter: World or Monster Hunter World: Iceborne Master Edition, about 50GB (PS4) or about 45GB (Xbox One) are required for the initial update.<br>An extra 300MB of free space is required for save data, and is not included in the figure above.</small> </li> </ul> </dd> </dl> <dl> <dt class=\"list-ttl\">Additional Content Play Rights</dt> <dd>In the Ver. 10.11 update, there are features you can enjoy only by purchasing Monster Hunter World: Iceborne and installing the update. These features are outlined in this update.</dd> </dl> <p class=\"list-bl\">Features that require the purchase of Iceborne are marked with a<span class=\"ic-ib\"></span> symbol.</p>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Outline",
+   "sections": [
+    {
+     "title": "New Story Progression",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": "/assets/images/update/img01.jpg",
+     "items": [
+      {
+       "html": "A new story that starts after the ending of Monster Hunter: World has been added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Master Rank added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New Headquarters and Gathering Hub added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New locales and endemic life added in line with the new story.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New monsters added in line with the new story.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New weapons, armor, and skills added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Guardian armor set and items to upgrade your weapons are available by talking to room service. These effective items will help players to advance through the beginning of the game.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "New Actions",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": "/assets/images/update/img02.jpg",
+     "items": [
+      {
+       "html": "Clutch Claw added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New moves and combos, etc. added to all weapons",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "All weapons can now fire the Slinger with the weapon unsheathed.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "New training area features added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Increased Palico level and gadget proficiency.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Tailraiders can now be mounted after establishing good relations with the Lynian tribes. Tailraider monsters will automatically move to areas when directed.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "New System Features",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": "/assets/images/update/img03.jpg",
+     "items": [
+      {
+       "html": "View Mode for taking screenshots has been added. View Mode can be accessed from the start menu under System.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New character parts added.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Character creation now features numerical values for your character's customization.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Your room in Seliana can now be redecorated.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "The Radial Menu can now be used while in base for things such as gestures, poses, and stickers.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "HUD display options added.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New emblem designs for the squad emblem, as well as the ability to re-edit emblems has been added.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sub-leaders can now be assigned to a squad.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Squad Card added - A Squad Card is similar to a Guild Card in that only the Squad leader and sub-leader can give it to other players. Players who accept a Squad Card can use it to send a request to join the squad.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Palico Edit Vouchers can now be purchased from the store, allowing you to change the appearance of your Palico.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Major Changes",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": "/assets/images/update/img04.jpg",
+     "items": [
+      {
+       "html": "Temporal Mantle effects have been changed and adjusted.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Some skill effects have been fixed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Some weapon effects have been fixed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The decoration name below has been changed:",
+       "ib": false,
+       "nest": [
+        {
+         "type": "text",
+         "html": "\"Smoke Jewel\" > \"Survival Jewel\"",
+         "ib": false
+        }
+       ]
+      },
+      {
+       "html": "The skill names below have been changed:",
+       "ib": false,
+       "nest": [
+        {
+         "type": "text",
+         "html": "\"Sporepuff Expert\" > \"Survival Expert\"",
+         "ib": false
+        },
+        {
+         "type": "text",
+         "html": "\"Aquatic Expert\" > \"Aquatic/Polar Mobility\"",
+         "ib": false
+        }
+       ]
+      },
+      {
+       "html": "Two player difficulty has been added to multiplayer.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When going on a quest with two players, the difficulty will be adjusted to this setting.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Extra slots for item loadouts",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Extra slots for the equipment box and equipment loadouts",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Extra slots for your wishlist",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The Research Base now has a Smithy proxy and Resource Center.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Layered armor can now be created at the Smithy.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Some rules for the display colors of character names have been changed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Endemic life now appears in a variety of sizes.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": "<div class=\"list-tcttl\">Balance change details are as follows:</div>"
+    }
+   ]
+  },
+  {
+   "id": "playerAction",
+   "title": "Player Actions",
+   "sections": [
+    {
+     "title": "Common Actions",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "When aiming the slinger with your weapon drawn, you cannot change which monster you're targeting with the R3 button and target camera.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "You cannot pick up items in the field (stones, etc.) while aiming.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Auto lock-on still activates when aiming the slinger, even with no ammo loaded.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When clinging to a wall, pressing the Circle button with no slinger ammo allows you to jump, but you can no longer jump if you are aiming.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The animation for picking up small tracks can be canceled sooner.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Depending on the skill, the maximum scaling for elemental and abnormal status values has changed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Max scaling for elemental damage has been reworked. A weapon's base element value no longer starts low and quickly reaches its max value.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The mounted knife attack power has been increased, thus decreasing the time until a successful knock down.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Wedge Beetles cannot be used if a monster is in the line of sight.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When you are knocked back and your weapon is sheathed, holding down the R2 button will allow you to perform a guard when using the Great Sword, Sword & Shield, Lance, or Gunlance.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where button input was incorrectly recognized upon canceling slinger aim when pressing a button after a slinger shot was fired and the slinger was still being aimed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where invincibility incorrectly ran out upon rising and moving after rising from a small knockdown or large knockback.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Slinger reload animation has been tweaked so that reload occurs faster.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Slinger Flash Pod now fires faster, but its effective range is smaller.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Evading after certain moves has been changed so that you can now climb small ledges if you evade toward them.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Certain actions for all weapons will no longer be performed when holding down the aim button.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Great Sword",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Charged Slash attack power and elemental scaling have been improved, while new combo additions have been added.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Charged Slash II: Elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Charged Slash III: Attack power slightly increased, elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Strong Charged Slash I: Attack power increased, elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Strong Charged Slash II: Attack power increased, elemental scaling improved, abnormal status scaling improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Strong Charged Slash III: Attack power increased, elemental scaling improved, abnormal status scaling improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "True Charged Slash I: Attack power decreased, part damage decreased, elemental scaling improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "True Charged Slash II: Attack power slightly decreased, part damage decreased, elemental scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "True Charged Slash III: Part damage decreased, elemental scaling improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Strong Wide Slash II: Elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Strong Wide Slash III: Elemental scaling improved, abnormal status scaling improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Leaping Wide Slash I: Attack power slightly increased, elemental scaling improved, abnormal status scaling improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Leaping Wide Slash II: Attack power increased, elemental scaling improved, abnormal status scaling improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Leaping Wide Slash III: Attack power slightly increased, elemental scaling improved, abnormal status scaling improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Jumping Slash I: Attack power decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Jumping Slash II: Attack power greatly decreased, elemental scaling slightly decreased, abnormal status scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Jumping Slash III: Attack power decreased, elemental scaling slightly decreased, abnormal status scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sliding Attack II: Elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sliding Attack III: Elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted Head Attack I: Attack power increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted Head Attack II: Attack power increased, elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted Head Attack III: Attack power increased, elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted Back Attack I: Attack power increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted Back Attack II: Attack power increased, elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted Back Attack III: Attack power greatly increased, elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted Tail Attack I: Attack power increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted Tail Attack II: Attack power increased, elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted Tail Attack III: Attack power greatly increased, elemental scaling slightly improved, abnormal status scaling slightly improved",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Long Sword",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Natural recovery of the Spirit Gauge is slightly shorter.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When using Foresight Slash, if you cannot use the Spirit Gauge, the Critical Eye effect will not activate. Attack hitbox and attack power have been decreased.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Spirit Roundslash would deal damage of the aura level above the current level.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a Spirit Blade would be performed instead of a Foresight Slash when pressing the R2+X Buttons together from an Overhead Slash.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The attack power of the first hits for Spirit Slash III has been decreased.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The attack power of the fourth hit of Spirit Storm when done to the monster's head has been decreased.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Sword & Shield",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "The weapon can no longer be sheathed after firing the slinger with the weapon drawn.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Pressing the L2+R2 buttons after a side or backwards evade will fire a slinger shot.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The timing of the thrust after a Return Stroke hitting left, right, or behind the player has been adjusted.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The animation when trying to fire the slinger with no ammo can now be canceled with an evade.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the player would guard instead of sheathing the weapon due to an R1 or R2 button input being left in the button buffer after repeatedly firing the slinger.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where sharpness would be erroneously used on the first shield attack of the Backstep -> Charged Attack.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Dual Blades",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "With the exception of certain attacks, overall elemental and abnormal status scaling has been decreased.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where a Midair Spinning Blade Dance would be performed erroneously if the player gets hit by a roar just after jumping off a ledge via Demon Mode Evade and landing on top of the ledge.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where super armor would not be present while climbing the face of a ledge.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Hammer",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Increased the stun values of charged attacks",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where stamina would be slightly regenerated when charging and moving after an evade.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "You can now perform Overhead Smash I after a Spinning Strong Upswing.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Hunting Horn",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "The angles at which you can move during a performance have been increased.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where two notes would be added to the musical staff when performing a jumping draw attack while wearing the Glider Mantle.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Speed increased for Right Swing, Left Swing, Performance start-up speed, Encore, Front Performance, Back Performance, Side Performance, and 3 music note stock Right/Left Performance.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Backwards Strike attack power increased",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Lance",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Guard Dash (Left, Right, Back) can now be performed after the start up of a guard.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "With the exception of certain attacks, overall elemental and abnormal status scaling has been decreased.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Gunlance",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Jumping Thrust now comes out easier after a Lunging Upthrust while sliding.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Charged Shelling now comes out easier from Shelling attack.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The charge time for Charged Shelling is now shorter.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The fixed damage ratio for a Long type Charged Shelling attack has been slightly increased.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The fixed damage ratio for a Normal type Burst Fire has been slightly increased.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Wide Sweep will no longer knock down players.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Wyrmstake Blast loads faster.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Combos from Wyrmstake Blast are now possible after loading it.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "You can now perform shelling and thrusts from lateral shelling, thrust, and lunging upthrust.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Guard point has been added to Wyrmstake Blast's loading animation. If you have the Guard skill, you can use Wyrmstake Blast after a guard.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "If Wyrmstake Blast does not hit the mark, the equipped slinger ammo will drop to the ground.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Wyrmstake Blast's detonation damage is slightly increased.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Switch Axe",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "While pressing Circle button repeatedly for Wild Swing, if a button is pressed to combo into another attack, even if you stop pressing the Circle button, Wild Swing will not stop.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fade Slash motion has changed to move you even further back.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Axe Morph has been added to attack route when you land after canceling and landing from Element Discharge.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Left and right evade distance increased while in axe mode",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where super armor would not be present while climbing ledges in axe mode.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "You can now perform actions faster after a Downward Fade Slash.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The Morph Slash into Sword Mode now moves you forward a greater distance.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The button input timing for transitioning from the first hit of Wild Swing into the Axe's Overhead Slash has been relaxed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Axe: Overhead Slash attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Axe: Rising Slash attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Element Discharge loop attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Element Discharge (Amped State) starting attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Element Discharge (Amped State) loop attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sword: Left Rising Slash to Double Slash combo attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Heavenward Flurry's second hit attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Heavenward Flurry (Amped State)'s second hit attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sword: Left Rising Slash to Double Slash (Amped State) combo attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Element Discharge explosion attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Elemental damage increased when using element phials",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Explosion damage from Element Discharge finisher increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Wild Swing elemental and abnormal status scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Charge Blade",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Super Amped Element Discharge element phials will now spread less and hit closer together.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Charging phials in sword mode will now match the animation.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The timing of the charge blade reverting back to sword mode after a (Super) Amped Element Discharge now matches the animation.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The timing of phials being used during a (Super) Amped Element Discharge now matches the animation.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where pressing the L2 button would cause the camera to go into aim mode (zoomed in) if done during an attack with a guard point.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "In order to perform Return Stroke, you must now hold the required button down longer.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "You will now fall off a ledge properly when guarding while falling.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Spinning Slash (Axe to Sword Morph Slash) attack slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fade Slash attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Dash Slam attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Jumping Slash (Jumping Morph Slash) attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Axe: Smash (Sword to Axe morph slash and draw attack) attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Overhead Slash attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Rising Slash attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Element Discharge I attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Element Discharge II (first hit) attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Amped Element Discharge attack power slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Super Amped Element Discharge (second hit) attack power slightly decreased with phials available",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Super Amped Element Discharge (third hit) attack power decreased with phials available",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Super Amped Element Discharge (second hit) attack power slightly decreased with phials not available",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Super Amped Element Discharge explosion's elemental scaling slightly decreased when using a charge blade with element phials",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Insect Glaive",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Kinsect's attack now hits the targeted monster easier.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When Strong Jumping Slash hits a target on the way down, the animation and timing of the hit now occur at the same time.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Jumping Advancing Slash and Strong Jumping Advancing Slash wouldn't consume stamina.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Jumping Advancing Slash attack power and mount buildup slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Mounted attacks now do more damage while moving from body part to body part. This primarily affects the Insect Glaive, which attacks while moving.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Kinsect Bonus increased<br>Sever Boost slightly increased<br>Blunt Boost slightly increased<br>Element Boost slightly increased<br>Speed Boost slightly increased<br>Stamina Boost stamina recovery speed increased<br>Stamina Boost recovery amount when recalling your Kinsect slightly increased<br>Health Boost slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Kinsect effects could bestow some knockback prevention to the player, but depending on the skill these effects may increase.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "With the exception of certain attacks, overall elemental and abnormal status scaling have been decreased.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Bow",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Aim distance has been reworked so that Super Critical Range will now be displayed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Normal shot Level 1 damage to parts decreased, elemental scaling decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Normal shot Level 2 damage to parts slightly decreased, elemental scaling decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Normal shot Level 3 elemental scaling decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Normal shot Level 4 elemental scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Power shot Level 1 damage to parts decreased, elemental scaling decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Power shot Level 2 damage to parts slightly decreased, elemental scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Power shot Level 3 elemental scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Power shot Level 4 elemental scaling slightly decreased, abnormal status effect scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Arc shot Level 1-4 stun scaling decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Dragon Piercer Level 1: Fixed damage decreased, damage to parts slightly decreased, elemental scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Dragon Piercer Level 2: Fixed damage decreased, damage to parts slightly decreased, elemental scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Dragon Piercer Level 3: Fixed damage decreased, damage to parts slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Dragon Piercer Level 4: Fixed damage slightly decreased, damage to parts slightly decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Midair Shot Level 3 after a wall jump: Attack power decreased, fixed damage decreased, damage to parts decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Midair Shot Level 4 after a wall jump: Attack power decreased, fixed damage decreased, damage to parts decreased, elemental scaling slightly decreased, abnormal status effect scaling slightly decreased",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Light Bowgun, Heavy Bowgun",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Adjusted Cluster Bomb behavior. After a cluster bomb is fired, it can no longer be detonated on the way up, only once it begins its descent.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Aim distance has been reworked so that super critical range will now be displayed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Spread Ammo vertical firing range expanded",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Spread Ammo 1 would gain piercing and other properties.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where piercing shots would be fired in a direction different from the reticle.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Bowgun pierce shot trajectory would come into effect without intention and cause unnatural behavior.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the Light Bowgun's Wyvernblast would detonate under specific conditions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Increased the number of ammo crafted when crafting Flaming, Water, Freeze, Thunder, Poison, and Exhaust ammo",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Decreased the number of Bomberries you can possess",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Normal ammo 3, Pierce ammo 3 attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Cluster Bomb 1, 2, and 3 explosion attack power slightly decreased, damage to parts decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Wyvern ammo attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sticky ammo 2 attack power slightly increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sticky ammo 3 attack power increased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Flaming, Water, Freeze, Thunder raw damage slightly increased, elemental scaling decreased",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Decreased the cooldown period for Heavy Bowgun special ammo",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Skill Adjustments and Changes",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "In Iceborne, in addition to new skills, existing skills have an increased level cap.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Existing skills have had their effects changed.",
+       "ib": false,
+       "nest": [
+        {
+         "type": "item",
+         "category": "Poison Resistance",
+         "text": "Previously this skill shortened the time you took poison damage, but now it extends the intervals between when you can receive poison damage.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Stun Resistance",
+         "text": "Reduces stun duration even further",
+         "detail": [
+          "Level 1: 30% → 60%",
+          "Level 2: 60% → 90%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Hunger Resistance",
+         "text": "Time before stamina cap reduction increased even more",
+         "detail": [
+          "Level 1: 30% → 50%",
+          "Level 2: 60% → 100%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Iron Skin",
+         "text": "Reduces Defense Down status even more",
+         "detail": [
+          "Level 1: 30% → 50%",
+          "Level 2: 60% → 75%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Blight Resistance",
+         "text": "Reduces the duration of all elemental blights even more",
+         "detail": [
+          "Level 1: 30% → 50%",
+          "Level 2: 60% → 75%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Entomologist",
+         "text": "When slaying small insects, it will become easier to carve materials from them.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Tool Specialist",
+         "text": "Reduces the cooldown time on tools even more",
+         "detail": [
+          "Level 1: 5% → 10%",
+          "Level 2: 10% → 20%",
+          "Level 3: 20% → 30%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Stealth",
+         "text": "Makes it even more likely for the monster to lose sight of the player",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Dungmaster",
+         "text": "Makes it even more likely that a monster will leave an area after being hit by a dung pod",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Blindsider",
+         "text": "Increases the effective range of flash attacks",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Affinity Sliding",
+         "text": "Skill effect activates sooner and duration is increased",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Poison Duration Up",
+         "text": "Poison duration increased even more",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Airborne",
+         "text": "Jumping attack power increased even more",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Item Prolonger",
+         "text": "Even more items are now affected by this skill (Demon Powder, Hardshell Powder, Hot Drinks, Cool Drinks)",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Critical Status",
+         "text": "When a critical hit occurs with the Great Sword, Hammer, Hunting Horn, or Heavy Bowgun, the abnormal status effect scaling is improved even further.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Critical Element",
+         "text": "When a critical hit occurs, the elemental scaling is improved even further.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Non-elemental Boost",
+         "text": "Maximum increased attack power is lower",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Defense Boost",
+         "text": "At Level 3 and above, defense of the equipment equipped is increased 5% - 10% even more depending on the level of the skill.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Heavy Artillery",
+         "text": "Attack power for ballistae, cannons, etc. is increased even more",
+         "detail": [
+          "Level 1: 10% → 50%",
+          "Level 2: 20% → 100%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Slugger",
+         "text": "Makes it even easier to stun monsters",
+         "detail": [
+          "Level 1 Stun Power: 10% → 20%",
+          "Level 2 Stun Power: 20% → 30%",
+          "Level 3 Stun Power: 30% → 40%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Stamina Thief",
+         "text": "Further increases the ability for certain attacks to exhaust monsters",
+         "detail": [
+          "Level 1 Exhaust Power: 10% → 20%",
+          "Level 2 Exhaust Power: 20% → 30%",
+          "Level 3 Exhaust Power: 30% → 40%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Survival Expert (formerly Sporepuff Expert)",
+         "text": "Sporepuffs and Thawpuffs give the players extra health upon use.",
+         "detail": [
+          "Level 1: 20 to 50 points of health",
+          "Level 2: 35 to 80 points of health",
+          "Level 3: 60 to 100 points of health"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Cliffhanger",
+         "text": "Stamina use has reduced, and now works while grappling via clutch claw.",
+         "detail": [
+          "Stamina use reduction changed from 25% → 50%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Razor Sharp/Spare Shot",
+         "text": "Rate of ammo or coatings not being used has been reduced.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Agitator",
+         "text": "Affinity rate while skill is activated has been changed.",
+         "detail": [
+          "Level 1: 3% → 5%",
+          "Level 2: 6% → 5%",
+          "Level 3: 9% → 5%",
+          "Level 4: 12% → 5%",
+          "Level 5: 15% → 10%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Weakness Exploit",
+         "text": "Normal affinity percentage decreased. Bonus affinity added when wounding a weak point, or wounding a body part and turning it into a weak point using the clutch claw's weapon attack. (the number in parentheses indicates total affinity after the bonus is added)",
+         "detail": [
+          "Level 1: 15% → 10% (15%)",
+          "Level 2: 30% → 15% (30%)",
+          "Level 3: 50% → 30% (50%)"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Critical Eye",
+         "text": "Affinity increased even more",
+         "detail": [
+          "Level 1: +3% → +5%",
+          "Level 2: +6% → +10%",
+          "Level 3: +10% → +15%",
+          "Level 4: +15% → +20%",
+          "Level 5: +20% → +25%",
+          "Level 6: +25% → +30%",
+          "Level 7: +30% → +40%"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Heroics",
+         "text": "Improved defense on activation, and bonus attack power decreased",
+         "detail": [
+          "Level 1: Attack +5% and Defense +15 → Defense +50",
+          "Level 2: Attack +10% and Defense +20 → Attack +5% and Defense +50",
+          "Level 3: Attack +15% and Defense +25 → Attack +5% and Defense +100",
+          "Level 4: Attack +20% and Defense +30 → Attack +10% and Defense +100",
+          "Level 5: Attack +30% and Defense +40 → Attack +15% and Defense +100"
+         ]
+        },
+        {
+         "type": "item",
+         "category": "Aquatic/Polar Mobility (formerly Aquatic Expert)",
+         "text": "In addition to water, this skill now applies to areas with deep snow.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Fortify",
+         "text": "Fixed an issue where effects would continue during an expedition, and now the duration limit is 50 minutes (max value and number of times it can be used have not changed).",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Maximum Might",
+         "text": "This now activates when stamina is at its maximum for several seconds. After activation, if stamina is used, the effects will continue for a few seconds.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Flinch Free",
+         "text": "When 3 extracts have been gathered by the Kinsect, knockback reduction is improved even more.",
+         "detail": []
+        },
+        {
+         "type": "item",
+         "category": "Protective Polish",
+         "text": "Added a flickering effect to the icon to notify when the effect is about to expire",
+         "detail": []
+        }
+       ]
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Bug Fixes related to Skills",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where certain skills would deactivate when switching equipment with skills activated in the tent.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Mantles",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "The active duration of the Temporal Mantle is reduced with each use",
+       "ib": false,
+       "nest": [
+        {
+         "type": "text",
+         "html": "Before update: Active duration of 90 seconds, cooldown of 300 seconds",
+         "ib": false
+        },
+        {
+         "type": "text",
+         "html": "After update: Active duration of 120 seconds, cooldown of 300 seconds, 20 seconds are taken off active duration every time the effect is activated",
+         "ib": false
+        }
+       ]
+      },
+      {
+       "html": "Reduced cooldown time on the Glider Mantle",
+       "ib": false,
+       "nest": [
+        {
+         "type": "text",
+         "html": "Before update: Cooldown of 210 seconds",
+         "ib": false
+        },
+        {
+         "type": "text",
+         "html": "After update: Cooldown of 120 seconds",
+         "ib": false
+        }
+       ]
+      },
+      {
+       "html": "Assassin's Hood now causes monsters to flinch from a mid-air attack while in stealth mode, instead of a knockdown.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted so that miniscule amounts of damage remove mantles less frequently.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Items",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Nulberries can now remove blastblight.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Dash Juice would cause sleep accumulation to be reset to 0.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue concerning the duration time until the stamina cap is reduced when eating a Well-Done Steak after a faint.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Jewel name changed in accordance with a skill name change:<br>\"Smoke Jewel\" > \"Survival Jewel\"",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Food Skills",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue with Felyne Riser so that invulnerability time will activate properly.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Palicoes",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Max level cap raised from 30 to 50",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Gadget proficiency level cap raised from 10 to 15",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Tailraider Unity level cap raised from 5 to 10",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Palicoes will now perform the same gestures as the player when at a table.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Camera",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "When the focus camera is being used, guarding will not follow the monster.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Lock-on and targeting canceling as well as switching targets can no longer be performed with the R3 Button when you are aiming the slinger with your weapon drawn.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Abnormal Status",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "The health gauge is always displayed when afflicted with Bleeding.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The health gauge is always displayed when afflicted with the Effluvium.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Stun accumulation goes down faster.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the timer would reset and the player would be afflicted with Defense Down (L) when already afflicted with Defense Down (S).",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the timer would reset and the player would be afflicted with Blight Resistance Down (L) when already afflicted with Blight Resistance Down (S).",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "questMonster",
+   "title": "Quest/Monster Adjustments",
+   "sections": [
+    {
+     "title": "Quest Adjustments",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Track gathering volume has been adjusted for low and high rank game progression.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When accidentally dropping into an area other than the camp when the quest starts, the player will end up either in an area with good gathering points or in the same area as the monster.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "After completing an optional quest, you can now set your return destination in the options.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New acknowledgments have been added to the Hunter Highlights that appear after completing a quest. These acknowledgements may feature the same person in multiple categories.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "A new feature has been added to summarize the Hunter Highlights.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Monster Adjustments",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "When the player is a certain distance away, attacks from outside the area may not inflict damage.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Monster breath attacks will no longer trigger certain interactables such as Vitalilies or Sporepuffs.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Near death, monsters will no longer go to sleep at their nest if the player is present.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Monsters with friendly relations (Rathalos and Rathian, for example) will no longer flinch when hit by each other's attacks.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the abnormal status effect would accumulate even when already afflicted with that status.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Quest difficulty will now scale in real-time according to the number of players in the quest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Monsters will go into rage mode less easily during low and high rank multiplayer quests.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Guard directional hitboxes of certain attacks that are difficult to block have been adjusted so that players will not be hit by unintended attacks.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Certain attacks of Teostra will now do slightly less stun damage.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Certain attacks of Kirin will now do slightly less damage.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The frequency of how often monster partners (Rathalos and Rathian, for example) will call for each other has been reduced.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Tweaked the effect length of monster roars and tremors on players",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Regular attacks will no longer leave wound marks on the monsters, as clutch claw attacks will now do that when a monster part has been wounded.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When a monster calls for a partner, the corresponding monster's roar can now be heard.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Monster dung will be generated from a location between the monster's legs.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Monsters will now build a tolerance to flash attacks. While monsters will be less susceptible to flash attacks or be completely immune to them for a period of time, their tolerance will reset afterwards.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Monsters that appear in a master rank expedition will now stay in the locale longer.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "userInterface",
+   "title": "User Interface",
+   "sections": [
+    {
+     "title": "Options",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Default return destination after a quest can now be changed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Health and Stamina gauges can be set to display at all times.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "HUD On/Off customization options added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "For HDR settings, in addition to brightness and color, you can now adjust contrast. Each option can now be adjusted in greater detail.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Color Blind settings added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Camera & Scoutfly settings added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Super Fast option added to camera speed",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Super Fast option added to reticle speed",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Type 4 added to Item Control Settings",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Player Silhouette Display setting added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Hunting Horn Button Guide setting added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Character Name display setting added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Trajectory Reticle Controls added",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Chat Window, Shoutouts, Stickers, Gestures, Poses",
+     "toggle": true,
+     "textBox": false,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Chat window size, Font size, Weapon icon, and text color display rules added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Filter feature updated",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New shoutouts added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Auto-translation feature added to automatic shoutouts",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Custom shoutout space added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New stickers added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "New gestures added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Set poses and pose sets added",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Custom Radial Menu",
+     "toggle": true,
+     "textBox": false,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Options for linking the Custom Radial Menu to Item Loadouts added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Custom Radial Menu for use within headquarters added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Craft All option added to Custom Radial Menu",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "View Mode",
+     "toggle": true,
+     "textBox": false,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "View Mode added",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Other",
+     "toggle": true,
+     "textBox": false,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "The Randomize setting is now available when creating your hunter and Palico.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "You can now see all settings when creating your hunter and Palico.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Luminescent added to hunter makeup settings",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Pages added to the quest reward screen",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Take All option added to the quest reward screen",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The display rules for player name color have changed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Story summaries added to the loading screens",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Large monsters, small monsters, and endemic life are separately categorized in the Monster Field Guide.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sound options added upon booting the game for the first time",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The Sharpness gauge now shows how much sharpness is extended by the Handicraft skills",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The game will no longer save when you exit the title screen's option settings without changing anything.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Option added to the shortcut menu to accept all guild cards and items from other players",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "facility",
+   "title": "Facilities",
+   "sections": [
+    {
+     "title": "Item Box",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Up to 80 item loadouts can now be registered.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The equipment box can now be upgraded up to 100 pages.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "Up to 28 equipment loadouts can now be registered.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "The Palico equipment box can now be upgraded up to 30 pages.",
+       "ib": true,
+       "nest": []
+      },
+      {
+       "html": "You can now set custom radial info when registering item loadouts.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "You can now set whether custom radial info is also called up when using an item loadout.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Layered armor loadout option added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Layered armor and regular armor pigment colors are now managed separately.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When registering an equipment loadout, you can now add layered armor.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Layered armor menu layout has been revamped to make it easier to use.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Bowgun customization option added",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Smithy",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "You can now forge layered armor.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Checkmarks are added to charms that you have already crafted.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The wishlist feature can now hold up to 36 items.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "You can now select between changing hunter or Palico equipment with the Change Equipment option.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Remove all decorations option added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sort decoration option added to the Set Decorations menu",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Quest Counter",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Threat level is displayed on tempered monster investigations.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Research Base",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Smithy and Resource Center facilities will become available in the Research Base as you progress in the game.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Botanical Research",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "You can now cultivate Dung Pods.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Ecological Research",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Large monsters, small monsters, and endemic life are separately categorized in the Monster Field Guide.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Resource Center",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Special reward spots have been added to the Manage Investigation screen.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Delete all unregistered investigations option added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The number of investigations you can register and maintain has been increased.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Poogie",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Poogie standby points adjusted",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Shake mode added when Poogie is searching for items",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Unity decay slightly mitigated",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Elder Melder",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "The jewels that can be crafted at the Elder Melder can now be sorted by rarity or alphabetical order.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Materials used for melding items or decorations are now displayed in the same ascending order as items in other locations.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted how melding is calculated",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Endemic Life",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Endemic life now have sizes, and a Detailed Settings option is available under Place Your Pets in your room.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Training Area",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "A cumulative damage log has been added to the training room.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The types of slinger ammo you can pick up has increased.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Other",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Adjustments have been made to the sorting rules to make sorting armor easier when crafting or sorting via slots.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When selling Lifepowder, the price has changed to 190 zenny.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "communicationGraphics",
+   "title": "Online／Graphics",
+   "sections": [
+    {
+     "title": "Online",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "Online session ID input and display is now shown in segments of 3.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "You can now set up to 2 welcome messages in the Gathering Hub.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Squad Card added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Option available to send your guild card along with a squad card",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Option to display HR, MR, and Language in the squad member list",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Sub-leaders can be set for a squad.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Expanded on the friend invite feature",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Login Bonuses are now available at UTC 00:00",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Option to re-edit your squad emblem added",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "20 more options added to squad emblem's shape and design",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Graphics",
+     "toggle": true,
+     "textBox": true,
+     "open": false,
+     "image": null,
+     "items": [
+      {
+       "html": "The reflection of natural light on water has been made more natural for better quality and to fix a graphical issue.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "A Contrast setting has been added to HDR settings and the Color and Brightness settings have been expanded.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Players will now cast a shadow even in areas without direct sunlight, such as caves.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "SDR brightness adjustments have been retooled for a more natural-looking brightness.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "The shadow of the hunter's face is more defined, making it appear more expressive.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Via options, you can now set whether the player's silhouette will now be displayed when a monster gets between the camera and the player.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "When memory is available, background textures may be displayed in higher resolution.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Via options, HUD icon colors for Sharpness gauge, Charge Blade phials, Insect Glaive extract, etc. can now be adjusted.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

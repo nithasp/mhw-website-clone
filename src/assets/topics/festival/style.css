@@ -1,0 +1,332 @@
+/* Scoped copy of the original topic stylesheet (festival) */
+.topic-festival .footer__world.footer__world_iceborne {
+	display: none;
+}
+.topic-festival .content_box {
+	position: relative;
+	margin: 10% auto auto;
+}
+.topic-festival .content_box > .subConts {
+	margin-top: 10%;
+}
+.topic-festival dl.date {
+	margin: 5% auto;
+	width: auto;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.topic-festival dl.date dt {
+	background: #091d2d;
+	font-size: 1.6rem;
+	line-height: 1.2;
+	padding: 0.5em 2em;
+	color: #FFF;
+	text-align: center;
+}
+.topic-festival dl.date dd {
+	width: 100%;
+	vertical-align: middle;
+	font-size: 2.4rem;
+	padding: 0.5em 0 0 0.5em;
+	color: #0e9ee3;
+	font-weight: 700;
+}
+.topic-festival dl.date dd big {
+	font-size: 150%;
+}
+.topic-festival .dateArea .date {
+	flex-wrap: wrap;
+	flex-direction: unset;
+	align-items: flex-start;
+}
+.topic-festival .dateArea .date dd {
+	line-height: 1.2;
+	font-size: 3rem;
+}
+.topic-festival .dateArea .date dd span {
+	color: #091d2d;
+	font-size: 80%;
+	display: block;
+}
+.topic-festival .dateArea .date dd span:nth-of-type(n+2) {
+	margin-top: 0.5em;
+}
+.topic-festival .mainImg {
+	padding: 0 0 4%;
+}
+.topic-festival .follow-up {
+	font-size: 3.6rem;
+	font-weight: 900;
+}
+.topic-festival .clm_2 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.topic-festival .clm_2 figure {
+	width: 49%;
+}
+.topic-festival .clm_2 figure img {
+	padding: 0.25em 0;
+}
+.topic-festival .imageArea {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.topic-festival .imageArea li + li {
+	width: 50%;
+}
+.topic-festival .list_item li {
+	display: table;
+	font-size: 2rem;
+	color: #00a8ff;
+}
+.topic-festival .list_item li + li {
+	margin-top: 0.8em;
+}
+.topic-festival .list_item li:before {
+	content: "・";
+	display: table-cell;
+	color: #00a8ff;
+}
+.topic-festival .list_item li small {
+	color: #0b263d;
+}
+.topic-festival #benefits .linkbtn {
+	width: 90%;
+}
+.topic-festival .innerBG {
+	z-index: 0;
+	padding-top: 5%;
+	margin-top: 15% !important;
+}
+.topic-festival .innerBG > .bg-h3 {
+	z-index: 10;
+	margin-bottom: calc(56.25% - 0%);
+}
+.topic-festival .innerBG .mainImg {
+	position: absolute;
+	display: block;
+	top: 0;
+	width: 111%;
+	margin: 0 -5.5%;
+	z-index: 0;
+}
+.topic-festival .clm_3_img {
+	overflow: hidden;
+}
+.topic-festival .clm_3_img figure {
+	float: left;
+	width: 33.3333%;
+}
+.topic-festival .clm_3_img figure:first-child {
+	width: 66.6666%;
+}
+.topic-festival .figure_block {
+	margin: 5% auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+.topic-festival .figure_block figcaption,
+.topic-festival .figure_block img {
+	display: block;
+	width: 48% !important;
+	margin: 0 1%;
+}
+.topic-festival dl.detail {
+	display: table;
+	margin: 4% 0 0;
+}
+.topic-festival dl.detail dt {
+	display: table-cell;
+	width: 55%;
+	vertical-align: top;
+	text-align: center;
+}
+.topic-festival dl.detail dd {
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 0 0 1em;
+}
+.topic-festival dl.detail dd h5 {
+	font-weight: 700;
+}
+.topic-festival dl.detail dd > * + p {
+	margin: 0.75em auto;
+}
+.topic-festival dl.detail dd > p + h5 {
+	margin: 1.5em auto auto;
+}
+.topic-festival .bigTxt {
+	font-size: 3.2rem;
+	font-family: "Cardo","Noto Serif JP","Noto Serif SC", "Noto Serif TC", "Noto Serif KR" , serif;
+}
+.topic-festival .bigTxt {
+	font-size: 3.1rem;
+}
+@media only screen and (min-width: 751px) {
+.topic-festival .read {
+		font-size: 2.1rem;
+}
+}
+@media only screen and (min-width: 751px) and (max-width: 960px) {
+.topic-festival dl.date {
+		justify-content: flex-start;
+}
+.topic-festival .dateArea .date dd {
+		line-height: 1.2;
+		font-size: 3vw;
+}
+.topic-festival .dateArea .date dd span {
+		font-size: 80%;
+		display: block;
+}
+.topic-festival dl.date dt {
+		font-size: 1.6vw;
+}
+.topic-festival dl.date dd {
+		font-size: 2.6vw;
+}
+.topic-festival .bigTxt {
+		font-size: 3vw;
+}
+}
+@media only screen and (max-width: 750px) {
+.topic-festival .bg-h3 {
+		margin-bottom: 4vw;
+}
+.topic-festival .attention {
+		text-align: left;
+}
+.topic-festival dl.date {
+		margin: 5vw auto;
+		flex-wrap: wrap;
+		flex-direction:unset;
+}
+.topic-festival dl.date dt {
+		padding: 0.5em;
+		text-align: center;
+		font-size: 3vw;
+		line-height: 1.2;
+}
+.topic-festival dl.date dt .spacer {
+		display: inline-block;
+		padding-left: 1em;
+}
+.topic-festival dl.date dd {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		line-height: 1.2;
+}
+.topic-festival .dateArea .date {
+		line-height: 1.4;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+}
+.topic-festival .dateArea .date dd {
+		padding-top: 0.25em;
+		font-size: 5vw;
+		text-align: left;
+}
+.topic-festival .dateArea .date dd span {
+		font-size: 80%;
+		display: block;
+}
+.topic-festival .mainImg {
+		font-size: 6vw;
+}
+.topic-festival .follow-up {
+		font-size: 6vw;
+}
+.topic-festival .clm_2 {
+		display: block;
+}
+.topic-festival .clm_2 figure {	
+		width: 100%;	
+		margin-top: 5%;
+}
+.topic-festival .mainImg.clm_2 {
+		display: none !important;
+}
+.topic-festival .list_item li {
+		font-size: 120%;
+}
+.topic-festival #benefits .linkbtn {
+		width: 100%;
+}
+.topic-festival #benefits .linkbtn span {
+		font-size: 4vw;
+}
+.topic-festival .innerBG {
+		z-index: 0;
+		padding-top: 0;
+		margin-top: 10% !important;
+}
+.topic-festival .innerBG > .bg-h3 {
+		margin: 0 -5.5%;
+		margin-bottom:inherit;
+}
+.topic-festival .innerBG .mainImg {
+		position: relative;
+		display: block;
+		top: 0;
+		width: 111%;
+		margin: 0 -5.5%;
+		z-index: 0;
+}
+.topic-festival .clm_3_img {
+		overflow: hidden;
+}
+.topic-festival .clm_3_img figure {
+		float: left;
+		width: 50%;
+}
+.topic-festival .clm_3_img figure:first-child {
+		width: 100%;
+}
+.topic-festival .figure_block {
+		margin: 5% auto;
+		width: 100%;
+		display: block;
+}
+.topic-festival .figure_block figcaption,
+.topic-festival .figure_block img {
+		display: block;
+		width: 100% !important;
+		margin: 0.5em 0;
+}
+.topic-festival dl.detail {
+		display: block;
+		margin: 5vw auto 10vw;
+}
+.topic-festival dl.detail:nth-last-child(1) {
+		margin: 10vw auto 0;
+}
+.topic-festival dl.detail dt {
+		display: block;
+		width: 100%;
+}
+.topic-festival dl.detail dd {
+		display: block;
+		width: 100%;
+		padding: 1em 0 0;
+}
+.topic-festival dl.detail dd > * + p {
+		margin: 0.75em auto;
+}
+.topic-festival dl.detail dd > p + h5 {
+		margin: 1.5em auto auto;
+}
+.topic-festival .bigTxt {
+		font-size: 5vw;
+}
+}

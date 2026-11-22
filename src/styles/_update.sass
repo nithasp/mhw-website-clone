@@ -1,0 +1,684 @@
+// ===========================================================================
+// Update Information pages (/update and /update/:ver)
+// Ported from https://www.monsterhunter.com/update/mhw/assets/css/style.css
+// ===========================================================================
+$pc: "only screen and (min-width: 1024px)"
+$sp: "only screen and (max-width: 1023px)"
+$serif: "Noto Serif JP", serif
+$blue: #008DD1
+
+.update-page
+    position: relative
+    color: #333
+    font-family: "Noto Sans JP", sans-serif
+    font-size: 3vw
+    font-weight: 400
+    line-height: 1.15
+    @media #{$pc}
+        font-size: 1.25vw
+    a
+        color: #333
+        text-decoration: none
+    ul li
+        list-style: none
+    img
+        width: 100%
+        height: auto
+        object-fit: fill
+        vertical-align: bottom
+    // the update site's reset keeps <small> at the surrounding size
+    small
+        font-size: 100%
+    small.note
+        display: block
+        padding-left: 1em
+        text-indent: -1em
+        &::before
+            content: "※"
+
+// ---------------------------------------------------------------------------
+// header (logo, platforms, version / language select)
+// ---------------------------------------------------------------------------
+.update-page .header
+    position: relative
+    padding: 4vw 4vw 0
+    @media #{$sp}
+        margin-bottom: 28vw
+    @media #{$pc}
+        padding: 2vw 2vw 0
+    .logo
+        margin-right: auto
+        margin-left: auto
+        width: 45%
+        @media #{$pc}
+            width: 20.83333%
+        a
+            display: block
+    .platform-list
+        position: absolute
+        top: 32vw
+        margin: 0
+        padding: 0
+        @media #{$sp}
+            width: 100%
+            text-align: center
+            left: 50%
+            transform: translateX(-50%)
+        @media #{$pc}
+            left: 2vw
+            top: 2vw
+        li
+            display: inline-block
+            vertical-align: middle
+            &:not(:last-child)
+                margin-right: .5em
+            &.ps
+                width: 7.8vw
+                @media #{$pc}
+                    width: 3vw
+            &.ps4
+                width: 19.4vw
+                @media #{$pc}
+                    min-width: 62px
+                    width: 7.875vw
+            &.xbox
+                width: 32.6vw
+                margin-left: .5em
+                @media #{$pc}
+                    width: 13vw
+    .select-wrap
+        position: absolute
+        z-index: 2
+        top: calc(100% + 15vw)
+        width: 60%
+        font-size: 2.7vw
+        @media #{$sp}
+            left: 50%
+            transform: translateX(-50%)
+        @media #{$pc}
+            font-size: 1.04167vw
+            right: 2vw
+            top: 2vw
+            width: 17.22917%
+    .select-box
+        position: relative
+        dt
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+            align-items: center
+            background: rgba(249, 251, 250, 0.8)
+            border: 1px solid #BFBFBF
+            cursor: pointer
+            padding: 2vw 1vw 2vw 1.5vw
+            @media #{$pc}
+                padding: 0.66667vw 0.5vw 0.8vw 0.8vw
+            .box-ttl
+                color: #555
+            .set
+                color: $blue
+        dd
+            left: 0
+            position: absolute
+            top: calc(100% - 1px)
+            width: 100%
+            overflow: hidden
+            .lang-list
+                background: #f9fbfa
+                border: 1px solid #BFBFBF
+                max-height: 60vh
+                overflow-y: auto
+                li a
+                    display: block
+                    color: #555
+                    padding: 2vw 4vw
+                    transition: color .2s ease-in
+                    @media #{$pc}
+                        padding: 1vw 2vw
+                    &:hover
+                        color: $blue
+                li.active a
+                    color: $blue
+
+// material-like icons used in the select boxes
+.update-page .ic-matl::before,
+.update-page .ic-matl::after
+    display: inline-block
+    line-height: 0
+    width: 1.5em
+    height: 1em
+    position: relative
+    vertical-align: middle
+
+.update-page .ic-matl::before
+    background-image: url("/assets/images/update/icon_earth.svg")
+    background-repeat: no-repeat
+    background-size: contain
+    margin-right: .15em
+
+.update-page .ic-matl::after
+    background-image: url("/assets/images/update/icon_arrow_blue.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    margin-left: .5em
+    transition: transform .2s ease
+
+.update-page .ic-lang::before,
+.update-page .ic-arrow-b-r::after
+    content: ""
+
+.update-page .select-box.is-open .ic-arrow-b-r::after
+    transform: rotate(180deg)
+
+.update-page .ic-ib::before
+    background: url("/assets/images/update/common/ib_icon.svg") center no-repeat
+    background-size: contain
+    content: ""
+    display: inline-block
+    height: 1.5em
+    vertical-align: middle
+    width: 1.5em
+
+// ---------------------------------------------------------------------------
+// content
+// ---------------------------------------------------------------------------
+.update-page .conts
+    line-height: 2
+
+.update-page .conts-box
+    margin-bottom: 8vw
+    padding: 0 4vw
+    @media #{$pc}
+        margin-right: auto
+        margin-bottom: 4vw
+        margin-left: auto
+        padding: 0 2vw
+        width: 64.0625%
+
+.update-page .col-box
+    display: flex
+    flex-wrap: wrap
+
+.update-page .page-ttl
+    font-family: $serif
+    font-size: 6vw
+    font-weight: 700
+    line-height: 1.5
+    margin-bottom: 6vw
+    position: relative
+    text-align: center
+    color: #333
+    @media #{$pc}
+        font-size: 2.70833vw
+        margin-bottom: 3vw
+    small
+        display: block
+        font-size: .5em
+    &::before,
+    &::after
+        background: url("/assets/images/update/common/pagettl_pattern_sp.png") center no-repeat
+        background-size: contain
+        content: ""
+        display: block
+        height: 1.5vw
+        margin-right: auto
+        margin-left: auto
+        width: 92%
+        @media #{$pc}
+            background: url("/assets/images/update/common/pagettl_pattern.png") center no-repeat
+            background-size: contain
+            height: .75vw
+            width: 96%
+    &::before
+        transform: rotate(180deg)
+        margin-bottom: 2.66667vw
+        @media #{$pc}
+            margin-bottom: 1.33333vw
+    &::after
+        margin-top: 4vw
+        @media #{$pc}
+            margin-top: 2vw
+
+.update-page .conts-ttl
+    color: #0b263d
+    background: url("/assets/images/update/common/ttl_frame_t_sp.png") center top no-repeat, url("/assets/images/update/common/ttl_frame_b_sp.png") center bottom no-repeat
+    background-color: rgba(230, 248, 253, 0.8)
+    background-size: 100%
+    font-family: $serif
+    font-size: 6vw
+    font-weight: 700
+    height: 100%
+    margin: 0 auto 4vw
+    padding: 4vw
+    position: relative
+    text-align: center
+    z-index: 2
+    @media #{$pc}
+        background: url("/assets/images/update/common/ttl_frame_t.png") center top no-repeat, url("/assets/images/update/common/ttl_frame_b.png") center bottom no-repeat
+        background-color: rgba(230, 248, 253, 0.8)
+        background-size: 100%
+        font-size: 2.70833vw
+        margin-bottom: 1.33333vw
+        padding: 1.33333vw
+    &::before
+        background: url("/assets/images/update/common/ttl_frame.png") repeat-y
+        background-size: 100%
+        bottom: .5vw
+        content: ""
+        height: calc(100% - 1.5vw)
+        left: 0
+        position: absolute
+        width: 100%
+        z-index: -1
+
+.update-page .toggle-btn
+    background: url("/assets/images/update/common/btn_frame_t_sp.png") center top no-repeat, url("/assets/images/update/common/btn_frame_b_sp.png") center bottom no-repeat
+    background-color: #FFF
+    background-size: 100%
+    color: #0b263d
+    cursor: pointer
+    font-family: $serif
+    font-size: 4.4vw
+    font-weight: 700
+    height: 100%
+    line-height: 1.5
+    padding: 4vw 4vw 4vw 12vw
+    position: relative
+    user-select: none
+    @media #{$pc}
+        background: url("/assets/images/update/common/btn_frame_t.png") center top no-repeat, url("/assets/images/update/common/btn_frame_b.png") center bottom no-repeat
+        background-color: #FFF
+        background-size: 100%
+        font-size: 1.875vw
+        padding: 1.33333vw 1vw 1.33333vw 3vw
+        text-align: center
+    &::before
+        background: url("/assets/images/update/common/btn_frame.png") repeat-y
+        background-size: 100%
+        content: ""
+        height: calc(100% - 1vw)
+        left: 0
+        position: absolute
+        transform: translateY(-50%)
+        top: 50%
+        width: 100%
+    &::after
+        background: url("/assets/images/update/common/togglebtn_icon.png") center no-repeat
+        background-size: contain
+        content: ""
+        display: block
+        height: 4vw
+        left: 4vw
+        position: absolute
+        transition: transform .2s ease
+        transform: translateY(-50%)
+        top: 50%
+        width: 6vw
+        @media #{$pc}
+            height: 1.5vw
+            left: 1.33333vw
+            width: 2vw
+    &.active::after
+        transform: translateY(-50%) rotate(90deg)
+
+.update-page .toggle-box
+    background: #FFF
+    padding: 4vw 8vw
+    overflow: hidden
+    transition: height 0.2s ease
+    @media #{$pc}
+        padding: 2vw 4vw
+    .img
+        margin-bottom: 4vw
+        @media #{$pc}
+            margin-right: auto
+            margin-bottom: 2vw
+            margin-left: auto
+            width: 68.29268%
+
+.update-page .back-btn
+    font-family: $serif
+    padding: 0 4vw
+    margin-bottom: 12vw
+    @media #{$pc}
+        width: 33%
+        margin: 6vw auto
+    a
+        position: relative
+        text-align: center
+        display: block
+        width: 100%
+        color: #FFF
+        cursor: pointer
+        font-size: 4vw
+        height: 100%
+        line-height: 1.5
+        padding: 2vw 10vw 2vw 4vw
+        border: 1px solid #FFF
+        box-sizing: border-box
+        background-color: rgba(29, 138, 192, 0.7)
+        transition: border 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75), background-color 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75)
+        box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4)
+        @media #{$pc}
+            font-size: 1.3vw
+            font-weight: 600
+            padding: 0.8vw 3.3vw 0.8vw 1vw
+            &:hover
+                border: 1px solid #0e9ee3
+                background-color: #1d8ac0
+        &::after
+            background: url("/assets/images/update/common/icon_arrow.png") center no-repeat
+            background-size: contain
+            content: ""
+            display: block
+            height: 4vw
+            right: 4vw
+            position: absolute
+            transform: translateY(-50%)
+            top: 50%
+            width: 6vw
+            @media #{$pc}
+                height: 1.5vw
+                right: 1.33333vw
+                width: 2vw
+
+// ---------------------------------------------------------------------------
+// text / lists
+// ---------------------------------------------------------------------------
+.update-page .text-box
+    .list-ttl
+        background: rgba(0, 141, 209, 0.1)
+        border: 1px solid $blue
+        color: $blue
+        margin-bottom: .5em
+        padding: 0.5vw 4vw
+        @media #{$pc}
+            padding: 0.25vw 2vw
+    .list-tcttl
+        color: $blue
+        text-align: center
+        margin-bottom: .5em
+        padding: 0.5vw 4vw
+        @media #{$pc}
+            padding: 0.25vw 2vw
+    .list-bl, .list-sttl
+        color: $blue
+    p:not(.list-ttl):not(:last-of-type)
+        margin-bottom: 1em
+    .tc_red
+        color: #FF4200
+
+.update-page .update-list
+    &:not(:last-child)
+        margin-bottom: 1em
+    > li
+        line-height: 1.5
+        padding-left: 1em
+        text-indent: -1em
+        &:not(:last-child)
+            margin-bottom: 1em
+        &:not(.ic-ib)::before
+            color: $blue
+            content: "・"
+        &.ic-ib
+            padding-left: 1.5em
+            text-indent: -1.5em
+        > ul
+            margin-top: 1em
+            > li
+                padding-left: 1em
+                text-indent: -1em
+                &:not(:last-child)
+                    margin-bottom: 1em
+                ul
+                    margin-top: .5em
+                    li
+                        text-indent: 0
+                        &:not(:last-child)
+                            margin-bottom: .5em
+        a.anc
+            display: inline
+            text-decoration: underline
+            color: #FF4200
+        .list-sttl
+            color: $blue
+            text-indent: 0
+            margin-left: -1em
+            font-weight: normal
+
+// ---------------------------------------------------------------------------
+// detail page info box
+// ---------------------------------------------------------------------------
+.update-page #updateInfo .conts-box-inner
+    background: #FFF
+    border-right: 1px solid $blue
+    border-bottom: 1px solid $blue
+    border-left: 1px solid $blue
+    padding: 4vw 8vw
+    @media #{$pc}
+        padding: 2vw 4vw
+    dl dt
+        color: $blue
+    dl:not(:last-child)
+        margin-bottom: 4vw
+        @media #{$pc}
+            margin-bottom: 2vw
+    dl dd .dot-list li
+        padding-left: 1em
+        text-indent: -1em
+        &::before
+            color: $blue
+            content: "・"
+    .ic-ib
+        color: $blue
+    &.important
+        border: 1px solid #FF4200
+        color: #FF4200
+        dl dt
+            color: #FF4200
+            font-size: 4.4vw
+            margin-bottom: 2vw
+            text-align: center
+            @media #{$pc}
+                font-size: 1.66667vw
+                margin-bottom: 1vw
+
+.update-page .ttl
+    color: #0b263d
+    font-size: 4vw
+    font-weight: 700
+    text-align: center
+    @media #{$pc}
+        font-size: 1.7vw
+
+.update-page .bnr-box
+    box-shadow: 0px 0px 2px 3px #999
+    padding: 1px
+    a
+        display: block
+    img
+        vertical-align: bottom
+
+// ---------------------------------------------------------------------------
+// index (version panels)
+// ---------------------------------------------------------------------------
+.update-page.is-index .conts
+    padding-bottom: 16vw
+    @media #{$pc}
+        padding-bottom: 8vw
+    .conts-box
+        @media #{$pc}
+            width: 100%
+
+.update-page .panel-box
+    @media #{$pc}
+        margin: 0 1.5vw
+    .panel-list
+        padding: 0
+        @media #{$pc}
+            display: flex
+            flex-flow: row wrap
+            justify-content: space-between
+        > li
+            margin-bottom: 2vw
+            @media #{$pc}
+                width: 49%
+        img
+            width: 100%
+            vertical-align: bottom
+        .col-box
+            justify-content: space-between
+            align-items: center
+            .pic
+                width: 50%
+                @media #{$pc}
+                    width: 39%
+            .txt
+                width: 46%
+                @media #{$pc}
+                    width: 57%
+                h3
+                    font-family: $serif
+                    font-weight: 700
+                    font-size: 4.4vw
+                    margin-bottom: 0.6vw
+                    @media #{$pc}
+                        font-size: 2.1vw
+                    span
+                        position: relative
+                    &.up span::after
+                        content: "UP"
+                        display: inline-block
+                        position: absolute
+                        top: 50%
+                        right: -3em
+                        color: #fff
+                        width: 2em
+                        text-align: center
+                        font-weight: 700
+                        background: #0e9ee3
+                        font-size: 2.5vw
+                        line-height: 1.6
+                        transform: translateY(-50%)
+                        font-family: "Noto Sans JP", sans-serif
+                        @media #{$pc}
+                            font-size: 1vw
+                .date
+                    font-weight: 700
+                    @media #{$pc}
+                        font-size: 1.25vw
+                    span
+                        display: inline-block
+                        color: #fff
+                        background: #091d2d
+                        text-align: center
+                        font-size: 2.5vw
+                        padding: 0.1em 0.7em
+                        letter-spacing: 0.15em
+                        text-indent: 0.15em
+                        line-height: 1.6
+                        @media #{$pc}
+                            font-size: 0.95vw
+        .note
+            color: #FF4200
+            font-size: 2.1vw
+            margin-top: 2vw
+            @media #{$pc}
+                font-size: 0.8vw
+                margin-top: 1vw
+        .txt-box
+            margin-top: 2vw
+            font-size: 2.5vw
+            color: $blue
+            @media #{$pc}
+                margin-top: 1.2vw
+                font-size: 0.9vw
+            .ttl
+                color: $blue
+                text-align: left
+                font-weight: 700
+                font-size: inherit
+                margin-bottom: 1vw
+                @media #{$pc}
+                    margin-bottom: 0.1vw
+            ul li
+                margin-bottom: 0
+    li a
+        display: block
+        background: url("/assets/images/update/common/panel_frame_t.png") center top no-repeat, url("/assets/images/update/common/panel_frame_b.png") center bottom no-repeat
+        background-color: #FFF
+        background-size: 100%
+        color: #0b263d
+        cursor: pointer
+        height: 100%
+        line-height: 1.5
+        padding: 4vw 12vw 4vw 4vw
+        position: relative
+        @media #{$pc}
+            font-size: 1.875vw
+            padding: 1.33333vw 3vw 1.33333vw 1.7vw
+        &::before
+            background: url("/assets/images/update/common/panel_frame.png") repeat-y
+            background-size: 100%
+            content: ""
+            height: calc(100% - 5.5vw)
+            left: 0
+            position: absolute
+            transform: translateY(-50%)
+            top: 50%
+            width: 100%
+            @media #{$pc}
+                height: calc(100% - 2.6vw)
+        &::after
+            background: url("/assets/images/update/common/togglebtn_icon.png") center no-repeat
+            background-size: contain
+            content: ""
+            display: block
+            height: 4vw
+            right: 4vw
+            position: absolute
+            transition: transform .2s ease
+            transform: translateY(-50%)
+            top: 50%
+            width: 6vw
+            @media #{$pc}
+                height: 1.5vw
+                right: 1.33333vw
+                width: 2vw
+        > *
+            position: relative
+
+// ---------------------------------------------------------------------------
+// footer link back to the Iceborne site
+// ---------------------------------------------------------------------------
+.footer-iceborne
+    background: #fff
+    text-align: center
+    font-family: "Noto Sans JP", sans-serif
+    p
+        display: inline-block
+        vertical-align: middle
+    a
+        color: #314855
+    .text
+        text-align: left
+        margin-right: 2.3vw
+        font-size: 1.2vw
+        line-height: 1.6
+    .figure img
+        width: 100%
+        height: auto
+    @media #{$sp}
+        padding: 1.5vw 0
+        .text
+            width: 43vw
+            font-size: 3vw
+        .figure
+            width: 33vw
+            img
+                max-width: 260px
+    @media #{$pc}
+        padding: 1vw 0
+        .figure
+            width: 12vw

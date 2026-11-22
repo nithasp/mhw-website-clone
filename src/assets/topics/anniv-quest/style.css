@@ -1,0 +1,208 @@
+/* Scoped copy of the original topic stylesheet (anniv-quest) */
+.topic-anniv-quest .img_w90 {
+	width: 90% !important;
+}
+.topic-anniv-quest .img_w80 {
+	width: 80% !important;
+}
+.topic-anniv-quest .img_w70 {
+	width: 70% !important;
+}
+.topic-anniv-quest .imgTxt {
+	height: 0;
+	white-space: nowrap;
+	text-indent: -9999px;
+	background-size: 100% auto !important ;
+}
+.topic-anniv-quest .ds {
+	line-height: 2em;
+    text-shadow: 0px 0px 3px #000,0px 0px 0.1em #000,0px 0px 0.15em #000,0px 0px 0.15em #000,0px 0px 0.75em #000,0px 0px 0.75em #000,0px 0px 1em #000;
+}
+.topic-anniv-quest .content_box {
+	position: relative;
+	margin:  10% auto;
+}
+.topic-anniv-quest .content_box:first-child {
+	margin:  0 auto;
+}
+.topic-anniv-quest dl.date {
+	margin: 5% auto 0;
+	width: auto;
+	display: block;
+}
+.topic-anniv-quest dl.date dt {
+	display: block;
+	vertical-align: middle;
+	background: #091d2d;
+	font-size: 1.6rem;
+	padding: 0.5em 1em;
+	color: #FFF;
+	text-align: center;
+	width: 8em;
+	margin-bottom: 0.5em;
+}
+.topic-anniv-quest dl.date dd {
+	display: block;
+	vertical-align: middle;
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 0 0 0 0.7em;
+	color: #0e9ee3;
+	line-height: 1.5;
+}
+.topic-anniv-quest .mainVisual {
+	position: relative;
+}
+.topic-anniv-quest .mainVisual img {
+	position: relative;
+}
+.topic-anniv-quest .mainVisual .imgTxt {
+	position: absolute;
+	width: 43.288%;
+	padding-bottom: calc(33.9583% * 0.43288);
+	background: url("/assets/images/topics/anniv-quest/img_text01.png");
+	left: -3%;
+	top: 38%;
+	z-index: 1;
+}
+.topic-anniv-quest .movie {
+	display: block;
+	margin: 40px auto 0;
+	width: 75%;
+}
+.topic-anniv-quest .figure_block {
+	margin: 4% auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.topic-anniv-quest .figure_block figcaption,
+.topic-anniv-quest .figure_block img {
+	display: block;
+	width: 48% !important;
+}
+.topic-anniv-quest .clm_2 {
+	margin: 0.25em auto 2%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+.topic-anniv-quest .clm_2 figure {
+	text-align: center;
+	width: 48%;
+	margin: 0 1%;
+}
+.topic-anniv-quest .clm_2 figure:nth-child(n+3) {
+	margin-top: 5%;
+}
+.topic-anniv-quest .clm_2 figure img {
+	padding: 0.25em 0;
+}
+.topic-anniv-quest .clm_2 figure img +figcaption {
+	box-sizing: border-box;
+	text-align: center;
+}
+.topic-anniv-quest .over_line {
+	border-top:1px solid #0b263d;
+	padding-top: 10%;
+	margin-bottom: 0;
+}
+.topic-anniv-quest .over_line .linkbtn {
+	margin:5% auto auto;
+	width: 80%;
+}
+@media only screen and (min-width: 751px) and (max-width: 960px) {
+.topic-anniv-quest .read {
+		font-size: 2.6vw;
+}
+}
+@media only screen and (max-width: 750px) {
+.topic-anniv-quest .img_w90 {
+		width: 100% !important;
+}
+.topic-anniv-quest .img_w80 {
+		width: 100% !important;
+}
+.topic-anniv-quest .img_w70 {
+		width: 100% !important;
+}
+.topic-anniv-quest .bg-h2 h2 span {
+		letter-spacing: -0.07em;
+}
+.topic-anniv-quest .bg-h2 h2 span span {
+		margin-left: -0.4em;
+}
+.topic-anniv-quest .bg-h2 h2 span span + span {
+		margin-left:0;
+		margin-right: -0.4em
+}
+.topic-anniv-quest dl.date {
+		margin: 10% auto;
+		width: auto;
+		max-width: 100%;
+		display: block;
+}
+.topic-anniv-quest dl.date dt {
+		display: inline-block;
+		font-size: 3.5vw;
+		padding: 0.7em 0;
+}
+.topic-anniv-quest dl.date dd {
+		display: block;
+		width: 100%;
+		font-size: 4vw;
+		padding: 0.3em 0 0 0;
+}
+.topic-anniv-quest #contents .mainVisual img {
+		max-width: inherit;
+		width:  110%;
+		left: -5%;
+}
+.topic-anniv-quest .mainVisual .imgTxt {
+		position: relative !important;
+		right: inherit !important;
+		left: inherit !important;
+		margin: auto auto;
+		width: 70%;
+		padding-bottom:calc( 33.9583% * 0.7);
+}
+.topic-anniv-quest .movie {
+		display: block;
+		width: 100%;
+}
+.topic-anniv-quest .figure_block {
+		display: block;
+}
+.topic-anniv-quest .figure_block figcaption,
+.topic-anniv-quest .figure_block img {
+		width: 100% !important;
+		margin: 0.5em 0;
+}
+.topic-anniv-quest .clm_2 {
+		display: block;
+}
+.topic-anniv-quest .clm_2 figure {
+		width: 100%;
+		margin: 0.5em 0;
+}
+.topic-anniv-quest .clm_2 figure:nth-child(n+3) {
+		margin-top: 0;
+}
+.topic-anniv-quest .clm_2 figure img {
+		padding: 0.25em 0;
+}
+.topic-anniv-quest .clm_2 figure img +figcaption {
+		padding: 0 0.75em;
+		text-align: left;
+}
+.topic-anniv-quest .over_line .follow-up {
+		text-align: left;
+}
+.topic-anniv-quest .over_line .linkbtn {
+		margin:10% auto auto;
+		width: 100%;
+}
+}

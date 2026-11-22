@@ -1,0 +1,57 @@
+{
+ "ver": "ver14_01",
+ "label": "Ver. 14.01",
+ "title": "Update Ver. 14.01 Outline",
+ "subtitle": "（PlayStation4: Update 14.01 / Xbox One: Update 14.0.0.1）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>July 21, 2020 UTC 00:00</dd> </dl> <p class=\"list-bl\">Features marked with a <span class=\"ic-ib\"></span> can only be used by players who have purchased Monster Hunter World: Iceborne.</p>"
+ },
+ "categories": [
+  {
+   "id": "bugFixes",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Data related to future event quests has been added.",
+       "ib": true,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  },
+  {
+   "id": "bugFixes",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "The following issues were fixed in this update.<br>French: A spelling mistake in the update notice window was corrected.<br>Previous: l‘incidence de la pandémie du coronavirus  (CODIV-19)<br>Corrected: l‘incidence de la pandémie du coronavirus  (COVID-19)",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

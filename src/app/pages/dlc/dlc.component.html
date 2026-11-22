@@ -1,0 +1,92 @@
+<app-topics-layout slug="dlc" [mhwHeader]="true">
+  <div class="bg-h2">
+    <h2>Downloadable Content</h2>
+  </div>
+
+  <div id="contents">
+    <ul class="menuList">
+      <li *ngFor="let item of menu">
+        <a [href]="'#' + item.anchor" (click)="scrollTo($event, item.anchor)">{{ item.label }}</a>
+      </li>
+    </ul>
+
+    <!-- Value packs -->
+    <section class="inConts" id="pack">
+      <div class="bg-h3 dark">
+        <h3>Value Packs</h3>
+      </div>
+      <div class="inBox clm2">
+        <ng-container *ngFor="let group of valuePacks; let lastGroup = last; let g = index">
+          <dl class="large" *ngFor="let pack of group; let i = index">
+            <dt><img [src]="pack.image" alt="" /></dt>
+            <dd class="ttl" [innerHTML]="pack.title"></dd>
+            <dd class="price" [class.fee]="pack.fee" [class.free]="!pack.fee"></dd>
+            <dd class="lists">
+              <input [id]="'pack-' + g + '-' + i" class="toggle" type="checkbox" />
+              <label class="toggle-label" [for]="'pack-' + g + '-' + i">[Contents]</label>
+              <div class="toggle-lists" [innerHTML]="pack.contents"></div>
+            </dd>
+          </dl>
+          <div class="line" *ngIf="!lastGroup"></div>
+        </ng-container>
+      </div>
+    </section>
+
+    <!-- Deluxe kit -->
+    <section class="inConts small" id="delux">
+      <div class="bg-h3 dark">
+        <h3>Deluxe Kit</h3>
+      </div>
+      <div class="inBox">
+        <dl class="large" *ngFor="let pack of deluxe; let i = index">
+          <dt><img [src]="pack.image" alt="" /></dt>
+          <dd class="ttl" [innerHTML]="pack.title"></dd>
+          <dd class="price" [class.fee]="pack.fee" [class.free]="!pack.fee"></dd>
+          <dd class="lists">
+            <input [id]="'delux-' + i" class="toggle" type="checkbox" />
+            <label class="toggle-label" [for]="'delux-' + i">[Contents]</label>
+            <div class="toggle-lists" [innerHTML]="pack.contents"></div>
+          </dd>
+        </dl>
+        <dl class="large"></dl>
+      </div>
+    </section>
+
+    <ng-container *ngFor="let section of sections">
+      <!-- "Appearance" (character edit vouchers) sits between the stickers and the hairstyles -->
+      <section class="inConts small" id="style" *ngIf="section.id === 'hairstyle'">
+        <div class="bg-h3 dark">
+          <h3>Appearance</h3>
+        </div>
+        <div class="inBox">
+          <dl class="large" *ngFor="let pack of style">
+            <dt><img [src]="pack.image" alt="" /></dt>
+            <dd class="price" [class.fee]="pack.fee" [class.free]="!pack.fee" [innerHTML]="pack.priceHtml"></dd>
+          </dl>
+        </div>
+      </section>
+
+      <section class="inConts small" [id]="section.id">
+        <div class="bg-h3 dark" *ngIf="section.title">
+          <h3>{{ section.title }}</h3>
+        </div>
+        <div class="inBox">
+          <dl *ngFor="let item of items(section.id)">
+            <dt><img [src]="item.image" alt="" width="512" height="512" loading="lazy" /></dt>
+            <dd class="price" [class.fee]="item.fee" [class.free]="!item.fee"></dd>
+            <dd class="ttl">{{ item.title }}</dd>
+          </dl>
+        </div>
+      </section>
+    </ng-container>
+
+    <div class="storeLink center">
+      <p class="text01">Click Here for More Details</p>
+      <div class="linkbtnWrap">
+        <p class="linkbtn" *ngFor="let link of storeLinks">
+          <a [href]="link.href" target="_blank" rel="noopener"><span [innerHTML]="link.label"></span></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</app-topics-layout>

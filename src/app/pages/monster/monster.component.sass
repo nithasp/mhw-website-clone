@@ -1,0 +1,156 @@
+// Ported from the original $MONSTER rules (the rest lives in styles/_lower.sass)
+$sp: "only screen and (max-width: 1000px)"
+$serif: "Noto Serif JP", serif
+$text-shadow: 4px 4px 0 #000, 4px 4px 20px #000, 4px 4px 10px #000, 4px 4px 5px #000
+
+// buttons inside the main visual
+app-page-hero .btn_loupe,
+app-page-hero .btn_movie
+    margin-top: 2vw
+    margin-right: 0.33333vw
+    text-shadow: none
+    @media #{$sp}
+        margin-top: 2.66667vw
+
+:host ::ng-deep .lower--monster .main__spec
+    @media #{$sp}
+        padding-bottom: 5.33333vw
+        text-align: center
+        dt, dd
+            text-align: left
+
+// note: the original's shared "lower page" article rules do not apply to the
+// monster page, so the generic ones from styles/_lower.sass are reset here
+.content
+    padding-top: 0
+
+.content__body
+    text-align: left
+    margin-bottom: 6vw
+    @media #{$sp}
+        margin-bottom: 8vw
+
+.article
+    position: relative
+    height: 26.4vw
+    overflow: hidden
+    background-size: cover
+    background-repeat: no-repeat
+    margin: 8px 0 0
+    padding-top: 3.33333vw
+    font-size: 0
+    color: #FFF
+    @media #{$sp}
+        margin-top: 4px
+        height: auto
+        padding: 76vw 2.66667vw 5.33333vw
+
+@for $i from 1 through 14
+    $key: if($i < 10, "0#{$i}", "#{$i}")
+    .article.monster#{$key}
+        background-image: url("/assets/images/monster/article_bg_#{$i}.jpg")
+
+.article__figure
+    position: absolute
+    top: 0
+    width: auto
+    height: 26.4vw
+    margin: 0
+    picture
+        display: block
+        height: 100%
+    img
+        width: auto
+        height: 100%
+        box-shadow: none
+    @media #{$sp}
+        width: 100vw
+        height: auto
+        margin: 0
+        picture
+            height: auto
+        img
+            width: 100%
+            height: auto
+
+.article-l .article__figure
+    right: 0
+
+.article-r .article__figure
+    left: 0
+
+.article.monster05 .article__figure
+    right: 9.33333vw
+    @media #{$sp}
+        right: 0
+
+.article__spec
+    position: relative
+    z-index: 10
+    width: 40vw
+    height: auto
+    .btn_movie
+        margin-top: 2vw
+    .btn_loupe
+        margin-top: 2vw
+        margin-right: 0.33333vw
+    @media #{$sp}
+        text-align: center
+        width: 94.66667vw
+        .btn_movie
+            margin-top: 2.66667vw
+        .btn_loupe
+            margin-top: 2.66667vw
+            margin-right: 1.33333vw
+
+.article-l .article__spec
+    margin-left: 9.33333vw
+    @media #{$sp}
+        margin-left: 0
+
+.article-r .article__spec
+    margin-left: 58vw
+    @media #{$sp}
+        margin-left: 0
+
+.article__spec__role
+    text-align: left
+    font-size: 2vw
+    line-height: 1
+    font-family: $serif
+    margin-bottom: 0.66667vw
+    text-shadow: $text-shadow
+    @media #{$sp}
+        font-size: 6.13333vw
+        margin-bottom: 1.33333vw
+
+.article__spec__name
+    text-align: left
+    font-size: 5vw
+    line-height: 1
+    font-family: $serif
+    text-shadow: $text-shadow
+    font-weight: bold
+    @media #{$sp}
+        font-size: 12vw
+
+// longer names are set smaller on the US site
+.article.monster02, .article.monster07, .article.monster08, .article.monster11
+    .article__spec__name
+        font-size: 4vw
+        @media #{$sp}
+            font-size: 8.33333vw
+
+.article__spec__description
+    text-align: left
+    font-size: 1.13333vw
+    line-height: 1.6
+    margin-top: 1.66667vw
+    text-shadow: 2px 2px 3px #000000
+    @media #{$sp}
+        color: #0b263d
+        font-size: 3.46667vw
+        background-color: rgba(255, 255, 255, 0.7)
+        margin-top: 2.66667vw
+        padding: 2.66667vw
+        text-shadow: none

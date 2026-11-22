@@ -77,6 +77,7 @@
                 width: 100%
                 height: 100%
                 pointer-events: none
+                object-fit: cover
                 transform: scale(1.2)
     .bg-video.show
         opacity: 1
@@ -107,6 +108,9 @@
 #update-information
     margin-top: 80px
     color: white
+    // the update boxes are links now
+    a
+        color: inherit
     .update-information-section1
         .wrapper
             background: url(https://www.monsterhunter.com/world-iceborne/assets/img/common/common/update_base_left_top.png) 0 0 / 0.73vw auto no-repeat, url(https://www.monsterhunter.com/world-iceborne/assets/img/common/common/update_base_center_top.png) left 0.72916vw top 0.20833vw/calc(100% - 1.45833vw) 0.72916vw no-repeat, url(https://www.monsterhunter.com/world-iceborne/assets/img/common/common/update_base_right_top.png) right 0.20833vw top 0.20833vw /0.52083vw auto no-repeat, url(https://www.monsterhunter.com/world-iceborne/assets/img/common/common/update_base_left_bottom.png) left 0.20833vw bottom 0.20833vw /3.4375vw auto no-repeat, url(https://www.monsterhunter.com/world-iceborne/assets/img/common/common/update_base_center_bottom.png) left 3.64583vw bottom 0.20833vw/calc(100% - 7.29166vw) 1.61458vw no-repeat, url(https://www.monsterhunter.com/world-iceborne/assets/img/common/common/update_base_right_bottom.png) right 0.20833vw bottom 0.20833vw /3.4375vw auto no-repeat, rgba(29, 138, 192, 1)
@@ -187,7 +191,7 @@
                     height: 50px
 
 #introduction
-    //position: relative
+    position: relative
     margin-top: 100px
     padding: 80px 0
     height: 50vw
@@ -204,7 +208,6 @@
         background: url(/assets/images/introduction_img.png) no-repeat
         background-size: contain
         background-position: center
-        display: none
     .paragraph
         padding: 2.33333vw 2vw 4.33333vw
         background-color: rgba(255, 255, 255, 0.6)
@@ -215,7 +218,6 @@
         width: 38vw
         height: auto
         color: #0b263d
-        display: none
         h1
             font-size: 2.6vw
             margin-bottom: 1vw
@@ -227,6 +229,15 @@
 
 .new-elements.mhw-title
     margin: 4vw auto
+
+// New Elements sections: keep the copy above the background movies
+.section-element
+    position: relative
+    .title,
+    .wrap-content,
+    .mhw-button2
+        position: relative
+        z-index: 1
 
 #story
     height: 40vw
@@ -256,6 +267,7 @@
                 width: 100%
                 height: 100%
                 pointer-events: none
+                object-fit: cover
                 transform: scale(1.4)
     .bg-video.show
         opacity: 1
@@ -289,6 +301,7 @@
                 width: 100%
                 height: 100%
                 pointer-events: none
+                object-fit: cover
                 transform: scale(1.4)
     .bg-video.show
         opacity: 1

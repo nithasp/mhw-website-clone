@@ -1,0 +1,1030 @@
+// ===========================================================================
+// Shared layout of the "lower" (second level) pages:
+// news, media, story, ecosystem, monster, hunting, base, system
+// Ported from the original site's LOWER / BTN / CAROUSEL / bg_movie rules.
+// Every lower page wraps its template in <div class="lower lower--{page}">.
+// ===========================================================================
+$sp: "only screen and (max-width: 1000px)"
+$pc: "only screen and (min-width: 1001px)"
+$ease-ui: cubic-bezier(0.25, 0.25, 0.75, 0.75)
+$serif: "Noto Serif JP", serif
+$cardo: "Cardo", serif
+$font-us: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", "Hiragino Kaku Gothic ProN", "游ゴシック", "メイリオ", meiryo, sans-serif
+$navy: #0b263d
+$blue: #0e9ee3
+$shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4)
+
+// ---------------------------------------------------------------------------
+// icon font of the original site
+// ---------------------------------------------------------------------------
+.iconf
+    display: inline-block
+    font-family: "iconf"
+    font-style: normal
+    font-weight: 400
+    line-height: 1
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    // the original's reset (`::before { vertical-align: inherit }`) lets the glyph
+    // follow the icon's own vertical-align, e.g. `middle` centers the loupe in its button
+    &:before
+        vertical-align: inherit
+
+.iconf-back:before
+    content: "\EA09"
+.iconf-cancel:before
+    content: "\EA0A"
+.iconf-dot-carousel:before
+    content: "\EA0B"
+.iconf-loupe:before
+    content: "\EA0C"
+
+// ---------------------------------------------------------------------------
+// base
+// ---------------------------------------------------------------------------
+// custom element hosts of the shared components behave like blocks
+app-page-hero, app-btn-already, app-bg-movie, app-topics-layout, app-chara-list, app-fade-slider, app-simple-slider
+    display: block
+
+// no z-index here on purpose: modals rendered inside a page must be able to
+// cover the fixed MENU button
+.lower
+    position: relative
+    color: $navy
+    font-family: $font-us
+    line-height: 1.15
+    ::selection
+        background: $blue
+        color: #FFF
+    a
+        color: #26749a
+    img
+        width: 100%
+        height: auto
+        object-fit: fill
+        vertical-align: bottom
+    ul
+        list-style: none
+    small
+        font-size: 80%
+
+.br_pc
+    display: block
+    @media #{$sp}
+        display: none
+
+.br_sp
+    display: none
+    @media #{$sp}
+        display: block
+
+// logo shown at the top left of every lower page
+.logo_iceborne
+    position: absolute
+    z-index: 10
+    top: 0
+    left: 0
+    width: 13.66667vw
+    height: auto
+    img
+        width: 100%
+        height: auto
+    @media #{$sp}
+        width: 32.26667vw
+        top: 1.33333vw
+
+// ---------------------------------------------------------------------------
+// background movie
+// ---------------------------------------------------------------------------
+.bg_movie
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    z-index: 0
+    opacity: 0
+    transition: opacity 2s linear
+    &.is-show
+        opacity: 1
+    .movieWrapper
+        position: absolute
+        width: 100%
+        height: 100%
+        z-index: 0
+        overflow: hidden
+        top: 0
+        left: 0
+        @media #{$sp}
+            display: none
+    video
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        object-fit: cover
+        display: block
+        pointer-events: none
+
+// ---------------------------------------------------------------------------
+// buttons
+// ---------------------------------------------------------------------------
+.lower .btn_more
+    position: relative
+    z-index: 1
+    text-align: center
+    display: inline-block
+    width: 16.86667vw
+    height: 3.4vw
+    padding: 1px
+    border: 1px solid #FFF
+    box-sizing: border-box
+    background-color: rgba(29, 138, 192, 0.7)
+    transition: border 0.2s $ease-ui, background-color 0.2s $ease-ui
+    box-shadow: $shadow
+    p
+        width: 90%
+        position: absolute
+        top: 50%
+        left: 20%
+        transform: translateX(-20%) translateY(-50%)
+        font-family: $cardo
+        color: #FFF
+        font-size: 1.66667vw
+        line-height: 1
+        transition: color 0.2s $ease-ui
+    &:hover
+        border: 1px solid $blue
+        background-color: #1d8ac0
+    &:after
+        content: ""
+        width: 1.33333vw
+        height: 1vw
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: 0.33333vw
+        z-index: 1
+        background-image: url("/assets/images/common/icon_arrow_l.png")
+        background-size: cover
+    @media #{$sp}
+        width: 67.46667vw
+        height: 13.6vw
+        p
+            font-size: 6.66667vw
+            line-height: 14.26667vw
+        &:after
+            width: 5.33333vw
+            height: 4vw
+            right: 1.33333vw
+
+.lower .btn_movie
+    position: relative
+    text-align: center
+    display: inline-block
+    vertical-align: top
+    width: 16.86667vw
+    height: 3.4vw
+    padding: 1px
+    border: 1px solid #FFF
+    box-sizing: border-box
+    transition: border 0.2s $ease-ui
+    background-color: rgba(29, 138, 192, 0.7)
+    box-shadow: $shadow
+    p
+        font-family: $cardo
+        color: #FFF
+        font-size: 1.16667vw
+        line-height: 3.2vw
+        transition: color 0.2s $ease-ui
+    &:hover
+        border: 1px solid $blue
+        background-color: #1d8ac0
+    &:after
+        content: ""
+        width: 1.33333vw
+        height: 1vw
+        position: absolute
+        top: 1.06667vw
+        right: 0.66667vw
+        z-index: 1
+        background-image: url("/assets/images/common/icon_arrow.png")
+        background-size: cover
+    &.disabled
+        pointer-events: none
+        background: #666
+    @media #{$sp}
+        width: 67.46667vw
+        height: 13.6vw
+        p
+            font-size: 4.66667vw
+            line-height: 13.33333vw
+        &:after
+            width: 5.33333vw
+            height: 4vw
+            top: 4.8vw
+            right: 2.66667vw
+
+.lower .btn_loupe
+    vertical-align: top
+    display: inline-block
+    position: relative
+    text-align: center
+    width: 3.4vw
+    height: 3.4vw
+    padding: 1px
+    border: 1px solid #FFF
+    box-sizing: border-box
+    transition: border 0.2s $ease-ui
+    background-color: rgba(29, 138, 192, 0.7)
+    box-shadow: $shadow
+    cursor: pointer
+    i
+        font-size: 2vw
+        line-height: 2.46667vw
+        vertical-align: middle
+        color: #FFF
+        transition: color 0.2s $ease-ui
+    &:hover
+        border: 1px solid $blue
+        background-color: #1d8ac0
+    @media #{$sp}
+        width: 13.6vw
+        height: 13.6vw
+        i
+            font-size: 8vw
+            line-height: 9.33333vw
+
+.lower .btn_readmore
+    text-align: center
+    display: block
+    width: 11.86667vw
+    height: 2vw
+    margin: 2vw auto 0
+    background-color: rgba(29, 138, 192, 0.7)
+    border: none
+    cursor: pointer
+    opacity: 1
+    transition: opacity 0.2s $ease-ui
+    p
+        color: #FFF
+        font-size: 0.8vw
+        line-height: 2vw
+    &:hover
+        opacity: .6
+    @media #{$sp}
+        width: 46.66667vw
+        height: 10.66667vw
+        p
+            font-size: 3.2vw
+            line-height: 10.66667vw
+
+// ---------------------------------------------------------------------------
+// thumbnails (news / media / characters)
+// ---------------------------------------------------------------------------
+.lower .thumbnailNews
+    position: relative
+    width: 19.33333vw
+    height: auto
+    text-align: left
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5)
+    background-color: #FFF
+    a
+        display: block
+        color: inherit
+    &:hover:before
+        opacity: 1
+    &:hover:after
+        background-image: url("/assets/images/common/icon_bottomRight_on.png")
+    .thumbnailNews__figure
+        position: relative
+        padding: 2px
+        padding-bottom: 0
+        background-color: #FFF
+    &:before
+        opacity: 0
+        pointer-events: none
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        z-index: 10
+        width: 100%
+        height: 100%
+        border: 2px solid $blue
+        transition: opacity 0.2s $ease-ui
+    &:after
+        content: ""
+        width: 0.86667vw
+        height: 0.8vw
+        position: absolute
+        bottom: 0.26667vw
+        right: 0.26667vw
+        z-index: 1
+        background-image: url("/assets/images/common/icon_bottomRight.png")
+        background-size: cover
+        transition: background-image 0.2s $ease-ui
+    &.up .thumbnailNews__figure:after
+        content: ""
+        width: 2.33333vw
+        height: 2.33333vw
+        position: absolute
+        top: 2px
+        left: 2px
+        z-index: 1
+        background-image: url("/assets/images/common/icon_update.png")
+        background-size: cover
+    .thumbnailNews__body
+        color: #666666
+        min-height: 6.83333vw
+        padding: 0.66667vw
+        background-color: #FFF
+        p
+            font-size: 0.86667vw
+            line-height: 1.6
+    @media #{$sp}
+        width: 77.33333vw
+        margin: 0 2.66667vw
+        &:after
+            width: 2.66667vw
+            height: 2.4vw
+            bottom: 1.06667vw
+            right: 1.06667vw
+        &.up .thumbnailNews__figure:after
+            width: 9.33333vw
+            height: 9.33333vw
+        .thumbnailNews__body
+            min-height: 21.33333vw
+            padding: 2.66667vw
+            p
+                font-size: 3.46667vw
+
+.lower .thumbnailMedia
+    width: 40vw
+    height: auto
+    a
+        display: block
+    a:hover .thumbnailMedia__figure
+        border-color: $blue
+        &:after
+            background-image: url("/assets/images/common/icon_arrow_square_on.png")
+    .thumbnailMedia__figure
+        position: relative
+        border: 2px solid #FFF
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5)
+        transition: border-color 0.2s $ease-ui
+        &:after
+            content: ""
+            width: 5.86667vw
+            height: 2.13333vw
+            position: absolute
+            bottom: 0px
+            right: 0px
+            z-index: 1
+            background-image: url("/assets/images/common/icon_arrow_square.png")
+            background-size: cover
+            transition: background-image 0.2s $ease-ui
+    .thumbnailMedia__text
+        position: relative
+        z-index: 1
+        width: 100%
+        padding: 0 1vw 0.66667vw
+        p
+            text-align: center
+            font-size: 1.2vw
+            line-height: 1.6
+            font-weight: bold
+            display: flex
+            align-items: center
+            justify-content: center
+            height: 3em
+    @media #{$sp}
+        width: 77.33333vw
+        margin: 0 2.66667vw
+        .thumbnailMedia__figure:after
+            width: 23.46667vw
+            height: 8.53333vw
+        .thumbnailMedia__text
+            padding: 0 4vw 2.66667vw
+            p
+                font-size: 3.2vw
+                line-height: 1.4
+                height: 3.2em
+
+.lower .thumbnailChara
+    position: relative
+    width: 18.66667vw
+    height: auto
+    text-align: left
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5)
+    padding: 2px
+    background-color: #FFF
+    a
+        display: block
+        cursor: pointer
+    &:hover:before
+        opacity: 1
+    &:hover .thumbnailChara__body
+        border-color: $blue
+    .thumbnailChara__figure
+        position: relative
+        padding-bottom: 0
+        background-color: #FFF
+        img
+            box-shadow: none
+    &:before
+        opacity: 0
+        pointer-events: none
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        z-index: 10
+        width: 100%
+        height: 100%
+        border: 2px solid $blue
+        transition: opacity 0.2s $ease-ui
+    .thumbnailChara__body
+        position: absolute
+        left: 2px
+        bottom: 2px
+        z-index: 2
+        color: #FFF
+        width: calc(100% - 4px)
+        min-height: 5.33333vw
+        padding: 0.66667vw
+        transition: border-color 0.2s $ease-ui, background-color 0.2s $ease-ui
+        border-top: 2px solid #FFF
+        background-color: rgba(96, 173, 210, 0.8)
+        p
+            font-family: $serif
+            font-weight: bold
+            position: absolute
+            top: 50%
+            left: 0.66667vw
+            width: 15.33333vw
+            transform: translateY(-50%)
+            font-size: 1.33333vw
+            line-height: 1.6
+            text-align: left
+        &:after
+            content: ""
+            width: 1.43333vw
+            height: 1.13333vw
+            position: absolute
+            top: 50%
+            transform: translateY(-50%)
+            right: 0.66667vw
+            z-index: 1
+            background-image: url("/assets/images/common/icon_arrow.png")
+            background-size: cover
+            transition: background-image 0.2s $ease-ui
+    @media #{$sp}
+        width: 100%
+        margin: 0 auto
+        &:before
+            border-width: 1px
+        .thumbnailChara__body
+            min-height: 13.33333vw
+            padding: 2.66667vw
+            p
+                font-size: 3.46667vw
+                left: 2.66667vw
+                width: 33.33333vw
+            &:after
+                width: 5.73333vw
+                height: 4.53333vw
+                right: 2.66667vw
+
+// ---------------------------------------------------------------------------
+// main visual of the lower pages
+// ---------------------------------------------------------------------------
+.lower .main
+    position: relative
+    min-height: 100vh
+    padding-top: 8.66667vw
+    color: $navy
+    background-image: var(--main-bg)
+    background-size: cover
+    background-position: center center
+    @media #{$sp}
+        padding-top: 22.66667vw
+        min-height: auto
+        background-image: var(--main-bg-sp, var(--main-bg))
+    &.main--short
+        min-height: 20vh
+
+.lower .main__header
+    color: $navy
+    position: relative
+    z-index: 1
+    width: 49.33333vw
+    height: 12.33333vw
+    padding-top: 2.33333vw
+    background-image: url("/assets/images/common/main_title_base.png")
+    background-size: cover
+    p
+        display: inline-block
+    @media #{$sp}
+        width: 100vw
+        height: 30.66667vw
+        padding-top: 4vw
+        background-image: url("/assets/images/common/main_title_base_sp.png")
+
+.lower .main__header__sub
+    margin-left: 10vw
+    margin-bottom: 1.66667vw
+    @media #{$sp}
+        margin-left: 2.66667vw
+        margin-bottom: 4vw
+
+.lower .main__header__title
+    position: relative
+    z-index: 1
+    margin-left: 10vw
+    @media #{$sp}
+        margin-left: 2.66667vw
+
+.lower .main__header__sub__en
+    font-family: $cardo
+    font-size: 1.83333vw
+    line-height: 1
+    font-weight: bold
+    @media #{$sp}
+        font-size: 3.73333vw
+
+.lower .main__header__title__en
+    font-family: $cardo
+    font-size: 5vw
+    line-height: 1
+    font-weight: bold
+    @media #{$sp}
+        font-size: 9.86667vw
+        display: block !important
+        margin-bottom: 1.33333vw
+    &.is-long
+        font-size: 4vw
+        @media #{$sp}
+            font-size: 8.86667vw
+
+.lower .main__spec
+    position: absolute
+    z-index: 1
+    bottom: 2.66667vw
+    left: 9.33333vw
+    color: #FFF
+    text-shadow: 4px 4px 0 #000, 4px 4px 20px #000, 4px 4px 10px #000, 4px 4px 5px #000
+    @media #{$sp}
+        position: relative
+        bottom: 0
+        left: 0
+        margin-top: 57.33333vw
+        padding: 2.66667vw
+
+.lower .main__spec__role
+    font-size: 2.33333vw
+    line-height: 1
+    font-family: $serif
+    margin-bottom: 0.66667vw
+    @media #{$sp}
+        font-size: 6.13333vw
+        margin-bottom: 1.33333vw
+
+.lower .main__spec__name
+    font-size: 5vw
+    line-height: 1
+    font-family: $serif
+    font-weight: bold
+    @media #{$sp}
+        font-size: 12vw
+
+.lower .main__spec__description
+    color: $navy
+    font-size: 1.33333vw
+    line-height: 1.6
+    width: 43.33333vw
+    margin-top: 1.33333vw
+    padding: 0.66667vw
+    background-color: rgba(255, 255, 255, 0.7)
+    text-shadow: none
+    @media #{$sp}
+        font-size: 3.46667vw
+        width: 94.66667vw
+        margin-top: 2.66667vw
+        padding: 2.66667vw
+
+// ---------------------------------------------------------------------------
+// content blocks
+// ---------------------------------------------------------------------------
+.lower .content
+    position: relative
+    padding-top: 3.33333vw
+    @media #{$sp}
+        padding-top: 8vw
+
+.lower .content__body
+    text-align: center
+    font-size: 0
+
+.lower .content__header
+    position: relative
+    z-index: 2
+    background-image: url("/assets/images/common/title_waku_top.png"), url("/assets/images/common/title_waku_bottom.png")
+    background-size: 100%
+    background-repeat: no-repeat
+    background-position: center top, center bottom
+    background-color: rgba(230, 248, 253, 0.5)
+    width: 74.73333vw
+    height: 100%
+    margin: 0 auto
+    padding: 1.33333vw
+    color: $navy
+    text-align: center
+    &:before
+        content: ""
+        position: absolute
+        top: 2vw
+        left: 0
+        width: 74.73333vw
+        height: calc(100% - 3vw)
+        background-image: url("/assets/images/common/title_waku_center.png")
+        background-size: 100%
+        background-repeat: repeat-y
+    @media #{$sp}
+        width: 100vw
+        height: auto
+        padding: 2.66667vw
+        background-image: url("/assets/images/common/title_waku_top_sp.png"), url("/assets/images/common/title_waku_bottom_sp.png")
+        &:before
+            display: none
+
+.lower .content__header__title
+    position: relative
+    display: inline-block
+    font-size: 2.66667vw
+    font-family: $serif
+    line-height: 1.4
+    font-weight: bold
+    vertical-align: middle
+    @media #{$sp}
+        font-size: 6.66667vw
+
+.lower .article
+    position: relative
+    margin: 0 auto 6vw
+    @media #{$sp}
+        margin: 0 auto 8vw
+
+.lower .article__text
+    text-align: center
+    font-size: 1.33333vw
+    line-height: 1.6
+    width: 74.73333vw
+    height: auto
+    margin: 3.33333vw auto 0
+    @media #{$sp}
+        text-align: left
+        font-size: 3.46667vw
+        width: 94.66667vw
+        margin: 8vw auto 0
+
+.lower .article__notice
+    text-align: center
+    font-size: 1vw
+    line-height: 1.2
+    width: 74.73333vw
+    height: auto
+    margin: 1.3333vw auto 0
+    li
+        text-indent: -1em
+        margin-left: 1em
+        line-height: 1.2
+    @media #{$sp}
+        text-align: left
+        font-size: 3vw
+        width: 94.66667vw
+        margin: 4vw auto 0
+
+.lower .article__figure
+    position: relative
+    width: 72vw
+    height: auto
+    margin-top: 3.33333vw
+    img
+        box-shadow: $shadow
+    @media #{$sp}
+        width: 94.66667vw
+        margin: 8vw auto 0
+
+.lower .article__figure_right
+    margin-left: auto
+    @media #{$sp}
+        margin-left: auto
+        margin-right: auto
+
+.lower .article__figure_full
+    width: 100%
+    @media #{$sp}
+        width: 94.66667vw
+        margin: 0 auto
+
+// not positioned on purpose: captions inside it are anchored to the article (like the original)
+.lower .article__figure_large
+    width: 88vw
+    margin: 3.33333vw auto 0
+    img
+        box-shadow: $shadow
+    @media #{$sp}
+        width: 94.66667vw
+        margin: 8vw auto 0
+
+// plain text boxes anchor their decorative frame (::before); the caption
+// boxes below override this with position: absolute, as on the original
+.lower .textbox
+    position: relative
+
+.lower .article__figure__text
+    position: absolute
+    bottom: -3.33333vw
+    left: 48vw
+    z-index: 10
+    @media #{$sp}
+        position: relative
+        bottom: 0
+        left: 0
+        margin-top: 2.66667vw
+
+.lower .article__figure_right .article__figure__text
+    left: -18.66667vw
+    @media #{$sp}
+        left: auto
+
+.lower .article__figure_full .article__figure__text
+    bottom: 3.33333vw
+    left: auto
+    right: 3.33333vw
+    @media #{$sp}
+        position: relative
+        right: auto
+        bottom: auto
+        margin-top: 2.66667vw
+
+.lower .textbox
+    width: 42.66667vw
+    height: auto
+    padding: 2vw
+    background: url("/assets/images/common/textbox_waku_top.png") no-repeat, url("/assets/images/common/textbox_waku_bottom.png") no-repeat
+    background-size: 100%
+    background-position: center top, center bottom
+    background-color: rgba(255, 255, 255, 0.8)
+    box-shadow: $shadow
+    p
+        position: relative
+        z-index: 1
+        text-align: left
+        font-size: 1.33333vw
+        line-height: 1.6
+    &:before
+        content: ""
+        background-image: url("/assets/images/common/textbox_waku_center.png")
+        background-size: 100%
+        background-repeat: repeat-y
+        width: 100%
+        height: calc(100% - 5.33333vw)
+        position: absolute
+        top: 2.66667vw
+        left: 0
+        z-index: 0
+    @media #{$sp}
+        width: 94.66667vw
+        padding: 5.33333vw 2.66667vw
+        background: url("/assets/images/common/textbox_waku_top_sp.png") no-repeat, url("/assets/images/common/textbox_waku_bottom_sp.png") no-repeat
+        background-size: 100%
+        background-position: center top, center bottom
+        background-color: rgba(255, 255, 255, 0.8)
+        p
+            font-size: 3.46667vw
+        &:before
+            top: 5.33333vw
+            background-image: url("/assets/images/common/textbox_waku_center_sp.png")
+            width: 94.66667vw
+            height: calc(100% - 8vw)
+
+.lower .article__figure_full .textbox
+    width: 32vw
+    &:before
+        top: 2vw
+        height: calc(100% - 4vw)
+    @media #{$sp}
+        width: 94.66667vw
+        &:before
+            top: 5.33333vw
+            height: calc(100% - 8vw)
+
+.lower .article__flow
+    font-size: 0
+    margin-top: 6vw
+    @media #{$sp}
+        margin-top: 0
+
+.lower .article__flow__item
+    position: relative
+    display: inline-block
+    width: 43.33333vw
+    height: auto
+    vertical-align: top
+    &:nth-child(even)
+        margin-left: 1.33333vw
+    @media #{$sp}
+        display: block
+        width: 94.66667vw
+        margin: 8vw auto 0
+        &:nth-child(even)
+            margin: 8vw auto 0
+
+.lower .article__flow__item__figure img
+    box-shadow: $shadow
+
+.lower .article__flow__item__figure__figcaption
+    position: relative
+    margin: 1.33333vw auto 0
+    @media #{$sp}
+        margin-top: 2.66667vw
+
+// the flow captions span the full item width
+.lower .article__flow__item .textbox
+    width: 100%
+
+.lower .article__column2
+    text-align: center
+    font-size: 0
+    margin-top: 6vw
+    @media #{$sp}
+        margin-top: 0
+
+.lower .article__column2__figure
+    position: relative
+    display: inline-block
+    width: 43.33333vw
+    height: auto
+    vertical-align: top
+    &:nth-child(even)
+        margin-left: 1.33333vw
+    img
+        box-shadow: $shadow
+    @media #{$sp}
+        display: block
+        width: 94.66667vw
+        margin: 2.66667vw auto 0
+        &:nth-child(even)
+            margin: 2.66667vw auto 0
+
+.lower .article__column2__body
+    width: 88vw
+    margin: 1.33333vw auto 0
+    @media #{$sp}
+        width: 94.66667vw
+        margin: 2.66667vw auto 0
+
+.lower .article__column2 .textbox
+    background: url("/assets/images/common/textbox_waku_top_l.png") no-repeat, url("/assets/images/common/textbox_waku_bottom_l.png") no-repeat
+    background-size: 100%
+    background-position: center top, center bottom
+    background-color: rgba(255, 255, 255, 0.8)
+    &:before
+        background-image: url("/assets/images/common/textbox_waku_center_l.png")
+    @media #{$sp}
+        background: url("/assets/images/common/textbox_waku_top_sp.png") no-repeat, url("/assets/images/common/textbox_waku_bottom_sp.png") no-repeat
+        background-size: 100%
+        background-position: center top, center bottom
+        background-color: rgba(255, 255, 255, 0.8)
+        &:before
+            background-image: url("/assets/images/common/textbox_waku_center_sp.png")
+
+// character list (story, base)
+.lower .article__list
+    width: 78.66667vw
+    margin: 3vw auto 0
+    font-size: 0
+    text-align: left
+    @media #{$sp}
+        margin-top: 8vw
+        width: 94.66667vw
+
+.lower .article__list__item
+    display: inline-block
+    vertical-align: top
+    margin-right: 1.33333vw
+    margin-bottom: 1.33333vw
+    &:nth-child(4n)
+        margin-right: 0
+    @media #{$sp}
+        width: 46.66667vw
+        &:nth-child(4n)
+            margin-right: 1.33333vw
+        &:nth-child(2n)
+            margin-right: 0
+
+// ---------------------------------------------------------------------------
+// "to the Monster Hunter: World website" banner at the bottom of the pages
+// ---------------------------------------------------------------------------
+.lower .content__footer
+    padding: 0 0 6.66667vw
+    text-align: center
+    @media #{$sp}
+        padding: 0 0 10.66667vw
+
+.lower .btn_already
+    position: relative
+    text-align: center
+    display: inline-block
+    width: 74.26667vw
+    height: 7.66667vw
+    border: 2px solid #000
+    box-sizing: border-box
+    background-color: #26749a
+    transition: border 0.2s $ease-ui
+    font-size: 0
+    box-shadow: $shadow
+    .btn_already__figure
+        display: inline-block
+        width: calc(15vw - 2px)
+        height: 100%
+        vertical-align: top
+        background-color: #171717
+        img
+            margin-top: 1vw
+            width: 11vw
+    .btn_already__text
+        position: relative
+        display: inline-block
+        width: calc(59.2vw - 2px)
+        vertical-align: top
+        padding: 1.33333vw 3.33333vw
+        &:after
+            position: absolute
+            top: calc(50% - 1vw)
+            right: 1vw
+            z-index: 10
+            content: ""
+            width: 2.66667vw
+            height: 2vw
+            background-image: url("/assets/images/common/icon_arrow_l.png")
+            background-size: cover
+            transition: background 0.2s $ease-ui
+    &:hover
+        border: 2px solid $blue
+        h3, p
+            color: $blue
+        .btn_already__text:after
+            background-image: url("/assets/images/common/icon_arrow_l_on.png")
+    h3
+        color: #FFF
+        text-align: left
+        font-size: 1.93333vw
+        line-height: 1
+        font-family: $serif
+        transition: color 0.2s $ease-ui
+        font-weight: bold
+        margin-bottom: 1vw
+    &.is-small h3
+        font-size: 1.63333vw
+    p
+        color: #FFF
+        text-align: left
+        font-size: 1.16667vw
+        line-height: 1.6
+        transition: color 0.2s $ease-ui
+        font-weight: bold
+    @media #{$sp}
+        width: 94.66667vw
+        height: 22.66667vw
+        border-width: 1px
+        .btn_already__figure
+            position: relative
+            width: calc(22.66667vw - 1px)
+            img
+                position: absolute
+                top: 50%
+                left: 2vw
+                margin: 0
+                transform: translateY(-50%)
+                width: 19.6vw
+        .btn_already__text
+            width: calc(72vw - 1px)
+            height: 100%
+            padding: 2.66667vw 0vw 2.66667vw 2.66667vw
+            &:after
+                top: calc(50% - 2.26667vw)
+                right: 2.66667vw
+                width: 6.13333vw
+                height: 4.66667vw
+        h3, &.is-small h3
+            font-size: 4vw
+            line-height: 1.4
+            margin-bottom: 1.33333vw
+        p
+            font-size: 2.66667vw
+        &:hover
+            border-width: 1px

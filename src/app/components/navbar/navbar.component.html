@@ -1,10 +1,18 @@
-<nav #navbar>
-  <div class="wrapper">
+<nav [class.active]="isOpen" [class.items-in]="itemsIn">
+  <div class="wrapper" [class.is-shown]="isShown">
     <div class="navbar-item">
       <div class="navbar-item1">
-        <a href="javascript:void(0)">Buy Now</a>
+        <a href="javascript:void(0)" (click)="goToProducts()">Buy Now</a>
       </div>
-      <div class="navbar-item2" (click)="menuActive(navbar)">
+      <div
+        class="navbar-item2"
+        role="button"
+        tabindex="0"
+        aria-label="Menu"
+        [attr.aria-expanded]="isOpen"
+        (click)="toggleMenu()"
+        (keydown.enter)="toggleMenu()"
+      >
         <div class="menu-wrapper">
           <span>MENU</span>
           <div class="hamburger-menu">
@@ -18,33 +26,26 @@
   <div class="navbar-menu">
     <div class="inner">
       <div class="container-logo">
-        <img src="/assets/images/logo_iceborne_l.png" class="logo" />
+        <a routerLink="/" (click)="closeMenu(false)">
+          <img src="/assets/images/logo_iceborne_l.png" class="logo" alt="MONSTER HUNTER WORLD: ICEBORNE" />
+        </a>
       </div>
       <div class="content">
         <ul class="ul-cleargap">
-          <li>
-            <a href="javascript:void(0)"> Home </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"> Story </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"> Ecosystem </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"> Monsters </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"> Quests </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"> New Headquarter </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"> Gameplay </a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"> Hunting </a>
+          <li
+            *ngFor="let item of menu; let i = index"
+            [class.separator]="item.separator"
+            [style.animation-delay.s]="0.5 + i * 0.1"
+          >
+            <a
+              *ngIf="item.route && !item.fragment"
+              [routerLink]="item.route"
+              (click)="closeMenu(false)"
+            >{{ item.label }}</a>
+            <a *ngIf="item.fragment" href="javascript:void(0)" (click)="goToProducts()">{{ item.label }}</a>
+            <a *ngIf="item.href" [href]="item.href" target="_blank" rel="noopener" (click)="closeMenu()">{{
+              item.label
+            }}</a>
           </li>
         </ul>
       </div>

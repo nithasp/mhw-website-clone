@@ -1,0 +1,35 @@
+{
+ "ver": "ver15_20",
+ "label": "Ver. 15.20",
+ "title": "Update Ver. 15.20 Outline",
+ "subtitle": "（PlayStation4: Update 15.20 / Xbox One: Update 15.2.0.0）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Tuesday, October 17, 2023 0:00 (UTC)</dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "bugFixes",
+   "title": "Main Additions / Changes",
+   "sections": [
+    {
+     "title": "System",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Latin American Spanish can now be selected as a language option.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

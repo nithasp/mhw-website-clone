@@ -1,0 +1,341 @@
+/* Scoped copy of the original topic stylesheet (collabo-re2) */
+.topic-collabo-re2 #contents {
+	background-color: rgba(0,0,0,0.85);
+	color: #fff;
+}
+.topic-collabo-re2 .bg-h2 {
+	background-color: #000;
+	color: #fff;
+}
+.topic-collabo-re2 .bg-h2 span {
+	color: #ff001e !important;
+}
+.topic-collabo-re2 .bg-h3 {
+	background-color: #000;
+	color: #fff;
+}
+.topic-collabo-re2 .bg-h3 h3 {
+	color: #fff !important;
+}
+.topic-collabo-re2 .tc_red {
+	color: #ff001e !important;
+}
+.topic-collabo-re2 .titleImg {
+	margin-bottom: 5%;
+}
+.topic-collabo-re2 .titleImg + .content_box {
+	margin: 0;
+}
+.topic-collabo-re2 .content_box {
+	position: relative;
+	margin:  10% auto;
+}
+.topic-collabo-re2 .content_box .mainVisual {
+	position: relative;
+	width: 111%;
+	left: -5.5%;
+}
+.topic-collabo-re2 .content_box .movie {
+	margin: 5% auto auto;
+	width:  48.6%;
+}
+.topic-collabo-re2 .content_box .text01 {
+	margin: 5% auto;
+	font-size: 2rem;
+}
+.topic-collabo-re2 .content_box .text01 strong {
+	font-size: 3.6rem;
+}
+.topic-collabo-re2 .content_box .text01 strong span {
+	font-size: 150%;
+}
+.topic-collabo-re2 .content_box .bnrArea {
+	text-align: center;
+	margin-top: 8%;
+}
+.topic-collabo-re2 .content_box .bnrArea p {
+	line-height: 2;
+}
+.topic-collabo-re2 .content_box .bnrArea a {
+	width: 60%;
+	display: block;
+	margin: auto;
+	border: 1px solid #FFF;
+	line-height: 0;
+}
+.topic-collabo-re2 dl.date {
+	margin: 5% auto;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.topic-collabo-re2 dl.date dt {
+	border: 1px solid #ff001e;
+	font-size: 1.6rem;
+	line-height: 1;
+	padding: 0.5em 2em;
+	color: #ff001e;
+}
+.topic-collabo-re2 dl.date dd {
+	font-size: 3.2rem;
+	padding: 0 0 0 0.5em;
+	color: #FFF;
+	font-weight:700;
+	width: 100%;
+	text-align: center;
+}
+.topic-collabo-re2 dl.date dd big {
+	font-size: 150%;
+}
+.topic-collabo-re2 #quest .date {
+	padding: 0 4%;
+}
+.topic-collabo-re2 #quest .date dd {
+	font-size: 2.8rem;
+	font-weight: normal;
+}
+.topic-collabo-re2 .content_box > section {
+	margin:10% auto 0;
+}
+.topic-collabo-re2 h4 {
+	font-size:2rem;
+	text-align: center;
+	font-weight: 700;
+}
+.topic-collabo-re2 dl.detail {
+	display: table;
+	margin: 7% 2%;
+}
+.topic-collabo-re2 dl.detail dt {
+	display: table-cell;
+	width: 45%;
+	vertical-align: top;
+}
+.topic-collabo-re2 dl.detail dd {
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 0 0 1em;
+}
+.topic-collabo-re2 dl.detail dd  h5 {
+	font-weight: 700;
+}
+.topic-collabo-re2 dl.detail dd > * + p {
+	margin: 0.75em auto;
+}
+.topic-collabo-re2 dl.detail dd > p + h5 {
+	margin: 1.5em auto auto;
+}
+.topic-collabo-re2 #dlc ul {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 2%;
+}
+.topic-collabo-re2 #dlc ul li {
+	width: 32%;
+	margin: 1%;
+	text-align: center;
+}
+.topic-collabo-re2 #dlc ul li figcaption {
+	vertical-align: middle;
+	padding: 0.5em 0;
+}
+.topic-collabo-re2 #dlc ul li span {
+	display: block;
+}
+.topic-collabo-re2 #dlc .follow-up {
+	margin: 8% auto 0;
+	text-align: center;
+}
+.topic-collabo-re2 #dlc .linkbtn {
+	width: 80%;
+	margin: 1em auto 5%;
+}
+.topic-collabo-re2 #dlc .linkbtn a {
+	display: block;
+	font-size: 2.4rem;
+	padding: 0.5em 0;
+}
+.topic-collabo-re2 #dlc .linkbtn a:after {
+	right: 1em;
+}
+.topic-collabo-re2 #dlc .linkbtn a span {
+	padding: 0;
+	line-height: 1.2;
+}
+.topic-collabo-re2 .over_line {
+	border-top:1px solid #999;
+	padding-top: 10%;
+	margin-bottom: 0;
+}
+.topic-collabo-re2 .over_line .linkbtn {
+	margin:0 auto;
+	width: 60%;
+}
+@media only screen and (min-width: 751px) {
+.topic-collabo-re2 .bnrArea a {
+		transition: border-color 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+}
+.topic-collabo-re2 .bnrArea a:hover {
+		border-color: #0e9ee3;
+}
+}
+@media only screen and (min-width: 751px) and (max-width: 960px) {
+.topic-collabo-re2 .content_box .movie {
+		font-size:1.6vw;
+}
+.topic-collabo-re2 .content_box .text01 {
+		font-size: 2vw;
+}
+.topic-collabo-re2 dl.date dt {
+		font-size: 2vw;
+}
+.topic-collabo-re2 dl.date dd {
+		font-size: 3.2vw;
+}
+.topic-collabo-re2 #quest dl.date {
+		font-size: 3.2vw;
+		padding: 0 4%;
+}
+.topic-collabo-re2 #quest dl.date dd {
+		font-size: 2.8vw;
+}
+}
+@media only screen and (max-width: 750px) {
+.topic-collabo-re2 html:not(.kr):not(.hk):not(.cn) .bg-h3 h3 {
+		font-size: 4.6vw;
+}
+.topic-collabo-re2 .attention {
+		text-align: left;
+}
+.topic-collabo-re2 .content_box .mainVisual {
+		width: 111%;
+}
+.topic-collabo-re2 .content_box .movie {
+		position: relative;
+		top: inherit;
+		right: inherit;
+		width: 100%;
+		margin:4vw auto auto;
+}
+.topic-collabo-re2 .content_box .text01 {
+		position: relative;
+		top: inherit;
+		right: inherit;
+		width: 100%;
+		line-height: 1.2;
+		margin: 8vw auto;
+		font-size: 110%;
+}
+.topic-collabo-re2 .content_box .text01 strong {
+		display: block;
+		font-size: 6.5vw;
+}
+.topic-collabo-re2 .content_box .bnrArea {
+		margin-top: 0;
+}
+.topic-collabo-re2 .content_box .bnrArea a {
+		width: 100%;
+}
+.topic-collabo-re2 dl.date {
+		margin: 10% auto;
+		flex-wrap: wrap;
+		flex-direction: unset;
+		justify-content: flex-start;
+}
+.topic-collabo-re2 dl.date dt {
+		padding: 0.5em;
+		text-align: center;
+		font-size: 3vw;
+		min-width: 20vw;
+		width: auto;
+		line-height: 1.2;
+}
+.topic-collabo-re2 dl.date dd {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 6vw;
+		line-height: 1.2;
+		margin-top: 0.5em;
+}
+.topic-collabo-re2 #quest dl.date {
+		padding: 0;
+}
+.topic-collabo-re2 #quest dl.date dd {
+		font-size: 4vw;
+		line-height: 1.6;
+}
+.topic-collabo-re2 .content_box > section {
+		margin: auto;
+}
+.topic-collabo-re2 section #quest {
+		padding-top: 15%;
+}
+.topic-collabo-re2 h4 {
+		font-size:4.5vw;
+}
+.topic-collabo-re2 dl.detail {
+		display: block;
+		margin: 10vw auto;
+}
+.topic-collabo-re2 dl.detail:nth-last-child(1) {
+		margin: 10vw auto 0;
+}
+.topic-collabo-re2 dl.detail dt {
+		display: block;
+		width: 100%;
+}
+.topic-collabo-re2 dl.detail dd {
+		display: block;
+		width: 100%;
+		padding: 1em 0 0;
+}
+.topic-collabo-re2 dl.detail dd > * + p {
+		margin: 0.75em auto;
+}
+.topic-collabo-re2 dl.detail dd > p + h5 {
+		margin: 1.5em auto auto;
+}
+.topic-collabo-re2 #dlc ul {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 2%;
+}
+.topic-collabo-re2 #dlc ul li {
+		width: 48%;
+		margin: 1%;
+		text-align: center;
+}
+.topic-collabo-re2 #dlc ul li figcaption {
+		vertical-align: middle;
+		padding: 0.5em 0;
+		font-size: 86%;
+}
+.topic-collabo-re2 #dlc ul li span {
+		display: block;
+}
+.topic-collabo-re2 #dlc .follow-up {
+		margin: 8% auto 0;
+		text-align: center;
+}
+.topic-collabo-re2 #dlc .linkbtn {
+		width: 100%;
+		margin: 1em auto 5%;
+}
+.topic-collabo-re2 #dlc .linkbtn a {
+		display: block;
+		font-size: 5vw;
+}
+.topic-collabo-re2 #dlc .linkbtn a span {
+		line-height: 1.2;
+		padding-right: 1.5em;
+}
+.topic-collabo-re2 #dlc .linkbtn a:after {
+		right: 1.33333vw;
+}
+.topic-collabo-re2 .over_line .linkbtn {
+		width: 100%;
+}
+}

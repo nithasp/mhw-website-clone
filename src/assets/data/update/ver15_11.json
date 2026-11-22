@@ -1,0 +1,35 @@
+{
+ "ver": "ver15_11",
+ "label": "Ver. 15.11",
+ "title": "Update Ver. 15.11 Outline",
+ "subtitle": "（PlayStation4: Update 15.11 / Xbox One: Update 15.1.0.1）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Wednesday, January 6, 2021 0:00 (UTC)</dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "bugFixes",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Base/Facility",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "We've fixed an issue from Ver. 15.10 / 15.1.0.0 in which delivery requests would disappear from the list at the Resource Center when playing with your console in offline mode, preventing you from being able to complete the request.<br><br>If you have experienced this bug, playing in online mode will restore the requests to your list.<br>Once you have applied Ver. 15.11 / 15.1.0.1, delivery requests will no longer disappear even in offline mode.<br><br>We apologize for any inconvenience this has caused.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

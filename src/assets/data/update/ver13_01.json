@@ -1,0 +1,35 @@
+{
+ "ver": "ver13_01",
+ "label": "Ver. 13.01",
+ "title": "Update Ver. 13.01 Outline",
+ "subtitle": "（PlayStation4: Update 13.01 / Xbox One: Update 13.0.0.1）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Tuesday, March 31, 0:00 UTC</dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Bug Fixes",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "「An issue was fixed where data could not be collected for statistical purposes from players who gave their consent, after updating to Ver. 13.00 or later.<br>Please note that gameplay will not be affected at all pre- or post-patch, regardless if you gave your consent for Capcom to collect data or not.<br><br>We apologize for any inconvenience this may cause players.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

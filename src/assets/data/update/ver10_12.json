@@ -1,0 +1,95 @@
+{
+ "ver": "ver10_12",
+ "label": "Ver. 10.12",
+ "title": "Update Ver. 10.12 Outline",
+ "subtitle": "（PlayStation4: Update 10.12 / Xbox One: Update 10.1.0.2）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Wednesday, September 18</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 70MB (only this update)</li> <li>Xbox One: About 80MB (only this update)</li> </ul> </dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "bugFixes",
+   "title": "Bug Fixes",
+   "sections": [
+    {
+     "title": "",
+     "toggle": false,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed a bug that would not allow you to select the Guardian armor during character creation.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Changed the design of how certain songs would play on repeat while at base.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug where players were getting the same decoration results when using the Elder Melder's First Wyverian Ritual.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug at the quest counter where the optional quest \"Completed!\" marker color would change from red back to blue after save data is imported into Monster Hunter World: Iceborne.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug where the \"Language\" section of the squad card editing screen would not display correctly after importing save data from Monster Hunter: World.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug where the \"Low Level Hunter Helper Reward\" could be obtained even after failed quests.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug where players could not properly obtain the \"Glavenus Mantle\" material from Acidic Glavenus.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug where players' attacks would not properly remove Velkhana's icecloak if it was put into paralysis while its icecloak active.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug where the custom radial menu could be closed at the item box but would remain on the screen and disable normal controls.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug where the Handler would keep moving in certain places in the Ancient Forest.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug where great sword charges would not trigger charged slashes if the player landed on top of the ice ground created by Velkhana or mud created by Jyuratodus.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a bug where the contents of expeditions were unintentionally updating after each use of \"Change Objects in Area\" in the training area.<br><span class=\"tc_red\">In addition to this change, we are also exploring further changes to address the issue of intentional disconnects for resetting the Guiding Lands. While this should not affect players who enjoy the game normally, we'd like to ask for your patience as we look into implementing options that remove the need to attempt intentional disconnects.</span>",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed other minor bugs.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}

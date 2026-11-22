@@ -1,0 +1,84 @@
+<div class="update-page is-detail" *ngIf="page">
+  <app-update-header mode="ver" [version]="page.ver"></app-update-header>
+
+  <main class="conts">
+    <h2 class="page-ttl">
+      {{ page.title }}<br />
+      <small [innerHTML]="page.subtitle"></small>
+    </h2>
+
+    <!-- quest banners of the bigger updates -->
+    <div class="conts-box" *ngFor="let banner of page.banners">
+      <p class="ttl">{{ banner.title }}</p>
+      <div class="conts-box-inner">
+        <p class="bnr-box">
+          <a [routerLink]="banner.route"><img [src]="banner.image" alt="" /></a>
+        </p>
+      </div>
+    </div>
+
+    <div class="conts-box" id="updateInfo" *ngIf="page.info">
+      <div class="conts-box-inner important">
+        <div class="text-box">
+          <dl>
+            <dt>Important</dt>
+            <dd [innerHTML]="page.info.important"></dd>
+          </dl>
+        </div>
+      </div>
+      <div class="conts-box-inner">
+        <div class="text-box" [innerHTML]="page.info.html | safeHtml"></div>
+      </div>
+    </div>
+
+    <div class="conts-box" *ngFor="let category of page.categories" [attr.id]="category.id || null">
+      <h3 class="conts-ttl">{{ category.title }}</h3>
+      <div class="conts-box-inner" *ngFor="let section of category.sections">
+        <h4
+          *ngIf="section.toggle"
+          class="toggle-btn"
+          [class.active]="isOpen(section)"
+          (click)="toggle(section, box)"
+        >
+          {{ section.title }}
+        </h4>
+        <!-- the initial state is set once; slideToggle() takes over afterwards -->
+        <div class="toggle-box" #box [style.display]="section.open ? 'block' : 'none'">
+          <p class="img" *ngIf="section.image"><img [src]="section.image" alt="" /></p>
+          <div *ngIf="section.textBox; else bareList" class="text-box">
+            <div *ngIf="section.beforeHtml" [innerHTML]="section.beforeHtml | safeHtml"></div>
+            <ng-container *ngTemplateOutlet="updateList; context: { $implicit: section }"></ng-container>
+            <div *ngIf="section.afterHtml" [innerHTML]="section.afterHtml | safeHtml"></div>
+          </div>
+          <ng-template #bareList>
+            <ng-container *ngTemplateOutlet="updateList; context: { $implicit: section }"></ng-container>
+          </ng-template>
+        </div>
+      </div>
+    </div>
+
+    <p class="back-btn"><a routerLink="/update">Detailed Update Info</a></p>
+  </main>
+</div>
+
+<ng-template #updateList let-section>
+  <ul class="update-list">
+    <li *ngFor="let item of section.items" [class.ic-ib]="item.ib">
+      <span [innerHTML]="item.html | safeHtml"></span>
+      <ul *ngFor="let nest of item.nest">
+        <li *ngIf="nest.type === 'text'" [class.ic-ib]="nest.ib" [innerHTML]="nest.html | safeHtml"></li>
+        <li *ngIf="nest.type === 'item'">
+          <h5 class="list-sttl" [innerHTML]="nest.category"></h5>
+          <ul *ngIf="nest.text">
+            <li>
+              <span [innerHTML]="nest.text | safeHtml"></span>
+              <ul *ngIf="nest.detail?.length">
+                <li *ngFor="let line of nest.detail" [innerHTML]="line | safeHtml"></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</ng-template>

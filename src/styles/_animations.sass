@@ -1,0 +1,62 @@
+// ---------------------------------------------------------------------------
+// Entrance animations used by AnimateDirective ([appAnimate])
+// Same values as the original site's [data-animate] rules:
+//   from 10vw below + transparent, 2s cubic-bezier(0.075, 0.82, 0.165, 1)
+// The delay comes from the directive (--animate-delay) so that elements revealed
+// by the same scroll cascade one after another (0.2s apart), like the original.
+// ---------------------------------------------------------------------------
+$animate-ease: cubic-bezier(0.075, 0.82, 0.165, 1)
+
+.js-animate
+    opacity: 0
+    transform: translateY(10vw)
+    transition: all var(--animate-duration, 2s) $animate-ease var(--animate-delay, 0s) !important
+    &.js-animate--down
+        transform: translateY(-10vw)
+    &.js-animate--left
+        transform: translateX(-10vw)
+    &.js-animate--right
+        transform: translateX(10vw)
+    &.js-animate--left-up
+        transform: translateX(-10vw) translateY(10vw)
+    &.js-animate--right-up
+        transform: translateX(10vw) translateY(10vw)
+    &.js-animate--scale
+        transform: scale(0.8)
+    &.js-animate--fade
+        transform: none
+    &.in-view
+        opacity: 1
+        transform: none
+
+@media only screen and (max-width: 1000px)
+    // horizontal slides are turned off on phones for some elements (e.g. monster artwork)
+    .js-animate.js-animate--sp-static:not(.in-view)
+        transform: none
+
+// ---------------------------------------------------------------------------
+// Typewriter text used by TypeTextDirective ([appTypeText])
+// ---------------------------------------------------------------------------
+.js-typetext
+    opacity: 0
+    &.is-typing,
+    &.is-typed
+        opacity: 1
+
+.tt-word
+    display: inline-block
+    white-space: nowrap
+
+.tt-char
+    display: inline-block
+
+.tt-char--inline
+    display: inline
+
+@media (prefers-reduced-motion: reduce)
+    .js-animate
+        transition: none !important
+        opacity: 1
+        transform: none
+    .js-typetext
+        opacity: 1

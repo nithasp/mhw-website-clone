@@ -1,0 +1,209 @@
+<div class="lower lower--base">
+  <app-page-hero
+    sub="New Element"
+    title="New Headquarters"
+    longTitle
+    name="Seliana"
+    description="A new base built as the headquarters for investigations in the Hoarfrost Reach.<br>It's complete with a variety of useful facilities and features to rival those of Astera, all of which are powered by the land's plentiful geothermal energy."
+    bg="/assets/images/base/main_bg.jpg"
+    bgSp="/assets/images/base/main_bg_sp.jpg"
+  ></app-page-hero>
+
+  <section class="content">
+    <!-- Major facilities -->
+    <header class="content__header" appAnimate>
+      <h1 class="content__header__title">Major Seliana Facilities</h1>
+    </header>
+    <div class="content__body">
+      <article class="article">
+        <p class="article__text" appAnimate>
+          Seliana features all of the same facilities that are essential to your investigations, such as the
+          Ecological Research Center, the Smithy, the Resource Center, and the rest. Additionally, Seliana's layout was
+          designed to ensure even easier accessibility to each of the facilities.
+        </p>
+        <!-- 2 x 2 photos on PC, a carousel on phones (like the original slick setup) -->
+        <section class="article__slider hide-sp" appAnimate>
+          <img *ngFor="let src of facilities" [src]="src" alt="" />
+        </section>
+        <app-simple-slider class="article__slider hide-pc" [images]="facilities" appAnimate></app-simple-slider>
+        <section class="article__flow">
+          <div class="article__flow__item">
+            <figure class="article__flow__item__figure">
+              <img src="/assets/images/base/img_02_01.jpg" alt="" appAnimate />
+              <figcaption class="article__flow__item__figure__figcaption textbox" appAnimate>
+                <p appTypeText>
+                  Your Housekeeper has also set up a little booth outside your room, so you can more easily access
+                  facilities like the Tailraider Safari.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="article__flow__item">
+            <figure class="article__flow__item__figure">
+              <img src="/assets/images/base/img_02_02.jpg" alt="" appAnimate />
+              <figcaption class="article__flow__item__figure__figcaption textbox" appAnimate>
+                <p appTypeText>
+                  You can also manage your Palico's equipment next to the item box, making it easier to quickly set up
+                  both your hunter's and Palico's equipment.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </article>
+    </div>
+
+    <!-- Steamworks -->
+    <header class="content__header" appAnimate>
+      <h1 class="content__header__title">The Steamworks</h1>
+    </header>
+    <div class="content__body">
+      <article class="article">
+        <p class="article__text" appAnimate>
+          The Steamworks is a new facility in Seliana that burns fuel to create steam, which is used to power the rest
+          of the facilities in the new HQ!<br />Fuel accumulates automatically after completing quests. You can also
+          obtain it in exchange for items and ore materials.<br />By collecting fuel and using it to help out at the
+          Steamworks, you can earn all sorts of extra items!
+        </p>
+        <figure class="article__figure_large">
+          <img src="/assets/images/base/img_03_01.jpg" alt="" appAnimate />
+        </figure>
+        <figure class="article__figure">
+          <img src="/assets/images/base/img_03_02.jpg" alt="" appAnimate />
+          <figcaption class="article__figure__text textbox" appAnimate>
+            <p appTypeText>
+              Use fuel (points) to help the Steamworks make steam for the base! You'll obtain items based on how well
+              you perform in a mini-game that challenges you to guess correct button combinations. Try it out
+              in-between quests!
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+    </div>
+
+    <!-- Gathering hub -->
+    <header class="content__header" appAnimate>
+      <h1 class="content__header__title">Gathering Hub</h1>
+    </header>
+    <div class="content__body">
+      <article class="article">
+        <p class="article__text" appAnimate>
+          The gathering hub is a social area where you can interact with up to 15 other players at once.
+        </p>
+        <figure class="article__figure_large">
+          <img src="/assets/images/base/img_04_01.jpg" alt="" appAnimate />
+        </figure>
+        <figure class="article__figure_large questCounter">
+          <img src="/assets/images/base/img_04_02.png" alt="" appAnimate />
+          <figcaption class="article__figure__text textbox" appAnimate>
+            <p appTypeText>
+              You can visit the quest counter or arena counter to post or join all sorts of quests, and even stock up
+              on essential hunting items at the Provisions Stockpile before you disembark!
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+
+      <article class="article">
+        <figure class="article__figure">
+          <img src="/assets/images/base/img_04_03.jpg" alt="" appAnimate />
+          <figcaption class="article__figure__text textbox" appAnimate>
+            <p appTypeText>
+              The gathering hub is complete with its own Canteen, and now also has its own Resource Center, so hunters
+              have an easier time registering bounties, managing their investigations, and completing delivery requests
+              in between quests.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+
+      <section class="article__flow">
+        <div class="article__flow__item">
+          <figure class="article__flow__item__figure">
+            <img src="/assets/images/base/img_04_05.jpg" alt="" appAnimate />
+            <figcaption class="article__flow__item__figure__figcaption textbox" appAnimate>
+              <p appTypeText>
+                The gathering hub now also has a shared facility that allows you to use the Botanical Research Center
+                and the Argosy.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="article__flow__item">
+          <figure class="article__flow__item__figure">
+            <img src="/assets/images/base/img_04_04.jpg" alt="" appAnimate />
+            <figcaption class="article__flow__item__figure__figcaption textbox" appAnimate>
+              <p appTypeText>You can now easily visit the Smithy without leaving the general Gathering Hub area!</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bathing facilities -->
+    <header appAnimate>
+      <h2 class="equipmentTitle">New Facilities to Warm You Up!</h2>
+    </header>
+    <div class="content__body">
+      <article class="article">
+        <p class="article__text" appAnimate>
+          What better way to warm up after a cold hunt than to unwind with your friends in the steam bath or the hot
+          springs?<br />
+          Or, cuddle up with your Palico next to the footbath! Check out all of the fun new actions you can perform in
+          these areas while you relax with your friends between hunts!
+        </p>
+        <figure class="article__figure_large">
+          <img src="/assets/images/base/img_05_01.jpg" alt="" appAnimate />
+        </figure>
+        <div class="equipmentImg" appAnimate>
+          <figure *ngFor="let item of bathing">
+            <img [src]="item.src" alt="" />
+            <figcaption>{{ item.caption }}</figcaption>
+          </figure>
+        </div>
+      </article>
+    </div>
+
+    <!-- Room -->
+    <header class="content__header" appAnimate>
+      <h1 class="content__header__title">Your Room</h1>
+    </header>
+    <div class="content__body">
+      <article class="article">
+        <p class="article__text" appAnimate>
+          Your new room in Seliana is a spacious, comfortable two-floor suite. Not only can you fill it with the endemic
+          creatures you capture out in the field, but you'll be able to customize its decor as well!
+        </p>
+        <ul class="article__notice" appAnimate>
+          <li>※In a future update, you'll also be able to invite other players to visit your room!</li>
+        </ul>
+        <figure class="article__figure_large">
+          <img src="/assets/images/base/img_06_01.jpg" alt="" appAnimate />
+        </figure>
+        <figure class="article__figure">
+          <img src="/assets/images/base/img_06_02.jpg" alt="" appAnimate />
+          <figcaption class="article__figure__text textbox" appAnimate>
+            <p appTypeText>
+              Talk to your Housekeeper to start customizing your room. You'll obtain new decor for customizing your room
+              as you progress further in the game.<br />
+              Some decor can even be individually customized by changing its color, material, or patterns, and you can
+              even customize basic features of your room like the floor, lights, and curtains.
+            </p>
+          </figcaption>
+        </figure>
+      </article>
+    </div>
+
+    <!-- Characters -->
+    <header class="content__header" appAnimate>
+      <h1 class="content__header__title">The Top Brass of Seliana</h1>
+    </header>
+    <div class="content__body">
+      <app-chara-list [characters]="characters" (open)="openIndex = $event"></app-chara-list>
+    </div>
+  </section>
+
+  <app-btn-already title="Click Here to Learn More about Astera" href="http://monsterhunterworld.com/us/base/01.php"></app-btn-already>
+
+  <app-chara-detail-modal prefix="base" [characters]="characters" [(index)]="openIndex"></app-chara-detail-modal>
+</div>

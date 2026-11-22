@@ -1,16 +1,22 @@
 <section id="lastest-information">
-  <div class="mhw-title flex-center">
+  <div class="mhw-title flex-center" appAnimate>
     <h1>Latest Information</h1>
   </div>
-  <div class="wrapper wrapper-slider">
+  <div class="wrapper wrapper-slider" appAnimate>
     <swiper [config]="configLastestInformations">
       <ng-template swiperSlide *ngFor="let item of lastestInformations">
-        <div class="info mhw-card">
+        <a *ngIf="item.route" [routerLink]="item.route" class="info mhw-card">
           <div>
-            <img src="{{ item.thumbnail }}" />
+            <img [src]="item.thumbnail" alt="" />
           </div>
-          <p>Slide {{ item.text }}</p>
-        </div>
+          <p>{{ item.text }}</p>
+        </a>
+        <a *ngIf="item.href" [href]="item.href" target="_blank" rel="noopener" class="info mhw-card">
+          <div>
+            <img [src]="item.thumbnail" alt="" />
+          </div>
+          <p>{{ item.text }}</p>
+        </a>
       </ng-template>
     </swiper>
     <div class="wrapper-swiper-navigation">
@@ -19,8 +25,8 @@
     </div>
     <div class="wrapper-pagination"></div>
   </div>
-  <div class="lastest-information-button flex-center wrapper-mhw-button">
-    <a href="javascript:void(0)" class="mhw-card">
+  <div class="lastest-information-button flex-center wrapper-mhw-button" appAnimate="fade">
+    <a routerLink="/news" class="mhw-card">
       <span>Latest Information Here</span>
     </a>
   </div>

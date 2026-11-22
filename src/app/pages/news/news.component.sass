@@ -1,0 +1,35 @@
+// Ported from the original $NEWS rules
+$sp: "only screen and (max-width: 1000px)"
+
+.lower--news
+    min-height: 100vh
+
+.content
+    padding: 10vw 0 3.33333vw
+    @media #{$sp}
+        padding: 24vw 0 13.33333vw
+
+.content__body
+    text-align: left
+    width: 81.33333vw
+    margin-top: 3.33333vw
+    margin-left: 9.33333vw
+    padding: 0
+    @media #{$sp}
+        width: 77.33333vw
+        margin: 8vw auto 0
+
+.thumbnail
+    display: inline-block
+    vertical-align: top
+    margin-right: 1.33333vw
+    margin-bottom: 1.33333vw
+    &:nth-child(4n)
+        margin-right: 0
+    @media #{$sp}
+        float: none
+        margin: 0 0 8vw
+
+.content__footer
+    padding: 0
+    text-align: center

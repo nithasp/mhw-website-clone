@@ -1,0 +1,273 @@
+{
+ "ver": "ver12_10",
+ "label": "Ver. 12.10",
+ "title": "Update Ver. 12.10 Outline",
+ "subtitle": "（PlayStation4: Update 12.10 / Xbox One: Update 12.1.0.0）",
+ "banners": [],
+ "info": {
+  "important": "In order to play online multiplayer or download add-on content, you must update to the latest version of Monster Hunter: World.",
+  "html": "<dl> <dt class=\"list-ttl\">Available</dt> <dd>Thursday, January 23, 2020 0:00 (UTC)</dd> </dl> <dl> <dt class=\"list-ttl\">Required Space</dt> <dd> <ul class=\"dot-list\"> <li>PlayStation®4: About 240MB (only this update)</li> <li>Xbox One: About 142MB (only this update)</li> </ul> </dd> </dl>"
+ },
+ "categories": [
+  {
+   "id": "overview",
+   "title": "Bug Fixes and Balance Adjustments",
+   "sections": [
+    {
+     "title": "Base/Facility",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where, before the volcanic region of the Guiding Lands was unlocked, the progress of special tracks being analyzed wouldn't display correctly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the quest \"Across the Lost Path\" would not unlock even though the conditions have been met.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the assignment objectives would not be reflected correctly when joining the Safi'jiiva siege.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain control inputs would cause the button guide to disappear when viewing the Safi'jiiva Info menu.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the biggest reward level for the Safi'jiiva siege would stop at level 16.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where under certain conditions, the cursor couldn't be set to \"Sell All\" when obtaining rewards from the Safi'jiiva siege.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Kulve Taroth materials would appear in the Safi'jiiva siege rewards after performing certain inputs.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a freeze bug that occurred when departing on the Safi'jiiva siege.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where menu options would appear in an unintended location outside of times the siege wasn't available.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where points would not be added to awakened weapons during the Safi'jiiva siege under certain conditions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where under certain conditions, the reward level gauge would not display properly in the results screen of the Safi'jiiva siege.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where display data would not be reflected correctly in the Safi'jiiva Siege Info menu.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Status Effect Up VI would still be rolled when awakening abilities even after it's already been set.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted text color rules for equipment info when overwriting bonus skills via awakening.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where after adding a coating to a Safi'jiiva bow via awakening, the text color for some usable coatings on the bow would not display correctly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Updated the description text for some awakened abilities.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where upgraded awakened weapon order would change when sorting weapons.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where requirements would not be correctly checked for the observation request \"The Viper's Banquet\".",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Adjusted the sort order of Safi'jiiva's materials.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the resolution of monster figures would not change correctly when zooming in on them.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed a freeze bug that occurred when selecting an item from the Canteen at the exact moment another player uses a voucher.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the number of items obtained from the Steamworks' overdrive bonus would not display correctly under certain conditions.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Monsters",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where the energy for each level of Safi'jiiva's stage would not display correctly under certain conditions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the energy gauge for a level would not decrease during the Safi'jiiva siege under certain conditions.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the remaining energy would not display correctly in the result screen when playing the Safi'jiiva siege offline.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where other parties' objective progress would not be properly shared once Safi'jiiva has been slayed.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Safi'jiiva's ire would not be visually synced properly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where certain monsters would not react when being driven into a wall in the special arena.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Player",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed an issue where Dragonvein Awakening and True Dragonvein Awakening's skill effect would not be applied to the charge blade's mounted finishing attack.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where Dragonvein Awakening and True Dragonvein Awakening's skill effect would not be applied to the bowgun or bow's attack, the switch axe and charge blade's attacks, etc. if you sheath your weapon before the attack connects.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the controls to fire the Adept Stormslinger's Storm Bolt would not display correctly.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where food effects would not wear off if you fainted in the training area.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where blastscourge's slime effect would move unnaturally when the player is in a zombified state.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where under certain steps, firing the heavy bowgun would result in the game freezing.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where using a Flashbug under certain conditions cause the game to freeze.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    },
+    {
+     "title": "Miscellaneous",
+     "toggle": true,
+     "textBox": true,
+     "open": true,
+     "image": null,
+     "items": [
+      {
+       "html": "Fixed the direction of pendants when performing the weapon pose.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where talking to a First Wyverian would result in the game freezing.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where while wearing the Frostclaw Head α+, performing certain steps would result in the light from the armor being stronger than normal in the guild card.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the image quality of the hunter in the guild card would drop when the quest \"Faraway Lorelei\" is available in Seliana.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the BGM would not play when joining the quest \"The Fury of El Dorado\" when it's already in progress.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Fixed an issue where the unlock conditions for the trophy \"Devastating Offense\" would be met when upgrading an awakened weapon to level 23.",
+       "ib": false,
+       "nest": []
+      },
+      {
+       "html": "Other minute game balance tweaks and minor bugs fixes have been made.",
+       "ib": false,
+       "nest": []
+      }
+     ],
+     "beforeHtml": "",
+     "afterHtml": ""
+    }
+   ]
+  }
+ ]
+}
